@@ -1,25 +1,28 @@
-# BMB 主页：结构打磨
+# Ryan — Work / About design
 
-本轮沿用蓝灰配色、Gambarino / General Sans 字体、蓝色单色摄影和 bmb. 字标。修改信息结构，不更换视觉身份。
+## Boundaries
 
-## 阅读顺序
+Preserve the approved Work design. Only confirmed navigation, slogan, personal identifiers, opening wordmark and placeholder content change. The original `work.css` is unchanged. About adds a scoped personal stylesheet and separate route/entry script.
 
-1. 首屏：姓名为主标题，介绍与行动在左，氛围图在右；手机先展示姓名和介绍。
-2. 探索：四个方向平等呈现，名称和摘要常显；只有关注点需要展开。全宽正文不再受贯穿全页的固定配图挤压。
-3. 关于：用两段原有文字说明做事方式，删去重复的兴趣标签和站点说明。
-4. 联系：紧凑的蓝色结尾，使用用户提供的 Ctaisobserving@gmail.com，提供邮件链接和复制操作。
+## Shared
 
-## 空间关系
+TT Norms local original fonts, consistent double-line R in the upper-left corner and opening, two-link Work / About navigation. First-session opening says `AI PRODUCT.`. Reduced-motion preferences skip it. Desktop uses Locomotive Scroll 4.1.4 with lerp .1; narrow layouts use native scrolling.
 
-全局容器最大 1280px。间距采用 8 / 16 / 24 / 32 / 48 / 64px，段落组紧凑，章节之间留 64–112px。探索在桌面为配图、名称、摘要三列，在平板为配图与正文两列，手机为标题与小图一行、摘要独占下一行。DOM 中标题与摘要优先；配图无交互且为空 alt。
+## Work
 
-全局导航保持可见，锚点为 sticky header 预留空间。没有新建页面、模拟项目指标或新增对外承诺。个人经历与探索文案仍是待确认的初稿；配图为氛围摄影。
+Original three-column desktop / two-column mobile visual composition, original image dimensions, pickup spans, filter memberships, hover previews and Text / Visual wipe. No new homepage poster or resized headline. Slogan:
 
-## 文件
+> Exploring What AI Can Do.
+> Building What People Can Use.
 
-- index.html：可编辑主文件。
-- 个人主页.html：导出的自包含文件。
-- versions/个人主页-v1.html：改动前的完整单文件快照。
-- .taste-skill/direction.json：初版设计来源；layout_refinement 记录本轮结构取舍。
+Four neutral image placeholders replace reference images/videos, with three across and one full-width below. Visible project information is generic; no original client work is claimed as Ryan's. Placeholder cards have no outgoing project destination until a URL is supplied.
 
-技能：design-taste-frontend 提供初版视觉方向；本轮应用 impeccable 的 layout 与 polish 指引、独立布局评审与浏览器验证。
+## About
+
+Dark #121212, oversized light typography, lower-right prose (36.84% wide desktop), generous spacing. The reference's pointer spotlight/WebGL title is intentionally omitted; a subtle static ambient background remains. Large title is real editable text rather than the original SIGHT RENEWAL texture.
+
+Sequence: personal AI perspective → Writing → Experience → Hackathons → Find me. Article list uses a numbered editorial rhythm. Experience is a quiet timeline, hackathon a large typographic panel, social entrances are two columns. All example career/hackathon content is visibly marked.
+
+Content rises 35px and fades over 1–1.2 seconds when entering the viewport, once; reverse scrolling keeps it readable. No scroll locking or horizontal scroll scene. Source OurTeam/Awards/Company/Careers content is not cloned.
+
+Mobile: 15px gutter, stacked sections, 80%-width prose aligned right, compact article titles, two-link full-screen navigation. Main content remains available when reduced motion is enabled.

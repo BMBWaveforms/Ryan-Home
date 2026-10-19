@@ -9,3 +9,6 @@ node_modules/
 
 # 日志
 *.log
+
+# Generated build
+dist/

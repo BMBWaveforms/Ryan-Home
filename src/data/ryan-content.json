@@ -1,0 +1,80 @@
+{
+  "name": "Ryan · 焦博文",
+  "slogan": [
+    "Exploring What AI Can Do.",
+    "Building What People Can Use."
+  ],
+  "aboutTitle": [
+    "Human needs.",
+    "AI possibilities."
+  ],
+  "perspective": [
+    "我关心 AI 能做什么，也关心人们为什么需要它。一个模型能够回答问题，并不意味着它已经成为一个好产品。真正让我好奇的，是能力如何进入具体的场景：帮一个人少一点重复劳动，把一件原本复杂的事变得容易。",
+    "做 AI 产品，需要同时理解人的意图、模型的边界和交互中的细节。我习惯从一个具体的问题出发，拆解任务、搭建原型，再用真实的使用过程检验判断。提示词、上下文、评测和体验，都是这条链路的一部分。",
+    "我用 Vibe Coding 把想法做成可以体验的东西，也通过写作整理自己的理解。这里记录我正在追问的问题、动手的过程，以及 AI 如何改变我们认识世界和创造事物的方式。"
+  ],
+  "articles": [
+    {
+      "title": "从 Prompt 到 Context：一次 Agent 推理前，上下文究竟是怎么构建的？",
+      "url": "https://mp.weixin.qq.com/s/iUHAtnVoobJoRqYGRLH51A",
+      "category": "Agent & Context"
+    },
+    {
+      "title": "技术封建主义：AI 时代的又一次圈地运动",
+      "url": "https://mp.weixin.qq.com/s/r6MzV7tIkW_UUMyRPgCWog",
+      "category": "AI & Society"
+    },
+    {
+      "title": "聊聊模型评测：为什么你的大模型\"跑分很高\"，一上线就翻车？",
+      "url": "https://mp.weixin.qq.com/s/2XnkbL4d0gcHSVc1u2QWsw",
+      "category": "Model Evaluation"
+    },
+    {
+      "title": "AI 正在加速我对世界的消耗",
+      "url": "https://mp.weixin.qq.com/s/tcH8_DMEWu-QRyvBsFlnig",
+      "category": "Personal Notes"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025 — Present",
+      "kind": "Work · 示例",
+      "title": "AI 产品探索与原型实践",
+      "organization": "示例公司 / AI 产品团队",
+      "description": "从用户访谈与问题拆解开始，尝试把 AI 能力嵌入具体任务；参与原型设计、提示词迭代与体验验证。",
+      "sample": true
+    },
+    {
+      "period": "2024 — 2025",
+      "kind": "Work · 示例",
+      "title": "产品策划与体验设计",
+      "organization": "示例公司 / 产品团队",
+      "description": "参与需求梳理、竞品研究与功能设计，在交付和反馈之间，学习判断一个需求是否值得做。",
+      "sample": true
+    },
+    {
+      "period": "An ongoing journey",
+      "kind": "Personal · 示例",
+      "title": "把好奇心变成一次次动手",
+      "organization": "自主学习 / 公开记录",
+      "description": "从阅读与研究到网页原型、可复用 Skills 和内容写作，逐渐建立自己的产品思考与创作方式。",
+      "sample": true
+    }
+  ],
+  "hackathons": [
+    {
+      "period": "2026 / SAMPLE",
+      "title": "48 hours. One idea.",
+      "subtitle": "AI 创意黑客松 · 示例",
+      "description": "和一支小团队从问题选择走到现场演示：缩小范围、验证核心链路，把想法做成一个可运行的原型。",
+      "role": "Product / Prototyping",
+      "sample": true
+    }
+  ],
+  "social": {
+    "wechat": "碳基推理中",
+    "xiaohongshu": "https://xhslink.cn/o/13OQAkBmW7Q",
+    "github": "https://github.com/BMBWaveforms"
+  },
+  "projects": []
+}

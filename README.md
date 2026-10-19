@@ -1,24 +1,31 @@
-# BMB 个人主页
+# Ryan · 焦博文
 
-直接用浏览器打开 `index.html`，无需安装依赖。请保留相邻的 `assets` 文件夹。
+[个人网站 / Work](https://bmbwaveforms.github.io/Ryan-Home/) · [About](https://bmbwaveforms.github.io/Ryan-Home/about/)
 
-`个人主页.html` 是图片、字体全部内嵌的便携版本，可以单独复制或发送，离线打开。
+Exploring What AI Can Do.<br>
+Building What People Can Use.
 
-## 可以替换的内容
+## 页面
 
-- `index.html` 内的姓名、简介、关于我文案。
-- 四个探索条目的标题、描述、图片。当前文案是基于 AI 产品、AIGC、知识管理、个人工具方向的展示初稿，未声称是已交付项目。
-- 当前联系邮箱为用户提供的 `Ctaisobserving@gmail.com`。后续修改时，搜索并统一替换此地址，确保无 JavaScript 时邮件链接也正确。
-- 配图在 `assets/images/`，字体在 `assets/fonts/`。照片为有署名的氛围素材，不代表个人作品。
+- Work：Text / Visual 双视图，四个项目占位；三个并排、一个通栏。分类为 Personal Agent、Work、Game、Video、Skill。
+- About：AI 产品观、四篇文章、经历、黑客松、公众号与小红书。照片、经历和黑客松保留明确标记的占位/示例内容，待替换。
+- 旧入口 `个人主页.html` 自动跳转新版首页。
 
-## 功能
+## 本地运行
 
-首屏双栏、全局导航、四个方向摘要常显、可展开的补充关注点、配图切换、邮箱复制与邮件链接。手机先显示个人介绍，配图随正文滚动。禁用 JavaScript 后介绍、原生条目展开和邮件链接仍可使用；支持减少动态效果偏好。
+```sh
+npm install
+npm run dev
+npm run check
+npm run build
+npm run preview
+```
 
-本轮调整前的版本保存在 `versions/个人主页-v1.html`，可以独立打开比较。
+## 修改内容
 
-## 导出单文件
+- `src/data/work-placeholders.json`：项目、分类、封面与目标链接。
+- `src/data/ryan-content.json`：About 介绍、文章和经历。
+- `about/index.html`：照片位置；替换 `public/ryan/portrait-placeholder.svg` 对应的图片地址即可。
+- `public/ryan/project-placeholders/`：四张项目占位图。
 
-修改 `index.html` 后运行 `node export.mjs`，重新生成 `个人主页.html`。
-
-初版视觉使用 `/Users/bmb/AI/Skills/community/design/design-taste-frontend`。本轮通过 `/Users/bmb/AI/Skills/community/design/impeccable-agents` 的 layout / polish 指引调整信息结构，保留 Stone and blueprint 配色与字体。具体取舍见 `DESIGN.md`。
+GitHub Pages 从 `main` 分支根目录发布。`.nojekyll` 保留原生 ES modules 和静态资源路径。Work / About 的布局参考 SHIFTBRAIN，页面使用 Ryan 的个人内容。

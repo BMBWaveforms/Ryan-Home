@@ -1,0 +1,128 @@
+{
+  "source": "Four editable personal project placeholders. No reference studio project media are loaded.",
+  "filters": [
+    {
+      "id": "personal-agent",
+      "label": "Personal Agent"
+    },
+    {
+      "id": "work",
+      "label": "Work"
+    },
+    {
+      "id": "game",
+      "label": "Game"
+    },
+    {
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "id": "skill",
+      "label": "Skill"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "slug": "project-01",
+      "title": "Project 01",
+      "client": "Personal Agent · Skill",
+      "date": "—",
+      "outputs": [
+        "To be added"
+      ],
+      "roles": [
+        "To be added"
+      ],
+      "overview": "在这里补充项目背景、你的角色，以及做出来的成果。",
+      "overviewEn": "Add the project context, your role, and what you built.",
+      "categories": [
+        "personal-agent",
+        "skill"
+      ],
+      "url": null,
+      "image": "/ryan/project-placeholders/project-01.svg",
+      "imageWidth": 886,
+      "imageHeight": 1060,
+      "video": null,
+      "pickup": false,
+      "fullWidth": false
+    },
+    {
+      "id": 2,
+      "slug": "project-02",
+      "title": "Project 02",
+      "client": "Work",
+      "date": "—",
+      "outputs": [
+        "To be added"
+      ],
+      "roles": [
+        "To be added"
+      ],
+      "overview": "在这里补充项目背景、你的角色，以及做出来的成果。",
+      "overviewEn": "Add the project context, your role, and what you built.",
+      "categories": [
+        "work"
+      ],
+      "url": null,
+      "image": "/ryan/project-placeholders/project-02.svg",
+      "imageWidth": 886,
+      "imageHeight": 1060,
+      "video": null,
+      "pickup": false,
+      "fullWidth": false
+    },
+    {
+      "id": 3,
+      "slug": "project-03",
+      "title": "Project 03",
+      "client": "Game",
+      "date": "—",
+      "outputs": [
+        "To be added"
+      ],
+      "roles": [
+        "To be added"
+      ],
+      "overview": "在这里补充项目背景、你的角色，以及做出来的成果。",
+      "overviewEn": "Add the project context, your role, and what you built.",
+      "categories": [
+        "game"
+      ],
+      "url": null,
+      "image": "/ryan/project-placeholders/project-03.svg",
+      "imageWidth": 886,
+      "imageHeight": 1060,
+      "video": null,
+      "pickup": false,
+      "fullWidth": false
+    },
+    {
+      "id": 4,
+      "slug": "project-04",
+      "title": "Project 04",
+      "client": "Video",
+      "date": "—",
+      "outputs": [
+        "To be added"
+      ],
+      "roles": [
+        "To be added"
+      ],
+      "overview": "在这里补充项目背景、你的角色，以及做出来的成果。",
+      "overviewEn": "Add the project context, your role, and what you built.",
+      "categories": [
+        "video"
+      ],
+      "url": null,
+      "image": "/ryan/project-placeholders/project-04.svg",
+      "imageWidth": 2728,
+      "imageHeight": 1060,
+      "video": null,
+      "pickup": true,
+      "fullWidth": true
+    }
+  ]
+}

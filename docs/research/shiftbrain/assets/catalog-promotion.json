@@ -1,0 +1,245 @@
+{
+  "posts": [
+    {
+      "title": "HONDA WINGMARK HISTORY",
+      "cover": "/wp-content/uploads/2026/09/TOP-S-1.jpg",
+      "video": "",
+      "client": "Honda Motor Co., Ltd.",
+      "theme": "#ffffff",
+      "date": "Sep 2025",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>Hondaの二輪事業を象徴するウイングマーク。その誕生から現在までの歩みをたどるWebページ「WING MARK HISTORY」を制作しました。</p>\n",
+        "en": "<p>The Wing Mark has long symbolized Honda’s motorcycle business. We created WING MARK HISTORY, a web experience that traces the evolution of this iconic emblem from its origins to the present day.</p>\n"
+      },
+      "roles": "Project Management, Art Direction, Design, Direction, Produce",
+      "pick_up": false,
+      "link": "/work/honda-wingmark/"
+    },
+    {
+      "title": "The Land of NOMO Web Platforms",
+      "cover": "/wp-content/uploads/2025/09/TOP-S-1.jpg",
+      "video": "/wp-content/uploads/2025/09/nomo_Hover-1.mp4",
+      "client": "Panasonic Holdings Corporation",
+      "theme": "#3b6fff",
+      "date": "Oct 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>2025年の日本国際博覧会（大阪・関西万博）にて、パナソニックグループが出展するパビリオン「ノモの国」のポータルサイト、ガイドサイト、パビリオン連動LPを制作しました。</p>\n",
+        "en": "<p>For Expo 2025 Osaka, Kansai, Japan, we developed the portal site, guide site, and pavilion-linked landing page for “The Land of NOMO,” the pavilion presented by the Panasonic Group.</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Design, Development, Direction, 3D Design",
+      "pick_up": true,
+      "link": "/work/the-land-of-nomo/"
+    },
+    {
+      "title": "Official website for the Japan Pavilion at the Expo 2025 Osaka, Kansai, Japan <br />Monthly JP Pavilion: Expo 2025 Japan Pavilion Official Web Magazine",
+      "cover": "/wp-content/uploads/2026/03/Main-5.jpg",
+      "video": "",
+      "client": "Ministry of Economy, Trade and Industry / Japan Association for the 2025 World Exposition",
+      "theme": "#ffffff",
+      "date": "Jan 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>大阪・関西万博の日本館のテーマは「いのちと、いのちの、あいだに」。その根底にある「循環」をキーワードに、展示体験がつくられました。万博会場から集められたごみが新たないのちとなり、新たな役目へとつながっていく過程を「いのちのリレー」として可視化。&#8221;いのちと、いのちの、あいだ&#8221; を見つめる体験を通じて、この世界は無数の小さな循環によって成り立っていると気づくことができるパビリオンです。<br />\nシフトブレインは今回、『EXPO 2025 大阪・関西万博 日本館公式サイト』『大阪・関西万博 日本館公式Webマガジン【月刊日本館】』の2つのWebサイト制作を担当しました。</p>\n",
+        "en": "<p>The theme of the Japan Pavilion at Expo 2025 Osaka, Kansai is “Between Life and Life.”<br />\nGuided by the concept of circulation at its core, the pavilion offers an exhibition experience built around the continuous transformation of life.<br />\nWaste collected from the Expo site is transformed into new life and connected to new roles. This process is visualized as a “relay of life,” revealing how one life leads to another.<br />\nThrough the experience of reflecting on what exists between life and life, visitors are invited to recognize that the world is sustained by countless small cycles of transformation.<br />\nSHIFTBRAIN was responsible for the production of two websites:<br />\n“Expo 2025 Osaka, Kansai – Japan Pavilion Official Website” and<br />\n“Expo 2025 Osaka, Kansai – Japan Pavilion Official Web Magazine: Monthly Japan Pavilion.”</p>\n"
+      },
+      "roles": "Art Direction, Design, Development, Produce",
+      "pick_up": false,
+      "link": "/work/japan-pavilion/"
+    },
+    {
+      "title": "45R Indigo Story",
+      "cover": "/wp-content/uploads/2024/01/TOP-S-1-1.jpg",
+      "video": "/wp-content/uploads/2024/01/indigo_hover.mp4",
+      "client": "45rpm studio co., ltd.",
+      "theme": "#faedcd",
+      "date": "Oct 2023",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>日本のアパレルブランド 45Rは1999年以来、デニムなどに用いるインディゴの色合いやそのレシピを自社で独自に作り続けています。その20年を超える挑戦の歴史を、一本の絵巻物として表現しました。</p>\n",
+        "en": "<p>Fashion brand 45R has been creating its own unique shades of indigo and recipes for denim since 1999. They have expressed their history of over 20 years of challenges through a single scroll painting.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/45rpmstudio-indigostory/"
+    },
+    {
+      "title": "SXSW Typographic Installation",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-2.jpg",
+      "video": "/wp-content/uploads/2021/01/SXSW_top2.mp4",
+      "client": "AOI Pro. Inc.",
+      "theme": "#141415",
+      "date": "Mar 2017",
+      "outputs": "installation",
+      "overview": {
+        "ja": "<p>JAPAN FACTORY@SXSW2017のテーマである「HELLO SYNCHRONICITY」をコンセプトとし、インスタレーションを制作いたしました。Kinect、プロジェクター、収縮性のスクリーンとミニマルな機材で『デジタルとリアル』の境界線を表現。体験型コンテンツとして設置させていただきました。</p>\n",
+        "en": "<p>We created an installation based on the concept of &#8216;HELLO SYNCHRONICITY&#8217;, which is the theme of JAPAN FACTORY@SXSW 2017. Express the boundary between &#8216;digital and real&#8217; with Kinect, a projector, a contactable screen, and minimal equipment. It was set up as interactive content.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/japanfacrtory/"
+    },
+    {
+      "title": "THE PARK HOUSE \"SUPER MODEL ROOM\"",
+      "cover": "/wp-content/uploads/2023/03/TOP-S-1.jpg",
+      "video": "",
+      "client": "Mitsubishi Estate Residence Co. Ltd.",
+      "theme": "#939084",
+      "date": "Jul 2022",
+      "outputs": "Logo",
+      "overview": {
+        "ja": "<p>三菱地所レジデンス株式会社の新築分譲マンション「ザ・パークハウス」の仮想空間『SUPER MODEL ROOM』のWebデザイン、フロントエンドの実装を担当しました。デジタル化されている空間で、デジタルツイン(※)の冨永愛さんがルームツアーを行う、新たな試みの特設サイトです。<br />\n※デジタルツインとは、株式会社サイバーエージェントが提供する著名人の「分身」となる公式3DCGモデルを制作・管理し、著名人のデジタルツインをキャスティングするサービスです。</p>\n",
+        "en": "<p>A new attempt to combine virtual space and 3DCG models.<br />\nWe were in charge of the web design and front-end implementation of the &#8220;SUPER MODEL ROOM&#8221; virtual space for &#8220;The Park House,&#8221; a new condominium for sale by Mitsubishi Jisho Residence Co. This is a special site for a new attempt, in which Ms. Ai Tominaga, a digital twin (*), gives a room tour in a digitalized space.<br />\n*Digital Twin is a service provided by CyberAgent, Inc. to create and manage official 3DCG models of celebrities as their &#8220;alter egos&#8221; and cast celebrity digital twins.</p>\n"
+      },
+      "roles": "Project Management, Design, Development",
+      "pick_up": false,
+      "link": "/work/theparkhouse/"
+    },
+    {
+      "title": "JAL STEAM SCHOOL",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-8.svg",
+      "video": "/wp-content/uploads/2021/01/cover.mp4",
+      "client": "Japan Airlines Co., Ltd.",
+      "theme": "#ffffff",
+      "date": "Oct 2017",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>JAL STEAM SCHOOLとは、日本航空株式会社が実施するSTEAM教育を軸にした、空を通じて未来を考える「空育®」の新たな教育プログラムの1つ。今回、このプログラム参加者を募るプロモーションサイトを制作いたしました。サイト背景ではプログラム内で実際に使用される飛行機模型をWebGLで表現。SCHOOLの方針やスタンスに合わえたデザイン、アニメーションを散りばめ、サイトからもプログラムの空気感を感じてもらえるサイトを目指しました。</p>\n",
+        "en": "<p>JAL STEAM SCHOOL is one of the new educational programs of &#8216;SORAIKU®&#8217; that thinks about the future through the sky, centered around STEAM education conducted by Japan Airlines Co., Ltd. This time, we have created a promotion website to recruit participants for this program. In the website&#8217;s background, the model airplane that is actually used in the program is expressed using WebGL. We were aiming to create a website where you can feel the program&#8217;s atmosphere even from the website, by scattering in designs and animations that match SCHOOL&#8217;s policy and stance.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Technical Direction",
+      "pick_up": false,
+      "link": "/work/jal_steam_school/"
+    },
+    {
+      "title": "ICS COLLEGE OF ARTS<br> WebOpenCampus 2021",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-3.png",
+      "video": "",
+      "client": "ICS COLLEGE OF ARTS ",
+      "theme": "efefef",
+      "date": "Nov 2020",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>インテリアデザイン専門校 ICS COLLEGE OF ARTS（以下：ICS）の2021年度Webオープンキャンパスのサイトを制作しました。</p>\n",
+        "en": "<p>We created the 2021 website for the open campus of the interior design school ICS COLLEGE OF ARTS (below, &#8220;ICS&#8221;).</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/ics-webopencampus-2021/"
+    },
+    {
+      "title": "Awwwards Conference Tokyo 2020",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-5.png",
+      "video": "",
+      "client": "awwwards.",
+      "theme": "#b32c22",
+      "date": "Sep 2019",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>私たちは、2020年1月にアジア初の開催となったAwwwards Conference Tokyo 2020のサイトを制作しました。日本のカルチャーであるアニメや漫画といったコンテンツを扱い、赤を基調とした日本らしさが伝わるような世界観に落とし込みました。<br />\nなお、このサイトはカンファレンスのオフィシャルパートナーを私たちと共に務めたGarden Eightとの共作です。</p>\n",
+        "en": "<p>We created the website for the Awwwards Conference Tokyo 2020, which was held in Asia for the first time in January 2020. The site deals with Japanese cultural content such as anime and manga, which we incorporated into the world view to bring across a Japanese feel that has red as its central color.<br />\nFurthermore, the website was created in collaboration with Garden Eight, who worked with us as our official partner for the conference.</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/awwwards_2020/"
+    },
+    {
+      "title": "SHISEIDO MAQuillAGE Brand Site / LOOKBOOK",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-17.png",
+      "video": "/wp-content/uploads/2021/01/マキアージュ_movie.mp4.mp4",
+      "client": "Shiseido Company, Limited",
+      "theme": "#000000",
+      "date": "Nov 2017",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>資生堂「MAQuillAGE」のデジタル領域におけるブランディング／プロモーションを担当しました。ブランドサイトのリニューアルでは、ハイブランド然とした上質な佇まいと、CMSによる更新の利便性を両立。また、メーキャップとファッションをトータルで提案するコンテンツ “LOOKBOOK” を年間を通して制作し、SNSや広告など多方面で展開できるブランドの新たなアセットを生み出しました。</p>\n",
+        "en": "<p>We were in charge of branding and promotion in the digital domain for SHISEIDO&#8221;MAQuillAGE&#8221;. The renewal of the brand website combines the high quality appearance like that of a top brand, with the convenience of updating through a CMS. We also worked throughout the year creating the &#8220;LOOKBOOK&#8221;, which is content that offers advice on everything makeup and fashion, creating a new asset for the brand that can be expanded into a variety of areas, such as SNS and advertisements, etc.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Technical Direction",
+      "pick_up": false,
+      "link": "/work/shiseido_maquillage/"
+    },
+    {
+      "title": "ONE TEAM",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-13.jpg",
+      "video": "/wp-content/uploads/2021/01/OTM.mp4",
+      "client": "gloops, Inc.",
+      "theme": "#f6cd00",
+      "date": "Aug 2016",
+      "outputs": "",
+      "overview": {
+        "ja": "<p>モバイルゲーム業界で働く人々にスポットを当て、日々ゲーム開発に情熱を注ぐ姿を、そして、チームでローンチを目指す姿を描いた6編からなるショートドラマと特設サイトを制作いたしました。ドラマの舞台はゲームデベロッパー企業「gloops」そこで働く様々なバックグラウンドや想いをもったメンバーたちが誰も見たことのない「一歩、時代の先を行く」ゲームを、そして業界に爪痕を残す作品をつくるために、日々情熱を持って奮闘しているさまを描いたドラマです。</p>\n",
+        "en": "<p>We have created a special website and short drama consisting of 6 episodes, that puts the spotlight on people working in the mobile game industry, showing them devoting themselves to game development every day, and aiming to launch as a team. The setting of the drama is the game developer company &#8216;gloops&#8217;, and the members that work there who have various backgrounds and ideas are struggling with passion every day, to make a game that nobody has ever seen before and is &#8216;one step ahead of the times,&#8217; and a work that leaves its mark on the industry.</p>\n"
+      },
+      "roles": "Planning, Design, Development, Video",
+      "pick_up": true,
+      "link": "/work/oneteam/"
+    },
+    {
+      "title": "500 Colored Pencils",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-3.jpg",
+      "video": "",
+      "client": "FELISSIMO CORPORATION",
+      "theme": "#ffffff",
+      "date": "Feb 2017",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>リニューアルしたフェリシモの「500色の色えんぴつ」のLPを制作しました。500色の鉛筆を使って生まれる楽しさを、パララックス効果や見る度に変わる配色の変化で表しています。</p>\n",
+        "en": "<p>We have created an LP for Felissimo&#8217;s renewed &#8220;500 Colored Pencils&#8221;, showing the fun that comes with using 500 colored pencils, with parallax effects and color schemes that change every time you look at them.</p>\n"
+      },
+      "roles": "ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/felissimo_500/"
+    },
+    {
+      "title": "Chackathon Brand Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S.png",
+      "video": "",
+      "client": "ITO EN, LTD.",
+      "theme": "#586041",
+      "date": "May 2017",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>伊藤園が主催するアイデアソン「茶ッカソン」のグローバルVIとWebサイトを制作しました。グローバルVIは「無(虚)はすべてを包みこむ。ゆえに万能である。」という茶道の教えを、海外の方でも分かるようにビジュアライズし、サイトは国内ユーザー向けに「茶ッカソン」の取り組みをレポーティングできるものにしました。</p>\n",
+        "en": "<p>We created the global VI and website for the ideathon, &#8220;CHACKATHON&#8221; organized by Ito En. The global VI visualizes the tea ceremony teaching of &#8220;MU” (nothing,emptiness) encompasses everything. Therefore, it is all-powerful&#8221;, so that foreign people can understand it. The website was designed to report on the activities of the &#8220;Chakkathon&#8221; for users in Japan.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, Design, Development, ArtDirection",
+      "pick_up": false,
+      "link": "/work/chackathon/"
+    },
+    {
+      "title": "SPACE SHOWER MVA 2014",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-13.png",
+      "video": "/wp-content/uploads/2021/01/MVA_movie_top.mp4",
+      "client": "SPACE SHOWER NETWORKS INC.",
+      "theme": "#0050cb",
+      "date": "Feb 2014",
+      "outputs": "Web, Product Design",
+      "overview": {
+        "ja": "<p>スペースシャワーTVが年に一度行っているミュージックビデオのアワード「MVA(SPACE SHOWER MUSIC VIDEO AWARDS)」の2014年版サイトを制作しました。 サイトからは、作品やアーティストへの応援メッセージを投稿することができます。投稿されたメッセージのうち抽選で選ばれたものは、一般投票部門賞「BEST YOUR CHOICE」を受賞したアーティストに贈られる記念オブジェに彫刻され、アーティストたちの手元に届けられます。 オブジェの形状はファンの投稿に応じてランダムに成長し、その様子はトップページで見ることができ、一定期間後、最終的な形状をアルミのインゴットからCNC(Computer Numerical Control)で削り出しました。</p>\n",
+        "en": "<p>We created the 2014 website for the MVA (SPACE SHOWER MUSIC VIDEO AWARDS), Space Shower TV&#8217;s annual music video awards.<br />\nFrom the site users can post messages of support for works and artists. The messages submitted will be selected by draw, and engraved into a commemorative objet d&#8217;art to be delivered to the artist who receives the award for the popular vote category, &#8220;BEST YOUR CHOICE&#8221;. The form of the objet d&#8217;art grew randomly in response to fan submissions, which can be seen on the top page, and after a period of time, the final shape was cut out from an aluminum ingot using CNC (Computer Numerical Control).</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Flash, Creative Direction",
+      "pick_up": false,
+      "link": "/work/mva_2014/"
+    },
+    {
+      "title": "CROSS ME",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-1.jpg",
+      "video": "/wp-content/uploads/2021/01/CROSSME-HD-1080p.mp4.mp4.mp4",
+      "client": "Playmotion, Inc.",
+      "theme": "#67a5d2",
+      "date": "Jul 2016",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>すれ違いを恋のきっかけにするマッチングアプリ「CROSS ME」のプロモーションサイトを制作いたしました。都会で男性と女性がすれ違ってから出会うまでのストーリーを通して、本アプリの使い方を説明しています。また、本アプリのコンセプトでもある「すれ違い」はサイト上の演出にも落とし込んでおり、男性パートなら縦遷移、女性パートなら横遷移と、それぞれで異なるユーザー体験を提供しています。「すれ違い」から生まれるステキな出会いを、是非体験してみてください。</p>\n",
+        "en": "<p>We have created a promotion site for the matching app &#8216;CROSS ME&#8217; that turns passing someone into love. We explain how to use this app through a story beginning from when a man and a woman pass each other in the city, to when they meet. In addition, the concept of this application, &#8216;passing one another&#8217;, has also been incorporated into the production of the website, providing different experiences for each user so if it&#8217;s a male part there are vertical transitions, and for female parts, horizontal transitions. Please come and experience the wonderful encounters born out of &#8216;passing one another&#8217;.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/crossme/"
+    }
+  ],
+  "message": "ok"
+}

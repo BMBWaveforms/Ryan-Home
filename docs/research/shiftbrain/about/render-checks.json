@@ -1,0 +1,518 @@
+{
+  "about-desktop": {
+    "name": "about-desktop",
+    "viewport": [
+      1440,
+      900
+    ],
+    "state": {
+      "page": "about",
+      "mode": "text",
+      "articles": 4,
+      "projects": 0,
+      "scroll": 0,
+      "smoothScroll": true,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [],
+    "title": {
+      "x": 359.9375,
+      "y": 243.59375,
+      "width": 1044.0625,
+      "height": 224
+    },
+    "titleFont": "\"TT Norms ExtraLight\", sans-serif",
+    "titleSize": "108px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [],
+    "logo": "../public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [
+      "https://mp.weixin.qq.com/s/iUHAtnVoobJoRqYGRLH51A",
+      "https://mp.weixin.qq.com/s/r6MzV7tIkW_UUMyRPgCWog",
+      "https://mp.weixin.qq.com/s/2XnkbL4d0gcHSVc1u2QWsw",
+      "https://mp.weixin.qq.com/s/tcH8_DMEWu-QRyvBsFlnig"
+    ],
+    "sampleLabels": 2,
+    "tabs": 0,
+    "activePanelInert": null
+  },
+  "work-mobile": {
+    "name": "work-mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "state": {
+      "page": "work",
+      "mode": "visual",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": false,
+      "articles": 4,
+      "projects": 99,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [],
+    "title": {
+      "x": 15,
+      "y": 136,
+      "width": 360,
+      "height": 102
+    },
+    "titleFont": "\"TT Norms Light\", sans-serif",
+    "titleSize": "30px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [
+      {
+        "x": 15,
+        "y": 338,
+        "width": 177.5,
+        "height": 210.046875
+      },
+      {
+        "x": 197.5,
+        "y": 338,
+        "width": 177.5,
+        "height": 210.046875
+      },
+      {
+        "x": 15,
+        "y": 617.046875,
+        "width": 177.5,
+        "height": 210.046875
+      },
+      {
+        "x": 15,
+        "y": 896.09375,
+        "width": 360,
+        "height": 210.046875
+      },
+      {
+        "x": 15,
+        "y": 1175.140625,
+        "width": 177.5,
+        "height": 210.046875
+      },
+      {
+        "x": 197.5,
+        "y": 1175.140625,
+        "width": 177.5,
+        "height": 210.046875
+      }
+    ],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [],
+    "sampleLabels": 0,
+    "tabs": 2,
+    "activePanelInert": false
+  },
+  "about-narrow": {
+    "name": "about-narrow",
+    "viewport": [
+      320,
+      740
+    ],
+    "state": {
+      "page": "about",
+      "mode": "text",
+      "articles": 4,
+      "projects": 0,
+      "scroll": 0,
+      "smoothScroll": false,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [],
+    "title": {
+      "x": 15,
+      "y": 200,
+      "width": 290,
+      "height": 102
+    },
+    "titleFont": "\"TT Norms ExtraLight\", sans-serif",
+    "titleSize": "48px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [],
+    "logo": "../public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [
+      "https://mp.weixin.qq.com/s/iUHAtnVoobJoRqYGRLH51A",
+      "https://mp.weixin.qq.com/s/r6MzV7tIkW_UUMyRPgCWog",
+      "https://mp.weixin.qq.com/s/2XnkbL4d0gcHSVc1u2QWsw",
+      "https://mp.weixin.qq.com/s/tcH8_DMEWu-QRyvBsFlnig"
+    ],
+    "sampleLabels": 2,
+    "tabs": 0,
+    "activePanelInert": null
+  },
+  "work-desktop": {
+    "name": "work-desktop",
+    "viewport": [
+      1440,
+      900
+    ],
+    "state": {
+      "page": "work",
+      "mode": "visual",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": true,
+      "articles": 4,
+      "projects": 99,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [],
+    "title": {
+      "x": 36,
+      "y": 215,
+      "width": 1368,
+      "height": 114
+    },
+    "titleFont": "\"TT Norms ExtraLight\", sans-serif",
+    "titleSize": "49.999966px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [
+      {
+        "x": 35.84375,
+        "y": 398.8125,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 498.53125,
+        "y": 398.8125,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 961.21875,
+        "y": 398.8125,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 35.84375,
+        "y": 948.5625,
+        "width": 905.5625,
+        "height": 529.90625
+      },
+      {
+        "x": 961.25,
+        "y": 948.5625,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 35.84375,
+        "y": 1498.3125,
+        "width": 442.84375,
+        "height": 529.90625
+      }
+    ],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [],
+    "sampleLabels": 0,
+    "tabs": 2,
+    "activePanelInert": false
+  },
+  "work-text": {
+    "name": "work-text",
+    "viewport": [
+      1440,
+      900
+    ],
+    "state": {
+      "page": "work",
+      "mode": "text",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": true,
+      "articles": 4,
+      "projects": 99,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [
+      "background-light"
+    ],
+    "title": {
+      "x": 36,
+      "y": 215,
+      "width": 1368,
+      "height": 114
+    },
+    "titleFont": "\"TT Norms ExtraLight\", sans-serif",
+    "titleSize": "49.999966px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [
+      {
+        "x": 35.84375,
+        "y": 398.8125,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 498.53125,
+        "y": 398.8125,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 961.21875,
+        "y": 398.8125,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 35.84375,
+        "y": 948.5625,
+        "width": 905.5625,
+        "height": 529.90625
+      },
+      {
+        "x": 961.25,
+        "y": 948.5625,
+        "width": 442.84375,
+        "height": 529.90625
+      },
+      {
+        "x": 35.84375,
+        "y": 1498.3125,
+        "width": 442.84375,
+        "height": 529.90625
+      }
+    ],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [],
+    "sampleLabels": 0,
+    "tabs": 2,
+    "activePanelInert": false
+  },
+  "work-narrow-text": {
+    "name": "work-narrow-text",
+    "viewport": [
+      320,
+      740
+    ],
+    "state": {
+      "page": "work",
+      "mode": "text",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": false,
+      "articles": 4,
+      "projects": 99,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [
+      "background-light"
+    ],
+    "title": {
+      "x": 15,
+      "y": 136,
+      "width": 290,
+      "height": 102
+    },
+    "titleFont": "\"TT Norms Light\", sans-serif",
+    "titleSize": "30px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [
+      {
+        "x": 15,
+        "y": 338,
+        "width": 142.5,
+        "height": 172.34375
+      },
+      {
+        "x": 162.5,
+        "y": 338,
+        "width": 142.5,
+        "height": 172.34375
+      },
+      {
+        "x": 15,
+        "y": 579.34375,
+        "width": 142.5,
+        "height": 172.34375
+      },
+      {
+        "x": 15,
+        "y": 820.6875,
+        "width": 290,
+        "height": 172.34375
+      },
+      {
+        "x": 15,
+        "y": 1062.03125,
+        "width": 142.5,
+        "height": 172.34375
+      },
+      {
+        "x": 162.5,
+        "y": 1062.03125,
+        "width": 142.5,
+        "height": 172.34375
+      }
+    ],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [],
+    "sampleLabels": 0,
+    "tabs": 2,
+    "activePanelInert": false
+  },
+  "about-mobile": {
+    "name": "about-mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "state": {
+      "page": "about",
+      "mode": "text",
+      "articles": 4,
+      "projects": 0,
+      "scroll": 0,
+      "smoothScroll": false,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [],
+    "title": {
+      "x": 15,
+      "y": 200.5277862548828,
+      "width": 360,
+      "height": 101.99998474121094
+    },
+    "titleFont": "\"TT Norms ExtraLight\", sans-serif",
+    "titleSize": "48px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [],
+    "logo": "../public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [
+      "https://mp.weixin.qq.com/s/iUHAtnVoobJoRqYGRLH51A",
+      "https://mp.weixin.qq.com/s/r6MzV7tIkW_UUMyRPgCWog",
+      "https://mp.weixin.qq.com/s/2XnkbL4d0gcHSVc1u2QWsw",
+      "https://mp.weixin.qq.com/s/tcH8_DMEWu-QRyvBsFlnig"
+    ],
+    "sampleLabels": 2,
+    "tabs": 0,
+    "activePanelInert": null
+  },
+  "about-wide": {
+    "name": "about-wide",
+    "viewport": [
+      1920,
+      1000
+    ],
+    "state": {
+      "page": "about",
+      "mode": "text",
+      "articles": 4,
+      "projects": 0,
+      "scroll": 0,
+      "smoothScroll": true,
+      "errors": []
+    },
+    "overflow": false,
+    "outliers": [],
+    "title": {
+      "x": 479.921875,
+      "y": 310.4766540527344,
+      "width": 1392.078125,
+      "height": 298.0000305175781
+    },
+    "titleFont": "\"TT Norms ExtraLight\", sans-serif",
+    "titleSize": "144px",
+    "nav": [
+      "Work",
+      "About"
+    ],
+    "navHrefs": [
+      "http://127.0.0.1:5173/",
+      "http://127.0.0.1:5173/about/"
+    ],
+    "covers": [],
+    "logo": "../public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "loader": "removed",
+    "regularFont": true,
+    "articleLinks": [
+      "https://mp.weixin.qq.com/s/iUHAtnVoobJoRqYGRLH51A",
+      "https://mp.weixin.qq.com/s/r6MzV7tIkW_UUMyRPgCWog",
+      "https://mp.weixin.qq.com/s/2XnkbL4d0gcHSVc1u2QWsw",
+      "https://mp.weixin.qq.com/s/tcH8_DMEWu-QRyvBsFlnig"
+    ],
+    "sampleLabels": 2,
+    "tabs": 0,
+    "activePanelInert": null
+  }
+}

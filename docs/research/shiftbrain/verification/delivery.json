@@ -1,0 +1,28 @@
+{
+  "source": "https://shiftbrain.com/",
+  "local": "http://127.0.0.1:4173/",
+  "dev": "http://127.0.0.1:5173/",
+  "backup": {
+    "path": "/Users/bmb/AI/Projects/个人网站/方案备份/Vscode-WEB-before-shiftbrain-20261019-233003",
+    "file_count": 743
+  },
+  "views": [
+    "text",
+    "visual"
+  ],
+  "catalog_count": 99,
+  "project_media": {
+    "images": 99,
+    "hover_videos": 52,
+    "original_fonts": 4
+  },
+  "build": "passed",
+  "render_scenarios": 7,
+  "native_interactions": "passed; see interaction-checks.json",
+  "known_differences": [
+    "Japanese Realtype body font uses the original system fallback stack locally.",
+    "Exact original Locomotive Scroll patch version is unavailable; local implementation uses compatible v4.1.4.",
+    "Project details and unrequested navigation destinations remain external source links."
+  ],
+  "skill": "/Users/bmb/.agents/skills/clone-website/SKILL.md"
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ryan · 写作与分享</title>
+  <style>
+    @font-face{font-family:General;src:url('../../assets/fonts/general-sans.woff2')}
+    *{box-sizing:border-box}body{margin:0;background:transparent;color:#edf2fa;font-family:General,"PingFang SC",sans-serif}
+    .sheet{position:relative;width:1200px;padding:54px 72px 52px;background:#131a24;border:1px solid #303d50;border-radius:24px;text-align:center}
+    .channels{display:flex;justify-content:center;gap:100px}
+    .channel{width:390px}.label{margin:0 0 26px;color:#a8bfff;font-size:28px;font-weight:500;line-height:1.4;letter-spacing:2px}
+    .frame{width:326px;height:326px;display:flex;align-items:center;justify-content:center;margin:auto;border:1px solid #e0e6ef;border-radius:14px;background:#fff;overflow:hidden}
+    .frame img{width:296px;height:296px;display:block}
+    .wechat img{width:301px;height:301px}
+    .account{margin:24px 0 8px;font-size:32px;font-weight:600;line-height:1.4}
+    .instruction{margin:0;font-size:23px;color:#a6b3c6;line-height:1.5}
+    @media(max-width:700px){
+      .sheet{width:660px;padding:44px 36px}
+      .channels{flex-direction:column;align-items:center;gap:40px}
+      .channel{width:100%}.label{font-size:30px;margin-bottom:22px}
+      .channel+.channel{padding-top:40px;border-top:1px solid #303d50}
+      .account{margin-top:22px;font-size:32px}.instruction{font-size:24px}
+    }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <div class="channels">
+      <section class="channel">
+        <h2 class="label">微信公众号</h2>
+        <div class="frame wechat"><img src="../profile/assets/wechat-qr.jpg" alt="公众号碳基推理中的官方二维码"></div>
+        <p class="account">碳基推理中</p>
+        <p class="instruction">微信扫码关注公众号</p>
+      </section>
+      <section class="channel">
+        <h2 class="label">小红书</h2>
+        <div class="frame"><img src="../profile/assets/xiaohongshu-qr.png" alt="小红书主页二维码"></div>
+        <p class="account">在小红书见</p>
+        <p class="instruction">扫码访问主页</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

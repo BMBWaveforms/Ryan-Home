@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "file": "profile/assets/social-card.png",
+      "size": [
+        1200,
+        611
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "passed": true
+    },
+    {
+      "file": "profile/assets/social-card-mobile.png",
+      "size": [
+        660,
+        1173
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "passed": true
+    },
+    {
+      "file": "verification-v8/desktop-dark-card.png",
+      "size": [
+        796,
+        405
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "passed": true
+    },
+    {
+      "file": "verification-v8/desktop-light-card.png",
+      "size": [
+        796,
+        405
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "passed": true
+    },
+    {
+      "file": "verification-v8/mobile-card.png",
+      "size": [
+        312,
+        554
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "passed": true
+    },
+    {
+      "file": "verification-v8/narrow-card.png",
+      "size": [
+        242,
+        430
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "passed": true
+    }
+  ],
+  "wechatOriginalSha256": "15eff56be7f871bd871168f4a2bf32f06a57732eba3f60befc8dbac2313cc1ba",
+  "wechatUnchanged": true
+}

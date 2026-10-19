@@ -1,0 +1,30 @@
+{
+  "commit": "6a168ddb7fa6632a831edbbfa3c4448eb2545f26",
+  "files_verified": [
+    "README.md",
+    "assets/projects/cards/agent-research-dark.svg",
+    "assets/projects/cards/agent-research-light.svg",
+    "assets/projects/cards/creative-skill-dark.svg",
+    "assets/projects/cards/creative-skill-light.svg",
+    "assets/projects/cards/open-source-dark.svg",
+    "assets/projects/cards/open-source-light.svg",
+    "assets/projects/cards/personal-fork-dark.svg",
+    "assets/projects/cards/personal-fork-light.svg",
+    "assets/projects/cards/product-research-dark.svg",
+    "assets/projects/cards/product-research-light.svg",
+    "assets/projects/cards/website-dark.svg",
+    "assets/projects/cards/website-light.svg"
+  ],
+  "remote_matches_local": true,
+  "project_count": 6,
+  "layout": "Aligned 350x148 cards; inline wrap; shared title, summary and label baselines",
+  "banner_target": "https://bmbwaveforms.github.io/Ryan-Home/",
+  "browser_check": {
+    "surface": "Safari public GitHub profile",
+    "url": "https://github.com/BMBWaveforms#-projects",
+    "all_six_cards_visible": true,
+    "desktop_columns": 2,
+    "title_summary_label_alignment": "Verified visually across all three rows",
+    "responsive_checks": "Local Safari previews: 390px and 320px single column, six images decoded, no overflow"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-20T00:26:30.112402",
+  "productionPreview": "http://127.0.0.1:4173/",
+  "aboutPreview": "http://127.0.0.1:4173/about/",
+  "backup": "/Users/bmb/AI/Projects/个人网站/方案备份/Vscode-WEB-work-before-about-20261020-001258",
+  "workCssIdentical": true,
+  "checks": [
+    "npm run check passed",
+    "npm run build passed",
+    "git diff --check passed",
+    "10 production route/asset HTTP checks returned200"
+  ],
+  "nativeObserved": [
+    "AI PRODUCT. opening and consistent R symbol",
+    "desktop and720px narrow About hero",
+    "About section wheel scrolling",
+    "WeChat QR expand/collapse",
+    "Work to About mobile-menu route",
+    "Writing anchor jump",
+    "restored Work desktop grid",
+    "Independent filter two placeholder projects",
+    "restored Text metadata columns"
+  ],
+  "deployed": false,
+  "sampleContent": [
+    "experience",
+    "hackathons"
+  ]
+}

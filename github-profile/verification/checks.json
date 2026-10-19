@@ -1,0 +1,88 @@
+[
+  {
+    "label": "desktop",
+    "width": 1440,
+    "title": "BMB · GitHub 主页预览",
+    "overflow": false,
+    "images": [
+      {
+        "src": "avatar.jpg",
+        "loaded": true
+      }
+    ],
+    "links": [
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/character-prompt.html",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://github.com/BMBWaveforms/Ryan-Home",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/personal-site.html",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/Ryan-Home"
+    ],
+    "social": "写作与分享预留位置，等待公众号、小红书账号信息。此提示仅用于本地预览。",
+    "missingFiles": [],
+    "consoleErrors": []
+  },
+  {
+    "label": "mobile",
+    "width": 390,
+    "title": "BMB · GitHub 主页预览",
+    "overflow": false,
+    "images": [
+      {
+        "src": "avatar.jpg",
+        "loaded": true
+      }
+    ],
+    "links": [
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/character-prompt.html",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://github.com/BMBWaveforms/Ryan-Home",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/personal-site.html",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/Ryan-Home"
+    ],
+    "social": "写作与分享预留位置，等待公众号、小红书账号信息。此提示仅用于本地预览。",
+    "missingFiles": [],
+    "consoleErrors": []
+  },
+  {
+    "label": "case",
+    "width": 1000,
+    "title": "personal-site",
+    "overflow": false,
+    "images": [
+      {
+        "src": "../../profile/assets/site-desktop.jpg",
+        "loaded": true
+      }
+    ],
+    "links": [
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview.html",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://github.com/BMBWaveforms/Ryan-Home",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/profile/assets/site-desktop.jpg",
+      "https://github.com/BMBWaveforms/Ryan-Home/blob/main/DESIGN.md"
+    ],
+    "social": null,
+    "missingFiles": [],
+    "consoleErrors": []
+  }
+]

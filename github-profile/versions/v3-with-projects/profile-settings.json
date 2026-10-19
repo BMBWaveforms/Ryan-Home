@@ -1,0 +1,35 @@
+{
+  "login": "BMBWaveforms",
+  "name": "Ryan",
+  "bio": "研究 AI 产品，制作可复用 Skills，也做一些网页与视觉实验。",
+  "avatar": "profile/assets/ryan-avatar.png",
+  "blog": "https://bmbwaveforms.github.io/Ryan-Home/",
+  "contact_email": "Ctaisobserving@gmail.com",
+  "social": {
+    "wechat": { "name": "碳基推理中", "url": null },
+    "xiaohongshu": { "name": null, "url": "https://xhslink.cn/o/13OQAkBmW7Q" }
+  },
+  "pins": [
+    {
+      "repo": "BMBWaveforms/single-agent-analysis",
+      "description": "拆解单个 Agent 的任务流程、上下文与工具调用，区分观察、推断和未知的研究型 Skill。",
+      "topics": ["agent-skills", "ai-agents", "product-research"]
+    },
+    {
+      "repo": "BMBWaveforms/single-competitor-analysis",
+      "description": "按定位、用户、技术、模型和基础五层推进单个竞品研究，在过程中讨论证据与下一步的 Skill。",
+      "topics": ["agent-skills", "product-research", "competitive-analysis"]
+    },
+    {
+      "repo": "BMBWaveforms/guoman-character-designer",
+      "description": "将人物文字设定写成 3D 半写实国漫角色四视图中文提示词的 Skill，包含完整示例和手动验收用例。",
+      "topics": ["agent-skills", "prompt-engineering", "character-design", "aigc"]
+    },
+    {
+      "repo": "BMBWaveforms/Ryan-Home",
+      "description": "Ryan 的个人网站，记录 AI 产品、AIGC 与工具探索。原生 HTML/CSS/JS，支持移动端和离线单文件。",
+      "homepage": "https://bmbwaveforms.github.io/Ryan-Home/",
+      "topics": ["personal-website", "portfolio", "html", "css"]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "source": "Live GitHub pinnedItems order; summaries based on repository descriptions and READMEs",
+  "layout": "Six linked SVG cards at 350x148; shared title, two-line summary, and label baselines; natural inline wrap to one column on narrow screens; light and dark variants",
+  "projects": [
+    {
+      "nameWithOwner": "BMBWaveforms/guoman-character-designer",
+      "url": "https://github.com/BMBWaveforms/guoman-character-designer",
+      "description": "3D 半写实国漫角色四视图中文提示词生成 Skill，支持跨年龄、性别与时代的人物设计",
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": null,
+      "display_name": "Guoman Character Designer",
+      "summary": "国漫角色四视图的中文提示词 Skill。",
+      "label": "Creative Skill",
+      "badge": "assets/projects/creative-skill.svg",
+      "badge_width": 112,
+      "cards": {
+        "dark": "assets/projects/cards/creative-skill-dark.svg",
+        "light": "assets/projects/cards/creative-skill-light.svg"
+      }
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/LifeOS",
+      "url": "https://github.com/BMBWaveforms/LifeOS",
+      "description": null,
+      "isFork": true,
+      "parent": {
+        "nameWithOwner": "shuaishuaisylas/LifeOS",
+        "url": "https://github.com/shuaishuaisylas/LifeOS"
+      },
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "display_name": "LifeOS · My Fork",
+      "summary": "个人分支，探索指南问答与长期记忆。",
+      "label": "Personal Fork",
+      "badge": "assets/projects/personal-fork.svg",
+      "badge_width": 118,
+      "cards": {
+        "dark": "assets/projects/cards/personal-fork-dark.svg",
+        "light": "assets/projects/cards/personal-fork-light.svg"
+      }
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/Ryan-Home",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/",
+      "description": null,
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "display_name": "Ryan Home",
+      "summary": "个人网站，记录 AI 产品与网页设计探索。",
+      "label": "Website",
+      "badge": "assets/projects/website.svg",
+      "badge_width": 87,
+      "cards": {
+        "dark": "assets/projects/cards/website-dark.svg",
+        "light": "assets/projects/cards/website-light.svg"
+      }
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/single-agent-analysis",
+      "url": "https://github.com/BMBWaveforms/single-agent-analysis",
+      "description": "从真实行为拆解单个 Agent 的运行逻辑、上下文、状态、工具调用与提示词设计",
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": null,
+      "display_name": "Agent Analysis",
+      "summary": "拆解 Agent 上下文、工具调用与运行逻辑。",
+      "label": "Agent Research",
+      "badge": "assets/projects/agent-research.svg",
+      "badge_width": 127,
+      "cards": {
+        "dark": "assets/projects/cards/agent-research-dark.svg",
+        "light": "assets/projects/cards/agent-research-light.svg"
+      }
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/single-competitor-analysis",
+      "url": "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "description": "按五层方法研究单个竞品，在层间与用户讨论发现和下一步的 Codex Skill",
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": null,
+      "display_name": "Competitor Analysis",
+      "summary": "按五层方法研究竞品，梳理定位与机制。",
+      "label": "Product Research",
+      "badge": "assets/projects/product-research.svg",
+      "badge_width": 139,
+      "cards": {
+        "dark": "assets/projects/cards/product-research-dark.svg",
+        "light": "assets/projects/cards/product-research-light.svg"
+      }
+    },
+    {
+      "nameWithOwner": "shuaishuaisylas/LifeOS",
+      "url": "https://github.com/shuaishuaisylas/LifeOS",
+      "description": null,
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "display_name": "LifeOS · Upstream",
+      "summary": "上游项目，提供指南问答与长期记忆。",
+      "label": "Open Source",
+      "badge": "assets/projects/open-source.svg",
+      "badge_width": 110,
+      "cards": {
+        "dark": "assets/projects/cards/open-source-dark.svg",
+        "light": "assets/projects/cards/open-source-light.svg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "desktop-dark",
+    "width": 1440,
+    "overflow": false,
+    "allImagesLoaded": true,
+    "socialSource": "social-card.png",
+    "topEmailButtonAbsent": true,
+    "standaloneNameAbsent": true,
+    "heroAlt": "Ryan · 焦博文 · AI Products, Skills and Vibe Coding",
+    "noRemovedContent": true,
+    "localTargetsExist": true
+  },
+  {
+    "name": "desktop-light",
+    "width": 1440,
+    "overflow": false,
+    "allImagesLoaded": true,
+    "socialSource": "social-card.png",
+    "topEmailButtonAbsent": true,
+    "standaloneNameAbsent": true,
+    "heroAlt": "Ryan · 焦博文 · AI Products, Skills and Vibe Coding",
+    "noRemovedContent": true,
+    "localTargetsExist": true
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "overflow": false,
+    "allImagesLoaded": true,
+    "socialSource": "social-card-mobile.png",
+    "topEmailButtonAbsent": true,
+    "standaloneNameAbsent": true,
+    "heroAlt": "Ryan · 焦博文 · AI Products, Skills and Vibe Coding",
+    "noRemovedContent": true,
+    "localTargetsExist": true
+  },
+  {
+    "name": "narrow",
+    "width": 320,
+    "overflow": false,
+    "allImagesLoaded": true,
+    "socialSource": "social-card-mobile.png",
+    "topEmailButtonAbsent": true,
+    "standaloneNameAbsent": true,
+    "heroAlt": "Ryan · 焦博文 · AI Products, Skills and Vibe Coding",
+    "noRemovedContent": true,
+    "localTargetsExist": true
+  }
+]

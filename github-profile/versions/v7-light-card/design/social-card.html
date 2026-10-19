@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ryan · 写作与分享</title>
+  <style>
+    @font-face{font-family:General;src:url('../../assets/fonts/general-sans.woff2')}
+    *{box-sizing:border-box}body{margin:0;background:transparent;color:#282d31;font-family:General,"PingFang SC",sans-serif}
+    .sheet{position:relative;width:1200px;padding:54px 72px 42px;background:#fbfaf6;border-radius:28px;text-align:center}
+    .sheet::before{content:"";position:absolute;inset:16px;border:2px solid #414b4b;border-radius:22px;pointer-events:none}
+    h1{position:relative;margin:0;font:500 58px/1.4 "Songti SC",STSong,serif;letter-spacing:1px}
+    .underline{display:block;width:520px;height:18px;margin:4px auto 0}
+    .channels{display:flex;justify-content:center;gap:100px;margin-top:42px}
+    .channel{width:390px}.label{margin:0 0 18px;font-size:32px;font-weight:500;line-height:1.3}
+    .frame{width:326px;height:326px;display:flex;align-items:center;justify-content:center;margin:auto;border:1.5px solid #8f9b8a;border-radius:14px;background:#fff;overflow:hidden}
+    .frame img{width:296px;height:296px;display:block}
+    .wechat img{width:301px;height:301px}
+    .account{margin:20px 0 6px;font-size:32px;font-weight:500;line-height:1.4}
+    .instruction{margin:0;font-size:23px;color:#63745e;line-height:1.5}
+    .signature{margin:40px 0 0;color:#687287;font-size:18px;letter-spacing:1px;line-height:1.4}
+    @media(max-width:700px){
+      .sheet{width:660px;padding:46px 36px 42px}
+      h1{font-size:44px;letter-spacing:0}.underline{width:420px;height:16px}
+      .channels{flex-direction:column;align-items:center;gap:44px;margin-top:38px}
+      .channel{width:100%}.label{font-size:32px;margin-bottom:16px}
+      .account{margin-top:16px;font-size:31px}.instruction{font-size:24px}
+      .signature{margin-top:36px;font-size:21px}
+    }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <h1>一起把想法做出来</h1>
+    <svg class="underline" viewBox="0 0 520 18" fill="none" aria-hidden="true"><path d="M8 12Q255 1 512 12" stroke="#2450ea" stroke-width="7" stroke-linecap="round"/></svg>
+    <div class="channels">
+      <section class="channel">
+        <h2 class="label">公众号</h2>
+        <div class="frame wechat"><img src="../profile/assets/wechat-qr.jpg" alt="公众号碳基推理中的官方二维码"></div>
+        <p class="account">碳基推理中</p>
+        <p class="instruction">微信扫码关注</p>
+      </section>
+      <section class="channel">
+        <h2 class="label">小红书</h2>
+        <div class="frame"><img src="../profile/assets/xiaohongshu-qr.png" alt="小红书主页二维码"></div>
+        <p class="account">我的小红书</p>
+        <p class="instruction">扫码来我的主页看看</p>
+      </section>
+    </div>
+    <p class="signature">AI Products · Vibe Coding · Ryan</p>
+  </main>
+</body>
+</html>

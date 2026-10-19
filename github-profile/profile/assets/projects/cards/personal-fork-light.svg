@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="148" viewBox="0 0 350 148" role="img" aria-labelledby="title desc">
+<title id="title">LifeOS · My Fork</title><desc id="desc">个人分支，探索指南问答与长期记忆。 Personal Fork</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.title{font-size:18px;font-weight:600;fill:#1f2328}.body{font-size:13px;fill:#59636e}.label{font-size:11px;font-weight:600;fill:#fff}</style>
+<rect x="4.5" y="4.5" width="341" height="139" rx="8" fill="#ffffff" stroke="#d1d9e0"/>
+<text class="title" x="24" y="38">LifeOS · My Fork</text>
+<path d="M314 24h10v10m0-10-12 12" fill="none" stroke="#2450ea" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="body" x="24" y="70">个人分支，探索指南问答与长期记忆。</text>
+<g transform="translate(24 108)"><rect width="118" height="22" rx="4" fill="#0969da"/>
+<g transform="translate(6 4) scale(.58)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="5" r="2"/><circle cx="12" cy="19" r="2"/><path d="M6 7v2a6 6 0 0 0 6 6m6-8v2a6 6 0 0 1-6 6v2"/></g>
+<text class="label" x="26" y="14.8">Personal Fork</text></g>
+</svg>

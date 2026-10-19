@@ -1,0 +1,116 @@
+{
+  "commit": "810dbb3aa9499c2344a09f8bd51895ed9a12214e",
+  "profile": "https://github.com/BMBWaveforms",
+  "project_count": 6,
+  "files_verified": [
+    "README.md",
+    "assets/projects/agent-research.svg",
+    "assets/projects/creative-skill.svg",
+    "assets/projects/open-source.svg",
+    "assets/projects/personal-fork.svg",
+    "assets/projects/product-research.svg",
+    "assets/projects/website.svg"
+  ],
+  "readme_matches_source": true,
+  "remote_head_matches_local": true,
+  "projects": [
+    {
+      "nameWithOwner": "BMBWaveforms/guoman-character-designer",
+      "url": "https://github.com/BMBWaveforms/guoman-character-designer",
+      "description": "3D 半写实国漫角色四视图中文提示词生成 Skill，支持跨年龄、性别与时代的人物设计",
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": null,
+      "display_name": "Guoman Character Designer",
+      "summary": "国漫角色四视图的中文提示词 Skill。",
+      "label": "Creative Skill",
+      "badge": "assets/projects/creative-skill.svg",
+      "badge_width": 112
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/LifeOS",
+      "url": "https://github.com/BMBWaveforms/LifeOS",
+      "description": null,
+      "isFork": true,
+      "parent": {
+        "nameWithOwner": "shuaishuaisylas/LifeOS",
+        "url": "https://github.com/shuaishuaisylas/LifeOS"
+      },
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "display_name": "LifeOS · My Fork",
+      "summary": "个人分支，探索指南问答与长期记忆。",
+      "label": "Personal Fork",
+      "badge": "assets/projects/personal-fork.svg",
+      "badge_width": 118
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/Ryan-Home",
+      "url": "https://github.com/BMBWaveforms/Ryan-Home",
+      "description": null,
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": {
+        "name": "HTML"
+      },
+      "display_name": "Ryan Home",
+      "summary": "个人网站，记录 AI 产品与网页设计探索。",
+      "label": "Website",
+      "badge": "assets/projects/website.svg",
+      "badge_width": 87
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/single-agent-analysis",
+      "url": "https://github.com/BMBWaveforms/single-agent-analysis",
+      "description": "从真实行为拆解单个 Agent 的运行逻辑、上下文、状态、工具调用与提示词设计",
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": null,
+      "display_name": "Agent Analysis",
+      "summary": "拆解 Agent 上下文、工具调用与运行逻辑。",
+      "label": "Agent Research",
+      "badge": "assets/projects/agent-research.svg",
+      "badge_width": 127
+    },
+    {
+      "nameWithOwner": "BMBWaveforms/single-competitor-analysis",
+      "url": "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "description": "按五层方法研究单个竞品，在层间与用户讨论发现和下一步的 Codex Skill",
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": null,
+      "display_name": "Competitor Analysis",
+      "summary": "按五层方法研究竞品，梳理定位与机制。",
+      "label": "Product Research",
+      "badge": "assets/projects/product-research.svg",
+      "badge_width": 139
+    },
+    {
+      "nameWithOwner": "shuaishuaisylas/LifeOS",
+      "url": "https://github.com/shuaishuaisylas/LifeOS",
+      "description": null,
+      "isFork": false,
+      "parent": null,
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "display_name": "LifeOS · Upstream",
+      "summary": "上游项目，提供指南问答与长期记忆。",
+      "label": "Open Source",
+      "badge": "assets/projects/open-source.svg",
+      "badge_width": 110
+    }
+  ],
+  "banner_target": "https://bmbwaveforms.github.io/Ryan-Home/",
+  "native_pins_modified": false,
+  "browser_check": {
+    "surface": "Public GitHub profile in Safari",
+    "projects_visible": 6,
+    "category_badges_visible": 6,
+    "hero_clicked": true,
+    "destination_url": "https://bmbwaveforms.github.io/Ryan-Home/",
+    "destination_title": "Ryan — 保持好奇，持续创造",
+    "scope": "Desktop public profile and actual banner navigation; mobile checks used the local preview."
+  }
+}

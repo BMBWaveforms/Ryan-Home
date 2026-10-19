@@ -1,0 +1,80 @@
+{
+  ".pageAbout-sightView-section{": [
+    ".pageAbout-sightView-section{padding-top:60vh!important}"
+  ],
+  ".pageAbout-sightView__description{": [
+    "html[lang=ja] .pageAbout-sightView__description{opacity:.8}",
+    ".pageAbout-sightView__description{width:80%;margin-left:auto;margin-top:1.875rem}",
+    "@media(min-width:48.0625em){.pageAbout-sightView__description{margin-top:2rem}",
+    "@media(min-width:80em){.pageAbout-sightView__description{margin-top:calc(2rem + 2.5vw - 32px)}",
+    "@media(min-width:90em){.pageAbout-sightView__description{margin-top:calc(2.25rem + 1.875vw - 27px)}",
+    "@media(min-width:120em){.pageAbout-sightView__description{margin-top:2.8125rem}",
+    "@media(min-width:48.0625em){.pageAbout-sightView__description{width:36.84%;margin-right:7.89%;margin-left:auto}"
+  ],
+  ".pageAbout-showreel{": [
+    ".pageAbout-showreel{position:relative;display:block;width:73.59vw;padding-top:106.66vw;margin-top:16rem}",
+    "@media(min-width:48.0625em){.pageAbout-showreel{margin-top:8.5rem}",
+    "@media(min-width:80em){.pageAbout-showreel{margin-top:calc(8.5rem + 10.625vw - 136px)}",
+    "@media(min-width:90em){.pageAbout-showreel{margin-top:calc(9.5625rem + 7.96875vw - 114.75px)}",
+    "@media(min-width:120em){.pageAbout-showreel{margin-top:11.953125rem}",
+    "@media(min-width:48.0625em){.pageAbout-showreel{overflow:hidden;width:84.21%;padding-top:48.31%}"
+  ],
+  ".pageAbout-section.-ourTeam{": [
+    ".pageAbout-section.-ourTeam{padding-top:9.375rem}",
+    "@media(min-width:48.0625em){.pageAbout-section.-ourTeam{padding-top:5.5555555556rem}",
+    "@media(min-width:80em){.pageAbout-section.-ourTeam{padding-top:calc(5.55556rem + 6.94444vw - 88.88889px)}",
+    "@media(min-width:90em){.pageAbout-section.-ourTeam{padding-top:calc(6.25rem + 5.20833vw - 75px)}",
+    "@media(min-width:120em){.pageAbout-section.-ourTeam{padding-top:7.8125rem}"
+  ],
+  ".pageAbout-sectionTitle{": [
+    ".pageAbout-sectionTitle{font-family:TT Norms Light,sans-serif}",
+    "@media(min-width:48.0625em){.pageAbout-sectionTitle{font-family:TT Norms ExtraLight,sans-serif}",
+    ".pageAbout-sectionTitle{font-size:2rem}",
+    "@media(min-width:48.0625em){.pageAbout-sectionTitle{font-size:1.7777777778rem}",
+    "@media(min-width:80em){.pageAbout-sectionTitle{font-size:calc(1.77778rem + 2.22222vw - 28.44444px)}",
+    "@media(min-width:90em){.pageAbout-sectionTitle{font-size:calc(2rem + 1.66667vw - 24px)}",
+    "@media(min-width:120em){.pageAbout-sectionTitle{font-size:2.5rem}",
+    ".pageAbout-sectionTitle{line-height:1.2;letter-spacing:-.01em}",
+    "@media(min-width:48.0625em){.pageAbout-sectionTitle{letter-spacing:-.04em}"
+  ],
+  ".fixedNavWrap{": [
+    ".fixedNavWrap{position:relative}",
+    "@media not all and (min-width:64em){.fixedNavWrap{margin-top:4.25rem}",
+    "@media(min-width:64em){.fixedNavWrap{margin-top:-200px}"
+  ],
+  ".fixedNav{": [
+    ".fixedNav{position:absolute;top:200px;z-index:1}",
+    "@media(min-width:64em){.fixedNav{padding-top:200px}",
+    ".pageAbout-fixedNavWrap .fixedNav{padding-top:290px}",
+    ".fixedNav{margin-top:-200px}"
+  ],
+  ".fixedNav__content{": [
+    "@media(min-width:64em){.fixedNav__content{margin-left:26.31%;padding-top:200px}",
+    ".pageAbout-fixedNavWrap .fixedNav__content{padding-top:290px}"
+  ],
+  ".pageAbout-fixedNavWrap .fixedNav__content{": [
+    ".pageAbout-fixedNavWrap .fixedNav__content{padding-top:290px}"
+  ],
+  ".pageAbout-fixedNavWrap .fixedNav{": [
+    ".pageAbout-fixedNavWrap .fixedNav{padding-top:290px}"
+  ],
+  ".pageAbout-ourTeam__list>li{": [
+    "@media not all and (min-width:48.0625em){.pageAbout-ourTeam__list>li{width:calc(50% - 3.5px)}",
+    "@media(min-width:48.0625em){.pageAbout-ourTeam__list>li{width:calc(25% - 6px)}"
+  ],
+  ".pageAbout-ourTeam__listWrap{": [
+    ".pageAbout-ourTeam__listWrap+.pageAbout-ourTeam__listWrap{margin-top:4.375rem}",
+    "@media(min-width:48.0625em){.pageAbout-ourTeam__listWrap+.pageAbout-ourTeam__listWrap{margin-top:3.8888888889rem}",
+    "@media(min-width:80em){.pageAbout-ourTeam__listWrap+.pageAbout-ourTeam__listWrap{margin-top:calc(3.88889rem + 4.86111vw - 62.22222px)}",
+    "@media(min-width:90em){.pageAbout-ourTeam__listWrap+.pageAbout-ourTeam__listWrap{margin-top:calc(4.375rem + 3.64583vw - 52.5px)}",
+    "@media(min-width:120em){.pageAbout-ourTeam__listWrap+.pageAbout-ourTeam__listWrap{margin-top:5.46875rem}"
+  ],
+  ".text--14{": [
+    ".text--14{line-height:1.75;font-size:.875rem}",
+    "@media(min-width:48.0625em){.text--14{font-size:.7777777778rem}",
+    "@media(min-width:80em){.text--14{font-size:calc(.77778rem + .97222vw - 12.44444px)}",
+    "@media(min-width:90em){.text--14{font-size:calc(.875rem + .72917vw - 10.5px)}",
+    "@media(min-width:120em){.text--14{font-size:1.09375rem}",
+    "@media(min-width:48.0625em){.text--14{line-height:1.8}"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "original_unchanged": true,
+  "wechat_original": {
+    "image": "wechat-qr.jpg",
+    "size": [
+      430,
+      430
+    ],
+    "decoded_url": "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+    "source": "User-provided official QR image",
+    "sha256": "15eff56be7f871bd871168f4a2bf32f06a57732eba3f60befc8dbac2313cc1ba"
+  },
+  "cards": [
+    {
+      "file": "profile/assets/social-card.png",
+      "size": [
+        1200,
+        798
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "both_match": true
+    },
+    {
+      "file": "profile/assets/social-card-mobile.png",
+      "size": [
+        660,
+        1287
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "both_match": true
+    },
+    {
+      "file": "verification-v7/desktop-dark-card.png",
+      "size": [
+        796,
+        529
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "both_match": true
+    },
+    {
+      "file": "verification-v7/desktop-light-card.png",
+      "size": [
+        796,
+        529
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "both_match": true
+    },
+    {
+      "file": "verification-v7/mobile-card.png",
+      "size": [
+        312,
+        608
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "both_match": true
+    },
+    {
+      "file": "verification-v7/narrow-card.png",
+      "size": [
+        242,
+        471
+      ],
+      "decoded": [
+        "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+        "https://xhslink.cn/o/13OQAkBmW7Q"
+      ],
+      "both_match": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "project_count": 6,
+  "rows": 3,
+  "pin_order_matches": true,
+  "before_working_stack": true,
+  "source_matches_publish_checkout": true,
+  "hero_link": "https://bmbwaveforms.github.io/Ryan-Home/",
+  "badge_files_valid": 6,
+  "browser": "Safari local preview rendered by GitHub Markdown API",
+  "viewports": [
+    {
+      "width": 740,
+      "page_overflow": false,
+      "table_overflow": false,
+      "table_height": 361,
+      "badges_loaded": true
+    },
+    {
+      "width": 390,
+      "page_overflow": false,
+      "table_overflow": false,
+      "table_height": 554,
+      "badges_loaded": true
+    },
+    {
+      "width": 320,
+      "page_overflow": false,
+      "table_overflow": false
+    }
+  ],
+  "limitations": "Local simulated layout; desktop public profile verified separately after deployment. No physical mobile device testing."
+}

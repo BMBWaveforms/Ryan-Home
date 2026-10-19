@@ -1,0 +1,18 @@
+{
+  "browser": "Safari native UI",
+  "viewport_widths": [
+    1440,
+    720
+  ],
+  "checks": {
+    "text_visual_switch_and_url": true,
+    "source_horizontal_mask_comparison": true,
+    "independent_filter_two_entries": true,
+    "narrow_filters_expand_collapse": true,
+    "mobile_menu_open_escape_close": true,
+    "desktop_smooth_real_scroll": true,
+    "nomo_hover_video_changed_frames": true,
+    "r_monogram_light_and_dark": true
+  },
+  "scope": "Representative native browser interactions;7 static render states in render-checks.json; not a physical phone test."
+}

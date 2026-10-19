@@ -1,0 +1,96 @@
+{
+  "repo": "BMBWaveforms/BMBWaveforms",
+  "local_checkout": "/Users/bmb/AI/Projects/\u4e2a\u4eba\u7f51\u7ad9/GitHub-Profile",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2406,
+      "sha256": "b0f28c1cef1ef3132f551cb1a43b58cb43a5264fb2696163d728437c56dab94c"
+    },
+    {
+      "path": "assets/badges/codex.svg",
+      "bytes": 467,
+      "sha256": "09f9966866cb36e73e2ba0b258d01f3c82f015539af4fba0ef6ee7c4657094a9"
+    },
+    {
+      "path": "assets/badges/css.svg",
+      "bytes": 2527,
+      "sha256": "31c228c539e26a9d3df7ee101ca22a03ce0ad01b89f0456b6653ef65d924e03b"
+    },
+    {
+      "path": "assets/badges/email.svg",
+      "bytes": 566,
+      "sha256": "aa29051472d928236fa2ba00f3c8f341f0aff75899f9a69ffbdd4b4e6a1387fc"
+    },
+    {
+      "path": "assets/badges/github.svg",
+      "bytes": 1660,
+      "sha256": "008e3d84d75d3e5e4bfb5da59124a79e7ea95b3d79bd4024e98aadd9c0dd0a4b"
+    },
+    {
+      "path": "assets/badges/html.svg",
+      "bytes": 997,
+      "sha256": "c3e64cbbf8087e9313810ec4a1c8e85052aaea2caada234acfc2954ec7e17b79"
+    },
+    {
+      "path": "assets/badges/javascript.svg",
+      "bytes": 1888,
+      "sha256": "a3b068203f9650e0977ec86aacec278cb59ce1f647f34c6ef5f8b4926b2b53ed"
+    },
+    {
+      "path": "assets/badges/prompt.svg",
+      "bytes": 491,
+      "sha256": "6601ea20fcbc002d16b5b1f1a962c2b0e0bdc4fe2b791885be96b7ff68ad940b"
+    },
+    {
+      "path": "assets/badges/skills.svg",
+      "bytes": 488,
+      "sha256": "784aabe7e4f2365ed9af4929893aa313dfd7f4ad2bc503f8ae177eed3dcb1539"
+    },
+    {
+      "path": "assets/badges/website.svg",
+      "bytes": 473,
+      "sha256": "6fede65997c6cbd09c13e835fd468d2c6f510a47d7859169a5aada2ecef207a8"
+    },
+    {
+      "path": "assets/badges/xiaohongshu-link.svg",
+      "bytes": 5349,
+      "sha256": "c83e3fc4ac54e00dbcbd263b8d3acf4aca71feaa13eeede2defcc97e0123376d"
+    },
+    {
+      "path": "assets/ryan-cover.png",
+      "bytes": 44426,
+      "sha256": "8515a9fe338ca3b7565c75de2bbeeb581c5ca0fd7357784bec48ee525a96ce22"
+    },
+    {
+      "path": "assets/ryan-slogan-static.svg",
+      "bytes": 537,
+      "sha256": "a41c303d436d568f75b378e1fb262e44aae89ea7e02ed9efce10db1cb337cbeb"
+    },
+    {
+      "path": "assets/ryan-slogan.svg",
+      "bytes": 1777,
+      "sha256": "24269acaa053e5117e19c2ff671cb122c4e81b8bb2ac7db86aa0e3b7c0fdd3d0"
+    },
+    {
+      "path": "assets/social-card-mobile.png",
+      "bytes": 67401,
+      "sha256": "d39a1b1582fa9f553df268f873a313a7c7687ac0f5e75d5e7e13885c2f47ec65"
+    },
+    {
+      "path": "assets/social-card.png",
+      "bytes": 65953,
+      "sha256": "e0b57d85c3b3d0fb33e3b68e697a22b5c8099e39966b35e6eebf2ee2d5f58a87"
+    },
+    {
+      "path": "assets/wechat-qr.jpg",
+      "bytes": 40124,
+      "sha256": "15eff56be7f871bd871168f4a2bf32f06a57732eba3f60befc8dbac2313cc1ba"
+    },
+    {
+      "path": "assets/xiaohongshu-qr.png",
+      "bytes": 517,
+      "sha256": "8637cae8799d7cf69c6935c6ddcd2c9aa29d3868faa0d0e7553249eaedec6afa"
+    }
+  ]
+}

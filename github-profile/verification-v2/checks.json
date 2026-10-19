@@ -1,0 +1,298 @@
+[
+  {
+    "label": "desktop-dark",
+    "width": 1440,
+    "theme": "dark",
+    "title": "Ryan · GitHub 主页预览",
+    "name": "Ryan",
+    "overflow": false,
+    "tables": [
+      {
+        "width": 796,
+        "scrollWidth": 796,
+        "overflow": false
+      }
+    ],
+    "images": [
+      {
+        "src": "profile/assets/ryan-avatar.png",
+        "width": 208,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/ryan-cover.png",
+        "width": 796,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-agent.png",
+        "width": 371,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-research.png",
+        "width": 371,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-character.png",
+        "width": 371,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-site.png",
+        "width": 371,
+        "loaded": true
+      }
+    ],
+    "links": [
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/profile/assets/ryan-cover.png",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/character-prompt.html",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/personal-site.html",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/Ryan-Home"
+    ],
+    "detailsCount": 1,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": false,
+    "consoleErrors": []
+  },
+  {
+    "label": "desktop-light",
+    "width": 1440,
+    "theme": "light",
+    "title": "Ryan · GitHub 主页预览",
+    "name": "Ryan",
+    "overflow": false,
+    "tables": [
+      {
+        "width": 796,
+        "scrollWidth": 796,
+        "overflow": false
+      }
+    ],
+    "images": [
+      {
+        "src": "profile/assets/ryan-avatar.png",
+        "width": 208,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/ryan-cover.png",
+        "width": 796,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-agent.png",
+        "width": 371,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-research.png",
+        "width": 371,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-character.png",
+        "width": 371,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-site.png",
+        "width": 371,
+        "loaded": true
+      }
+    ],
+    "links": [
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/profile/assets/ryan-cover.png",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/character-prompt.html",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/personal-site.html",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/Ryan-Home"
+    ],
+    "detailsCount": 1,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": false,
+    "consoleErrors": []
+  },
+  {
+    "label": "mobile",
+    "width": 390,
+    "theme": "dark",
+    "title": "Ryan · GitHub 主页预览",
+    "name": "Ryan",
+    "overflow": true,
+    "tables": [
+      {
+        "width": 1415,
+        "scrollWidth": 1415,
+        "overflow": false
+      }
+    ],
+    "images": [
+      {
+        "src": "profile/assets/ryan-avatar.png",
+        "width": 74,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/ryan-cover.png",
+        "width": 1415,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-agent.png",
+        "width": 680,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-research.png",
+        "width": 680,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-character.png",
+        "width": 680,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-site.png",
+        "width": 680,
+        "loaded": true
+      }
+    ],
+    "links": [
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/profile/assets/ryan-cover.png",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/character-prompt.html",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/personal-site.html",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/Ryan-Home"
+    ],
+    "detailsCount": 1,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": false,
+    "consoleErrors": []
+  },
+  {
+    "label": "narrow",
+    "width": 320,
+    "theme": "light",
+    "title": "Ryan · GitHub 主页预览",
+    "name": "Ryan",
+    "overflow": true,
+    "tables": [
+      {
+        "width": 1415,
+        "scrollWidth": 1415,
+        "overflow": false
+      }
+    ],
+    "images": [
+      {
+        "src": "profile/assets/ryan-avatar.png",
+        "width": 74,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/ryan-cover.png",
+        "width": 1415,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-agent.png",
+        "width": 680,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-research.png",
+        "width": 680,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-character.png",
+        "width": 680,
+        "loaded": true
+      },
+      {
+        "src": "profile/assets/project-site.png",
+        "width": 680,
+        "loaded": true
+      }
+    ],
+    "links": [
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/profile/assets/ryan-cover.png",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/character-prompt.html",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "https://bmbwaveforms.github.io/Ryan-Home/",
+      "file:///Users/bmb/AI/Projects/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/Vscode-WEB/github-profile/preview/notes/personal-site.html",
+      "https://xhslink.cn/o/13OQAkBmW7Q",
+      "mailto:Ctaisobserving@gmail.com",
+      "https://github.com/BMBWaveforms/single-agent-analysis",
+      "https://github.com/BMBWaveforms/single-competitor-analysis",
+      "https://github.com/BMBWaveforms/guoman-character-designer",
+      "https://github.com/BMBWaveforms/Ryan-Home"
+    ],
+    "detailsCount": 1,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": false,
+    "consoleErrors": []
+  }
+]

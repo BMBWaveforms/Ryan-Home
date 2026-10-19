@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><title>Ryan · Layout verification</title><style>body{background:#222;color:#eee;font:13px system-ui;margin:20px}main{display:flex;flex-wrap:wrap;gap:30px}iframe{border:0;transform-origin:top left}pre{white-space:pre-wrap;max-width:600px}.clip{overflow:hidden;border:1px solid #888}</style><h1>Ryan · Read-only viewport checks</h1><main></main><script>
+const cases=[['work-desktop',1440,900,'/'],['work-text',1440,900,'/?view=text'],['work-mobile',390,844,'/'],['about-desktop',1440,900,'/about/'],['about-mobile',390,844,'/about/'],['personal-agent',1440,900,'/?work_category=personal-agent'],['skill',1440,900,'/?work_category=skill'],['video-text',1440,900,'/?view=text&work_category=video']];
+for (const [name,width,height,url] of cases) {
+ const box=document.createElement('section'),p=document.createElement('pre'),clip=document.createElement('div'),frame=document.createElement('iframe');
+ const scale=Math.min(1,600/width); clip.className='clip';clip.style.width=width*scale+'px';clip.style.height=height*scale+'px';frame.width=width;frame.height=height;frame.title=name;frame.style.transform=`scale(${scale})`;frame.src=url;p.textContent=name+' Loading…';clip.append(frame);box.append(p,clip);document.querySelector('main').append(box);
+ const timer=setInterval(async()=>{
+  const win=frame.contentWindow,doc=frame.contentDocument;
+  if(!win.sitePreview||!doc.body.classList.contains('is-ready')||doc.querySelector('.site-loader'))return;
+  clearInterval(timer);await doc.fonts.ready;
+  const rect=n=>{const r=n.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height}};
+  const title=doc.querySelector('main h1'),titleStyle=win.getComputedStyle(title);
+  const outliers=[...doc.querySelectorAll('main *')].filter(n=>{if(n.closest('[inert]'))return false;const s=win.getComputedStyle(n);if(s.display==='none'||s.visibility==='hidden')return false;const r=n.getBoundingClientRect();return r.right>width+2&&r.width>0}).slice(0,8).map(n=>n.className);
+  const data={name,viewport:[win.innerWidth,win.innerHeight],state:win.sitePreview.state,overflow:doc.documentElement.scrollWidth>width,outliers,title:rect(title),titleFont:titleStyle.fontFamily,titleSize:titleStyle.fontSize,nav:[...doc.querySelectorAll('.main-nav a')].map(n=>n.textContent),navHrefs:[...doc.querySelectorAll('.main-nav a')].map(n=>n.href),navigationCenterOffset:Math.abs(rect(doc.querySelector('.main-nav')).x+rect(doc.querySelector('.main-nav')).width/2-width/2),portrait:doc.querySelector('.about-portrait')?rect(doc.querySelector('.about-portrait')):null,placeholderImages:[...doc.querySelectorAll('.project-cover img')].map(n=>({src:n.src,loaded:n.complete&&n.naturalWidth>0})),covers:[...doc.querySelectorAll('.project-cover')].slice(0,6).map(rect),logo:doc.querySelector('.brand-symbol use').getAttribute('href'),loader:doc.querySelector('.personal-wordmark')?.textContent??'removed',regularFont:doc.fonts.check('16px "TT Norms Regular"'),articleLinks:[...doc.querySelectorAll('.article-row')].map(n=>n.href),sampleLabels:doc.querySelectorAll('.sample-label').length,tabs:doc.querySelectorAll('[data-view]').length,activePanelInert:doc.querySelector('#'+win.sitePreview.state.mode+'-panel')?.inert??null};
+  p.textContent=name+' '+JSON.stringify({overflow:data.overflow,outliers,state:data.state,title:data.titleSize},null,2);
+  fetch('http://127.0.0.1:5174/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).catch(()=>{});
+ },300);
+}
+</script>

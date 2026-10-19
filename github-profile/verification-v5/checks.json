@@ -1,0 +1,133 @@
+{
+  "views": [
+    {
+      "name": "desktop-dark",
+      "cpuThrottle": 1,
+      "heading": "Ryan · 焦博文",
+      "alt": "Exploring AI. Building ideas.",
+      "currentSource": "ryan-slogan.svg",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "noProjectsOrRemovedBadges": true,
+      "geometry": {
+        "x": 681,
+        "y": 540.25,
+        "width": 360,
+        "height": 40,
+        "scale": 1
+      },
+      "stableLayout": true,
+      "frameChanges": true,
+      "expectedMotion": true
+    },
+    {
+      "name": "desktop-light",
+      "cpuThrottle": 1,
+      "heading": "Ryan · 焦博文",
+      "alt": "Exploring AI. Building ideas.",
+      "currentSource": "ryan-slogan.svg",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "noProjectsOrRemovedBadges": true,
+      "geometry": {
+        "x": 681,
+        "y": 540.25,
+        "width": 360,
+        "height": 40,
+        "scale": 1
+      },
+      "stableLayout": true,
+      "frameChanges": true,
+      "expectedMotion": true
+    },
+    {
+      "name": "mobile",
+      "cpuThrottle": 4,
+      "heading": "Ryan · 焦博文",
+      "alt": "Exploring AI. Building ideas.",
+      "currentSource": "ryan-slogan.svg",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "noProjectsOrRemovedBadges": true,
+      "geometry": {
+        "x": 39,
+        "y": 566.484375,
+        "width": 312,
+        "height": 34.65625,
+        "scale": 1
+      },
+      "stableLayout": true,
+      "frameChanges": true,
+      "expectedMotion": true
+    },
+    {
+      "name": "narrow",
+      "cpuThrottle": 1,
+      "heading": "Ryan · 焦博文",
+      "alt": "Exploring AI. Building ideas.",
+      "currentSource": "ryan-slogan.svg",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "noProjectsOrRemovedBadges": true,
+      "geometry": {
+        "x": 39,
+        "y": 543.140625,
+        "width": 242,
+        "height": 26.875,
+        "scale": 1
+      },
+      "stableLayout": true,
+      "frameChanges": true,
+      "expectedMotion": true
+    },
+    {
+      "name": "reduced-motion",
+      "cpuThrottle": 1,
+      "heading": "Ryan · 焦博文",
+      "alt": "Exploring AI. Building ideas.",
+      "currentSource": "ryan-slogan-static.svg",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "noProjectsOrRemovedBadges": true,
+      "geometry": {
+        "x": 681,
+        "y": 540.25,
+        "width": 360,
+        "height": 40,
+        "scale": 1
+      },
+      "stableLayout": true,
+      "frameChanges": false,
+      "expectedMotion": false
+    }
+  ],
+  "animationProperties": [
+    {
+      "name": "typing",
+      "properties": [
+        "transform"
+      ]
+    },
+    {
+      "name": "cursor-travel",
+      "properties": [
+        "transform"
+      ]
+    },
+    {
+      "name": "blink",
+      "properties": [
+        "opacity"
+      ]
+    }
+  ],
+  "normal": {
+    "text": "Exploring AI. Building ideas.",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "reduced": {
+    "animationCount": 0,
+    "clipTransform": "none",
+    "cursorOpacity": "0"
+  }
+}

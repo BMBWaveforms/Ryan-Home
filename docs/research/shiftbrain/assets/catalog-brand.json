@@ -1,0 +1,1221 @@
+{
+  "posts": [
+    {
+      "title": "Payn Brand Renewal",
+      "cover": "/wp-content/uploads/2026/09/TOP-S-1-2.jpg",
+      "video": "",
+      "client": "Payn, Inc.",
+      "theme": "#006efe",
+      "date": "Feb 2026",
+      "outputs": "Logo, Tagline, Web",
+      "overview": {
+        "ja": "<p>キャンセル料の請求書作成からリマインド、回収までを自動化する請求ツール「Payn」。ブランドリニューアルにあたり、MVVの策定からロゴの制作、ノーコードツール「Framer」によるサービスサイトの刷新までを担当しました。</p>\n",
+        "en": "<p>Payn is a billing tool that automates the entire process of collecting cancellation fees, from issuing invoices and sending reminders to receiving payments. As part of the brand renewal, we were responsible for defining the company’s Mission, Vision, and Values, developing a new logo, and redesigning the service website using the no-code platform Framer.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, Art Direction, Design, Development, Produce",
+      "pick_up": false,
+      "link": "/work/payn/"
+    },
+    {
+      "title": "GUNDAM Official Website & 2D Logo",
+      "cover": "/wp-content/uploads/2026/08/TOP-S-1.jpg",
+      "video": "",
+      "client": "Bandai Namco Filmworks INC.",
+      "theme": "#000000",
+      "date": "Oct 2025",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>世代を超え、いまなお愛され続けるガンダムシリーズ。GUNDAM Official Websiteのロゴの新規開発と、その世界観を伝えるロゴモーション、そしてWebデザイン制作を担当しました。</p>\n",
+        "en": "<p>Beloved across generations, the GUNDAM series continues to resonate with fans around the world. We developed a new logo for the GUNDAM Official Website, created a logo motion that brings its world to life, and designed the website itself.</p>\n"
+      },
+      "roles": "Art Direction, Design, Motion Design, Produce",
+      "pick_up": false,
+      "link": "/work/gundam/"
+    },
+    {
+      "title": "Yatsumonji-Gakuen 70th Anniversary Site",
+      "cover": "/wp-content/uploads/2026/07/yatsumonji_top_s.jpg",
+      "video": "",
+      "client": "Yatsumonji-Gakuen incorporated educational institution",
+      "theme": "#eff6f8",
+      "date": "Apr 2026",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>茨城県水戸市で5つの専門学校を有する学校法人 八文字学園。創立70周年を機に、次の節目である100周年に向けたミッション・ビジョンの策定から、その想いを伝える周年サイトの制作までを手がけました。</p>\n",
+        "en": "<p>Yatsumonji-Gakuen is an educational institution operating five vocational schools in Mito, Ibaraki. To mark its 70th anniversary, we helped define its mission and vision for the next milestone—its 100th anniversary—and created a commemorative website to communicate the ideas and aspirations behind them.</p>\n"
+      },
+      "roles": "Development, Produce",
+      "pick_up": false,
+      "link": "/work/yatsumonji_gakuen_70th/"
+    },
+    {
+      "title": "SEIARROWS Branding Book",
+      "cover": "/wp-content/uploads/2026/03/TOP-S-4.jpg",
+      "video": "",
+      "client": "Seiarrows co,.ltd",
+      "theme": "#131313",
+      "date": "Jan 2025",
+      "outputs": "Book",
+      "overview": {
+        "ja": "<p>国内外の工場のメリットを活かした家具の企画・製造・販売を行う株式会社セイアローズの、ブランドブックを担当しました。特注家具で培った豊富な経験と知識を用いて、空間のワンアクセントとなる家具を提供する彼らの強みはもちろんのこと、事業に込められた想いや働く人々の息遣いまで感じられる一冊を目指して制作いたしました。</p>\n",
+        "en": "<p>We produced a brand book for Sei Arrows Inc., a furniture company engaged in the planning, manufacturing, and sales of products by leveraging the strengths of both domestic and international factories.<br />\nDrawing on their extensive experience and knowledge gained through custom furniture production, Sei Arrows creates pieces that serve as distinctive accents within a space.<br />\nThe brand book was designed not only to showcase these strengths, but also to convey the ideas behind their business and the presence of the people who bring it to life.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, Art Direction, Design, Produce",
+      "pick_up": false,
+      "link": "/work/seiarrows-book/"
+    },
+    {
+      "title": "Diver-X Corporate Site",
+      "cover": "/wp-content/uploads/2025/10/TOP-S-3.jpg",
+      "video": "",
+      "client": "Diver-X Inc.",
+      "theme": "#060f1b",
+      "date": "Feb 2025",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>最先端技術を駆使し、HID(Human Interface Device)を手掛けるDiver-Xのモーションロゴ、Webサイト、写真、ムービー、コピーワークを担当しました。</p>\n",
+        "en": "<p>We created the motion logo, website, photography, film, and copywriting for Diver-X, a company pioneering HID (Human Interface Device) with cutting-edge technology.</p>\n"
+      },
+      "roles": "Copy, ArtDirection, Design, Development, Direction",
+      "pick_up": false,
+      "link": "/work/diver-x/"
+    },
+    {
+      "title": "Panasonic  VISION UX",
+      "cover": "/wp-content/uploads/2025/10/TOP-S-2.jpg",
+      "video": "",
+      "client": "Panasonic Corporation, Design HQ",
+      "theme": "#ffffff",
+      "date": "Oct 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>「VISION UX」とは、パナソニックデザインが考える10年後の理想の姿です。数ある未来構想の中から膨大なリサーチを通じて得られたインサイトをもとに「自分、大切な人、地球を思いやる行動が広がっていく世界」が描かれています。<br />\nシフトブレインは、パナソニックデザインが制作した12のシーンとその世界観への理解を深め、共創パートナー探索につなげるウェブサイト制作を担当しました。</p>\n",
+        "en": "<p>“VISION UX” represents Panasonic Design’s vision of an ideal world 10 years from now. Based on extensive research and insights drawn from numerous future scenarios, it envisions “a world where actions that care for oneself, loved ones, and the planet continue to spread.”</p>\n<p>SHIFTBRAIN was responsible for creating a website that deepens understanding of the twelve scenes and worldviews envisioned by Panasonic Design, serving as a platform to connect with potential co-creation partners.</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Design, Development, 3D Design",
+      "pick_up": false,
+      "link": "/work/vision-ux/"
+    },
+    {
+      "title": "LayerX Branding",
+      "cover": "/wp-content/uploads/2024/01/TOP-S.jpg",
+      "video": "/wp-content/uploads/2024/01/layerx_hover.mp4",
+      "client": "LayerX Inc.",
+      "theme": "#ffffff",
+      "date": "Aug 2023",
+      "outputs": "Logo, Namecard, Web",
+      "overview": {
+        "ja": "<p>「すべての経済活動を、デジタル化する。」をミッションに掲げる株式会社LayerXのコーポレートブランドリニューアル。<br />\n本プロジェクトは、コンセプト策定とコピーライティングを担当された株式会社パークとの協業で、SHIFTBRAINはロゴ、ロゴアニメーション、コーポレートサイト、各種ツールのデザインおよび制作を担当しました。</p>\n",
+        "en": "<p>The corporate brand renewal of LayerX, a company that aims to digitize all economic activities.<br />\nSHIFTBRAIN collaborated with Park Co., Ltd., which was responsible for concept development and copywriting, and SHIFTBRAIN was in charge of designing and producing the logo, logo animation, corporate website, and various tools.</p>\n"
+      },
+      "roles": "ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/layerx-branding/"
+    },
+    {
+      "title": "45R Denim Karuta",
+      "cover": "/wp-content/uploads/2025/02/1_TOP-S.jpg",
+      "video": "",
+      "client": "45rpm studio co., ltd.",
+      "theme": "#faedcd",
+      "date": "Nov 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>日本のアパレルブランド 45Rが誇るシグネチャーアイテムであるデニム。30年以上に渡って作り続けてきた数多のアイテムに込められた遊び心やこだわりを伝えるべく、オンラインのかるたコンテンツを制作しました。</p>\n",
+        "en": "<p>For 45R, a Japanese apparel brand, denim is their signature item. To convey the playfulness and attention to detail embedded in their numerous items created over more than 30 years, we produced an online karuta content.</p>\n"
+      },
+      "roles": "Planning, Project Management, Design, Development, ArtDirection",
+      "pick_up": false,
+      "link": "/work/45rpmstudio-denimkaruta/"
+    },
+    {
+      "title": "Benesse Digital Transformation",
+      "cover": "/wp-content/uploads/2025/01/TOP-S-1.jpg",
+      "video": "",
+      "client": "Benesse Holdings, Inc.",
+      "theme": "#e2f3ff",
+      "date": "Sep 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>ベネッセグループのDX戦略にまつわるさまざまな活動を発信するための特設サイトを制作しました。<br />\nベネッセでは、一人ひとりの「よく生きる」の実現に向けて、教育や介護をはじめ人々の一生を支える事業を展開しています。<br />\nそのすべての領域において、より良い商品やサービスの提供を目指し、デジタルの活用を推進する彼らの活動を知ることのできるサイトです。\t\t\t</p>\n",
+        "en": "<p>We created a special website to communicate various activities related to the Benesse Group&#8217;s DX strategy. Benesse develops businesses that support people throughout their lives, from education to nursing care, aimed at helping each individual achieve their idea of &#8220;living well.&#8221; This website allows visitors to learn about their initiatives to promote digital technology utilization across all these areas, as they strive to provide better products and services.</p>\n"
+      },
+      "roles": "Planning, Copy, ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/benesse_dx/"
+    },
+    {
+      "title": "45R Denim Matsuri",
+      "cover": "/wp-content/uploads/2025/01/TOP-S-2.jpg",
+      "video": "",
+      "client": "45rpm studio co., ltd.",
+      "theme": "#faedcd",
+      "date": "May 2024",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>日本のアパレルブランド 45Rが全国各地で『デニム祭』を開催するにあたり、祭の熱量を最大限高めるためのロゴやWebサイト、瓦版、タブロイド紙を制作しました。</p>\n",
+        "en": "<p>For 45R, a Japanese apparel brand, we created logos, a website, kawara-ban (traditional Japanese news bulletins), and tabloid newspapers to maximize excitement for their &#8220;Denim Festival&#8221; events held across Japan.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/45rpmstudio-denimmatsuri/"
+    },
+    {
+      "title": "Harajuku Sun-Ad Corporate Site",
+      "cover": "/wp-content/uploads/2024/10/TOP-S_1.jpg",
+      "video": "/wp-content/uploads/2024/08/HSA_top.mp4",
+      "client": "Harajuku Sun-Ad Co.,Ltd.",
+      "theme": "#ffffff",
+      "date": "May 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>ブランドと社会、ユーザーとの理想的な関係をデザインする株式会社 原宿サン・アドのコーポレートサイトリニューアルを担当しました。</p>\n<p>本リニューアルは、アートディレクションやデザインをシフトブレインが担当、コピーや撮影、動画制作などはクライアントにご担当いただいた、クリエイティブを生業とする2社の共創プロジェクトとなりました。</p>\n",
+        "en": "<p>We renewed the corporate site for Harajuku Sun-Ad Co., Ltd., which specializes in crafting ideal relationships between brands, society, and users.<br />\nThis renewal was a collaborative project between two creative teams: Shiftbrain handled the art direction and design, while the client was responsible for copywriting, photography, and video production.</p>\n"
+      },
+      "roles": "ArtDirection, Design",
+      "pick_up": true,
+      "link": "/work/harajuku_sun-ad/"
+    },
+    {
+      "title": "UTORITO Branding",
+      "cover": "/wp-content/uploads/2025/01/TOP-S.jpg",
+      "video": "",
+      "client": "Too Corporation",
+      "theme": "#ffffff",
+      "date": "Mar 2024",
+      "outputs": "Logo, Tagline",
+      "overview": {
+        "ja": "<p>株式会社Tooが運営するMacのLCMサービス『UTORITO（ユトリト）』のネーミング、ロゴ、キャッチコピー、デザインガイドラインの制作を担当しました。<br />\n本プロジェクトでは、このサービスの存在意義や提供価値、またそこに込められた想いなど、すべてをクライアントとともに言語化していき、すべてのアウトプットに行き届かせていきました。</p>\n",
+        "en": "<p>We were responsible for creating the naming, logo, catchphrase, and design guidelines for &#8220;UTORITO&#8221; a Mac LCM service operated by Too Corporation. Throughout this project, we worked closely with the client to verbalize everything &#8211; from the service&#8217;s fundamental purpose and value proposition to the underlying vision &#8211; and ensured these elements were thoroughly reflected in all outputs.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, Design",
+      "pick_up": false,
+      "link": "/work/too-utorito/"
+    },
+    {
+      "title": "Mampei Hotel",
+      "cover": "/wp-content/uploads/2025/02/TOP-S.jpg",
+      "video": "",
+      "client": "MORI TRUST CO., LTD.",
+      "theme": "#7a0808",
+      "date": "Dec 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>1894年創業、軽井沢で百余年の歴史を持つクラシックホテル「万平ホテル」。2024年のホテルリニューアルに合わせ、印刷物のカラー・フォント規定の策定やWebサイト、写真、動画などブランド全体のクリエイティブを担当しました。</p>\n",
+        "en": "<p>The Mampei Hotel, a classic hotel in Karuizawa with over a century of history since its establishment in 1894, underwent a renewal in 2024. We were responsible for the overall brand creative direction, including establishing print color and font guidelines, as well as developing the website, photography, and video content.</p>\n"
+      },
+      "roles": "Planning, Copy, ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/mampeihotel/"
+    },
+    {
+      "title": "Inter office Corporate Site",
+      "cover": "/wp-content/uploads/2023/09/TOP-S.jpg",
+      "video": "",
+      "client": "Inter office ltd.",
+      "theme": "#ffdb00",
+      "date": "Jul 2023",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">世界中のクオリティの高い家具の販売や空間デザイン、場づくりのエキスパートが集うインターオフィス。今回はコーポレートサイトだけでなく、期末に社長から全社員へ郵送された来期に向けたメッセージカードのデザインや、全社で共有される「方針発表会資料」のテンプレートデザインも行いました。</span></p>\n",
+        "en": "<p>Interoffice is a place where experts in space design and world-class office furniture sales gather. This time, in addition to the corporate site, we also designed the message card mailed from the president to all employees at the beginning of the year as an internal measure, and the template design of the &#8220;policy presentation material&#8221; shared throughout the company.</p>\n"
+      },
+      "roles": "Planning, Development",
+      "pick_up": false,
+      "link": "/work/interoffice/"
+    },
+    {
+      "title": "MOTA Corporate Site",
+      "cover": "/wp-content/uploads/2024/08/TOP-S-1.jpg",
+      "video": "",
+      "client": "MOTA Inc.",
+      "theme": "#f5f5f5",
+      "date": "May 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>「世界中に、もっとフェア・トレードを。」をミッションに掲げ、事前査定方式の車買取サービスやCtoB中古車オークションを通じて、自動車流通市場のDX変革に取り組む株式会社MOTAのコーポレートサイトを制作しました。</p>\n",
+        "en": "<p>We developed the corporate site for MOTA Co., Ltd., which aims to &#8220;Promote Fair Trade Worldwide.&#8221; The company drives digital transformation in the automotive distribution market through services like pre-assessment-based car buying, and C2B used car auctions.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/mota/"
+    },
+    {
+      "title": "45R Indigo Story",
+      "cover": "/wp-content/uploads/2024/01/TOP-S-1-1.jpg",
+      "video": "/wp-content/uploads/2024/01/indigo_hover.mp4",
+      "client": "45rpm studio co., ltd.",
+      "theme": "#faedcd",
+      "date": "Oct 2023",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>日本のアパレルブランド 45Rは1999年以来、デニムなどに用いるインディゴの色合いやそのレシピを自社で独自に作り続けています。その20年を超える挑戦の歴史を、一本の絵巻物として表現しました。</p>\n",
+        "en": "<p>Fashion brand 45R has been creating its own unique shades of indigo and recipes for denim since 1999. They have expressed their history of over 20 years of challenges through a single scroll painting.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/45rpmstudio-indigostory/"
+    },
+    {
+      "title": "Earth & Space Exploration Center Branding",
+      "cover": "/wp-content/uploads/2023/11/TOP-S-1.jpg",
+      "video": "",
+      "client": "Earth & Space Exploration Center, Ritsumeikan University(ESEC)",
+      "theme": "#040505",
+      "date": "Jun 2023",
+      "outputs": "Logo, Typeface, Web",
+      "overview": {
+        "ja": "<p>立命館大学 宇宙地球探査研究センター（ESEC）は、月・惑星における人類の生存圏拡張と、将来的な居住・生活圏構築に先駆けた探査拠点となる宇宙開発・インフラ構築に取り組む日本初の研究組織です。シフトブレインでは、ESECのロゴ、ロゴモーション、Webサイト、オリジナルタイプフェイス、ステッカーなどのツール制作を担当しました。 なお、Webサイトはノーコードツール『STUDIO』を利用し、株式会社gazと共同で制作しました。</p>\n",
+        "en": "<p>The Earth &#038; Space Exploration Center (ESEC) at Ritsumeikan University is Japan&#8217;s first research organization dedicated to expanding human habitation to the Moon and planets, and to building space exploration infrastructure that will serve as exploration bases ahead of the construction of habitats and living spaces in the future. Shiftbrain was tasked with creating ESEC&#8217;s logo, logo motion, website, original type face, stickers, and other tools.<br />\nThe website was created in collaboration with gaz Inc. using the no-code tool &#8220;STUDIO&#8221;.</p>\n"
+      },
+      "roles": "ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/esec/"
+    },
+    {
+      "title": "northobject Corporate Site",
+      "cover": "/wp-content/uploads/2024/08/TOP-S.jpg",
+      "video": "",
+      "client": "northobject co.,Ltd",
+      "theme": "#f6f3e9",
+      "date": "May 2024",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>「ママとファミリーの手に届く、心豊かな暮らしに役立つために」を理念に掲げ、アパレルや雑貨、食、イベント等を展開する株式会社ノースオブジェクトのコーポレートサイトをリニューアルしました。</p>\n",
+        "en": "<p>We renewed northobject&#8217;s corporate site. The company offers a range of products and services, including apparel, home goods, food, and event hosting, guided by the principle of &#8220;Making a fulfilling life more accessible for moms and families.&#8221;</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/northobject/"
+    },
+    {
+      "title": "Suzukishouten Branding",
+      "cover": "/wp-content/uploads/2024/01/TOP-S-1.jpg",
+      "video": "",
+      "client": "Suzukishouten Co., Ltd.",
+      "theme": "#00b976",
+      "date": "Jan 2024",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>システム開発を中心に企業のDXを推進する株式会社鈴木商店のロゴ、コーポレートサイト、オリジナルキャラクターの制作を担当。企画・デザインはシフトブレインで、実装や撮影をクライアントに担当いただくなど、彼らが大事にする「二人三脚のものづくり」を体現したプロジェクトになりました。</p>\n",
+        "en": "<p>Suzuki Shouten Co., Ltd. is responsible for the development of corporate DX, focusing on system development. We are in charge of creating the logo, corporate website, and original characters. The planning and design are done by Shift Brain, while the implementation and photography are handled by the clients. This project embodies the &#8220;collaborative creation&#8221; that they value, where two parties work together like a three-legged race.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/suzukishouten-branding/"
+    },
+    {
+      "title": "CREATIVE SURVEY Service Site",
+      "cover": "/wp-content/uploads/2023/06/TOP-S.jpg",
+      "video": "",
+      "client": "CREATIVE SURVEY INC.\t",
+      "theme": "#d5d8dd",
+      "date": "Nov 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>クリエイティブサーベイ株式会社が運営するアンケート・コミュニケーション・プラットフォーム『CREATIVE SURVEY』のサービスサイトリニューアル。<br />\n企画・情報設計の領域を担当した株式会社ベイジとの協業で、シフトブレインはデザイン、フロントエンド／バックエンドを担当しました。</p>\n",
+        "en": "<p>A renewal of the service site for &#8220;CREATIVE SURVEY,&#8221; an online survey and communication platform operated by Creative Survey Inc. In collaboration with baigie Inc., who was responsible for planning and information architecture, SHIFTBRAIN handled the design, frontend and backend work.</p>\n"
+      },
+      "roles": "Project Management, Design, Development",
+      "pick_up": false,
+      "link": "/work/creativesurvey/"
+    },
+    {
+      "title": "Morght Branding",
+      "cover": "/wp-content/uploads/2023/11/TOP-S-1-1.jpg",
+      "video": "/wp-content/uploads/2023/11/morght.mp4",
+      "client": "Morght Co., Ltd.",
+      "theme": "#f6f4ef",
+      "date": "Sep 2023",
+      "outputs": "Logo, Namecard, Web",
+      "overview": {
+        "ja": "<p>最高品質の睡眠体験を手に届く価格でお届けする、こだわりの寝具ブランド『NELL』で知られる株式会社Morght(モート)。第二創業期を迎えるにあたり、CIや各種ツール類を含むトータルブランディングを担当しました。</p>\n",
+        "en": "<p>Morght Co., Ltd. is known for its &#8220;NELL&#8221; bedding brand, which delivers a premium sleep experience at an affordable price. As the company entered its second phase, we were tasked with the total branding of the company, including CI and various tools.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/morght/"
+    },
+    {
+      "title": "Recruit Corporate Site",
+      "cover": "/wp-content/uploads/2023/11/TOP-S-1-2.jpg",
+      "video": "/wp-content/uploads/2023/11/recruit.mp4",
+      "client": "Recruit Co., Ltd.",
+      "theme": "#2a63b7",
+      "date": "Jun 2023",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>株式会社リクルートのコーポレートサイトのリニューアル、および同サイトのデザインガイドラインを制作しました。<br />\n創業から変わらず、多くの人の働き方や生活スタイル、生き方に新たな価値を提供し続けてきたリクルート。彼らの日々アップデートされていく事業や活動をより明快に伝えられることはもちろんのこと、その根幹にある『想い』や『情熱』までも伝えられるサイトを目指し、デザイン面、コンテンツ面のリニューアルを行いました。<br />\nまた、彼らの進化に伴走できるサイトを目指すべく、デザインガイドラインの制作を行い、軸を堅持しながらアップデートできるサイトを目指しました。</p>\n",
+        "en": "<p>We revamped Recruit Co.&#8217;s corporate website and created a set of design guidelines for the website.<br />\nSince its establishment, Recruit has continued to provide new value to the work styles, lifestyles, and ways of life of many. We revamped the design and content of the website with the aim of not only clearly conveying Recruit&#8217;s projects and activities, which are updated on a daily basis, but also its fundamental &#8220;thoughts&#8221; and &#8220;passion&#8221;.<br />\nWe also created website design guidelines to accompany Recruit&#8217;s evolution, with the goal of creating a website that can be updated while remaining firm to its principles.</p>\n"
+      },
+      "roles": "Planning, ArtDirection, Design",
+      "pick_up": true,
+      "link": "/work/recruit-corp/"
+    },
+    {
+      "title": "JIKORIKAI, Inc. Corporate Site",
+      "cover": "/wp-content/uploads/2022/11/TOP-S-6.jpg",
+      "video": "",
+      "client": "JIKORIKAI, Inc.",
+      "theme": "#44475c",
+      "date": "Apr 2022",
+      "outputs": "Tagline, Web",
+      "overview": {
+        "ja": "<p>一生夢中に生きるための3ヶ月のコーチングプログラム『自己理解プログラム』および運営会社『ジコリカイ』のサイト、ロゴを制作しました。本サービスの特徴をより多くの方にわかりやすく伝えるための情報設計やワーディング&amp;ライティングディレクションから、情緒に訴えかけながらも明瞭に理解できるアートディレクションまでトータルでサポートしています。</p>\n",
+        "en": "<p>We created the website and logo for the &#8220;JIKORIKAI Program,&#8221; a three-month coaching program to live one&#8217;s entire life passionately, as well as its operating company, &#8220;JIKORIKAI.&#8221; We provided total support, from information design as well as working and writing direction in order to convey the characteristics of this service to more people in an easy-to-understand manner to art direction that allows users to clearly understand the content while appealing to their emotions.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/jikorikai/"
+    },
+    {
+      "title": "Fujibo Holdings, Inc. Corporate Site",
+      "cover": "/wp-content/uploads/2022/08/TOP-S.jpg",
+      "video": "",
+      "client": "Fujibo Holdings, Inc. ",
+      "theme": "#0f0f0f",
+      "date": "Nov 2021",
+      "outputs": "Book, Web",
+      "overview": {
+        "ja": "<p>創業から引き継がれる富士紡HDのイノベーションスピリッツ、そしてグローバル企業である彼らの「今」そして「これから」を表現すべく、ホールディングスサイトのリニューアルを担当いたしました。併せて会社案内資料のリデザインと、採用活動に活用されるタブロイドを作成いたしました。</p>\n",
+        "en": "<p>We directed the renewal of Holding&#8217;s site to express the Fujibo HD innovation spirit which has been passed down since their founding, as well as to express their &#8220;now&#8221; and &#8220;future&#8221; as a global company. At the same time we redesigned their company information materials, and created tabloids used for recruitment activities.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection",
+      "pick_up": false,
+      "link": "/work/fujibo/"
+    },
+    {
+      "title": "AQM² Brand Site",
+      "cover": "/wp-content/uploads/2021/12/TOP-S-2.jpg",
+      "video": "/wp-content/uploads/2021/12/aqm-1.mp4",
+      "client": "AQM Squared Ltd.",
+      "theme": "#ffffff",
+      "date": "Oct 2021",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>株式市場とプライベート・エクイティへの投資を主なサービスとする投資ファンド「AQM²」のWebサイトを制作。ブランドの人格や、それに基づくデザイン原則の定義から始まり、CG制作、サイトデザイン／実装に至るまでを担当しています。</p>\n",
+        "en": "<p>We have created a website for the investment fund &#8220;AQM²&#8221;, whose main service is investing in the stock market and private equity. We were in charge of everything from defining the personality of the brand and the design principles based on it, to CG production, and the design and implementation of the site.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/aqmsquared/"
+    },
+    {
+      "title": "vakel Branding",
+      "cover": "/wp-content/uploads/2021/10/TOP-S-2.jpg",
+      "video": "/wp-content/uploads/2021/10/vakel.mp4",
+      "client": "LARGO Inc. ",
+      "theme": "#FAF9F6",
+      "date": "Mar 2021",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>内装工事・店舗デザイン・設計を行う株式会社LARGO（ラルゴ）が、新たにブランドのセカンドラインを立ち上げるに伴い、同ブランドのネーミング、ロゴ、サービスサイトの制作を担当しました。</p>\n",
+        "en": "<p>Largo, Inc., an interior finishing, store design, and design company, launched a new brand&#8217;s secondary line, and we were in charge of creating the brand&#8217;s naming, logo, and service website.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/vakel/"
+    },
+    {
+      "title": "45R Corporate Site",
+      "cover": "/wp-content/uploads/2022/09/TOP-S-2.png",
+      "video": "/wp-content/uploads/2023/01/45r-thm-pc.mp4",
+      "client": "45rpm studio co., ltd.",
+      "theme": "#f9f9f9",
+      "date": "Apr 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>2022年に45周年を迎えた日本のアパレルブランド、45Rのコーポレートサイトリニューアル。採用志望者や取引先に「45Rで（と）仕事がしたい」と思ってもらうことを主な目的としながらも、会社にとって節目となるタイミングで社員の士気を高めるインナーコミュニケーションとしても機能し得るサイトを目指しました。</p>\n",
+        "en": "<p>We renewed the corporate website of 45R, a fashion brand which celebrated its 45th anniversary in 2022. Although its main purpose is to make prospective employees or business partners think, &#8220;I want to work at (or with) 45R,&#8221; we also aimed to make it a site which could function for the internal communication that raises employee morale during a turning point for a company.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/45rpmstudio-corp/"
+    },
+    {
+      "title": "Operation Factory Corporate Site",
+      "cover": "/wp-content/uploads/2022/12/TOP-S.jpg",
+      "video": "",
+      "client": "Operation Factory,inc.\t\t\t\t",
+      "theme": "#b8b085",
+      "date": "Jun 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>全国で50店舗以上の飲食店を運営する、株式会社オペレーションファクトリーのコーポレートサイトリニューアルを担当しました。リニューアルに際し、同社の掲げるMissionやValueを再解釈し、コロナ禍を通じて大きく変化した飲食産業を取り巻く環境にも耐えうるようなWebサイトのコンセプトの策定を手掛けました。</p>\n",
+        "en": "<p>Operation Factory, Inc, operates more than 50 restaurants in Japan. We completely remade their corporate website, including reinterpretations of their &#8220;Mission&#8221; and &#8220;Values,&#8221; creating a website concept that could endure the sweeping changes in the restaurant industry due to the pandemic.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/opefac/"
+    },
+    {
+      "title": "SHIFTBRAIN 20th Special Site",
+      "cover": "/wp-content/uploads/2023/05/TOP-S.jpg",
+      "video": "/wp-content/uploads/2023/05/sbwork_20th.mp4",
+      "client": "SHIFTBRAIN",
+      "theme": "#191919",
+      "date": "Feb 2023",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>自社の創業20周年プロジェクト。周年ロゴやスローガンをはじめ、特設サイト、ショーリール、VRオフィス、コーポレートフォント、オリジナルグッズの制作をしました。</p>\n",
+        "en": "<p>SHIFTBRAIN&#8217;s 20th-anniversary project. We created an anniversary logo, slogan, special website, showreel, VR office, corporate font, and original merchandise.This is a project for SHIFTBRAIN&#8217;s 20th anniversary. We created the anniversary logo and slogan, special website, showreel, VR office, corporate font, and original goods.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/shiftbrain20th/"
+    },
+    {
+      "title": "45R Brand EC Site",
+      "cover": "/wp-content/uploads/2023/01/TOP-S.jpg",
+      "video": "",
+      "client": "45rpm studio co., ltd.",
+      "theme": "#1c2940",
+      "date": "Apr 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>2022年に創業45周年を迎えた日本のアパレルブランド、45Rのブランドサイト兼ECサイトを制作。ECサイトとしてビジネスに貢献することとはもちろん、長い歴史の中で積み重なってきたブランドのアイデンティティを深く理解し、余すことなく表現することを目指しました。</p>\n",
+        "en": "<p>We created a brand site and EC site for 45R, a fashion brand which celebrated its 45th anniversary in 2022. As an EC site obviously it contributes to business, but we also aimed to fully understand the brand identity which has been built up over their long history, and to express this in all its detail.</p>\n"
+      },
+      "roles": "ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/45rpmstudio-ec/"
+    },
+    {
+      "title": "GEOGROUP Corporate Site",
+      "cover": "/wp-content/uploads/2023/03/TOP-S-re.jpg",
+      "video": "",
+      "client": "Geosystem Corporation Co.,Ltd",
+      "theme": "#ffffff",
+      "date": "Mar 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>日常の暮らしを支える測量・インフラ事業をメインとする『ジオグループ』のコーポレートサイト制作を担当しました。<br />\nなお今回は、ロゴマーク・メッセージなどのブランディング領域を担当した佐藤 卓氏率いるTSDO Inc.監修のもとでの制作でした。</p>\n",
+        "en": "<p>We were in charge of creating the corporate website for &#8220;GEO GROUP&#8221;, a company mainly engaged in surveying and infrastructure projects that support our day-to-day lives. At that time, production was under the visionary guidance of TSDO Inc. led by Taku Satoh, who was in charge of the branding department, which included the logo and corporate message.</p>\n"
+      },
+      "roles": "Design, Development",
+      "pick_up": false,
+      "link": "/work/geogroup/"
+    },
+    {
+      "title": "NEWh Branding",
+      "cover": "/wp-content/uploads/2023/06/TOP-S-1.jpg",
+      "video": "",
+      "client": "NEWh Inc.\t\t\t",
+      "theme": "#ffffff",
+      "date": "Jan 2021",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>大企業の新規事業やサービス開発に伴走するイノベーションデザインコンサルティング＆スタジオ 株式会社NEWh（ニュー）のブランディングを担当しました。<br />\nロゴ、コーポレートサイトのデザイン、資料用のビジュアルアセットやデザインガイド、そして同社が運営するデザイン×経営マガジン「Question &amp; Design」のサイトを制作し、全体のアートディレクションを行いました。</p>\n",
+        "en": "<p>We undertook the branding for NEWh Co., Ltd., an innovation design consulting &amp; studio that accompanies the development of new businesses and services of large companies.<br />\nWe provided the overall art direction by creating the logo, corporate website design, visual assets and design guides for documents, and the website for the company&#8217;s design x management magazine &#8220;Question &amp; Design.&#8221;</p>\n"
+      },
+      "roles": "ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/newh-branding/"
+    },
+    {
+      "title": "BASCO Corporate Site",
+      "cover": "/wp-content/uploads/2023/07/TOP-S.jpg",
+      "video": "",
+      "client": "BASCO Co.,Ltd. ",
+      "theme": "#d6cdbf",
+      "date": "Jun 2023",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>1989年創業、福岡を拠点に5つのファッションブランドを展開するバスコのコーポレートサイトのプランニング、デザイン、開発を担当。会社だけでなく、5つのブランドそれぞれのコンセプトやらしさを明確化することで、この先何十年と発展をし続けていくための礎とすることを目指しました。</p>\n",
+        "en": "<p>Executed planning, design, and development of the corporate website for Basco, a Fukuoka-based company founded in 1989 that operates five fashion brands. By clarifying the concept and essence of not only the company but also each of the five brands, we aimed to set a cornerstone for the company&#8217;s continued development over the coming decades.</p>\n"
+      },
+      "roles": "Planning, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/basco/"
+    },
+    {
+      "title": "TIER IV, Inc. Corporate Site, Service Site",
+      "cover": "/wp-content/uploads/2022/11/TOP-S-5.jpg",
+      "video": "/wp-content/uploads/2022/11/tier4_thumbmovie_905_530-1.mp4",
+      "client": "TIER IV, Inc.",
+      "theme": "#304a63",
+      "date": "Mar 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>近年世界各国で開発が進められている自動運転。その中でも高い技術力や革新的なプラットフォームで注目を浴びる株式会社ティアフォーのコーポレートサイトのリニューアルと、「Web.Auto」「Pilot.Auto」という二つのプロダクトサイトの制作を担当しました。</p>\n",
+        "en": "<p>Automatic driving has been developed in various countries all over the world in recent years. Among them is TIER IV, Inc., which is garnering attention for its advanced technology and innovative platform. We were in charge of renewing its corporate site and creating two product sites called &#8220;Web.Auto&#8221; and &#8220;Pilot.Auto.&#8221;</p>\n"
+      },
+      "roles": "Project Management, Design, Development",
+      "pick_up": true,
+      "link": "/work/tier4/"
+    },
+    {
+      "title": "+SHIFT Brand Site",
+      "cover": "/wp-content/uploads/2021/10/TOP-S-3.jpg",
+      "video": "/wp-content/uploads/2021/10/plus-shift_cover.mp4",
+      "client": "DRAFT Inc.",
+      "theme": "#dbd4c9",
+      "date": "Mar 2021",
+      "outputs": "",
+      "overview": {
+        "ja": "<p>建築・空間デザインを手がけるDRAFT。この度、総合不動産会社のサンフロンティア不動産とタッグを組み立ち上げたオフィスビルブランド『＋SHIFT』のサービスサイトを制作しました。</p>\n",
+        "en": "<p>DRAFT Inc. is an architecture and space design company. They recently teamed up with a general real estate company, Sun Frontier Fudousan Co., Ltd., and we created a service website for their new office building brand &#8220;+SHIFT&#8221;.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/plusshift/"
+    },
+    {
+      "title": "CARTA HOLDINGS Branding",
+      "cover": "/wp-content/uploads/2024/05/TOP-S.jpg",
+      "video": "",
+      "client": "CARTA HOLDINGS, INC.",
+      "theme": "#000000",
+      "date": "Aug 2023",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>デジタルを起点とした様々な事業を展開する株式会社CARTA HOLDINGSのコーポレートブランドリニューアル。シフトブレインはコーポレートロゴとロゴアニメーションの制作、コーポレートサイトのリニューアルを担当しました。</p>\n",
+        "en": "<p>CARTA HOLDINGS Inc. has revitalized its corporate brand as it diversifies its digital-based businesses. SHIFTBRAIN was entrusted with crafting the corporate logo and logo animation, as well as refreshing the corporate website.</p>\n"
+      },
+      "roles": "Planning, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/cartaholdings/"
+    },
+    {
+      "title": "Branu Branding",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-9.svg",
+      "video": "/wp-content/uploads/2021/01/branu_top2.mp4",
+      "client": "BRANU Inc.",
+      "theme": "#ffffff",
+      "date": "Feb 2019",
+      "outputs": "Logo, Tagline, Book, Namecard, Typeface, Web",
+      "overview": {
+        "ja": "<p>スモールビジネスの産業構造を変革すべく、デジタルソリューションや建設業界に特化したインダストリークラウドの開発を行うBranu。<br />\nここ数年をかけて大きな事業転換を行ったため、ブランドを一新したいというオーダーでした。創業以来変わらない革新性やバイタリティをベースに、ロゴやタグライン、オリジナルフォントといった企業の根幹を成す部分から制作。ロゴデザインはオランダのレタリングデザイナーPaul van Excite氏、イラストはSONICJAMの森田氏とコラボレートし、名刺や封筒、紙袋、コーポレートサイトへと展開しました。</p>\n",
+        "en": "<p>In an effort to change the industrial structure of small business, Branu is developing digital solutions and an industry cloud specialized for the construction industry.<br />\nThe company has undergone a major business transformation over the past few years, and wanted to refresh its brand. Based on the innovation and vitality that has remained unchanged since the company&#8217;s founding, we created the logo, tagline, and original fonts that form the foundation of the company. We collaborated with Paul van Excite, a Dutch lettering designer, for the logo design and Mr. Morita of SONICJAM for the illustrations, and developed business cards, envelopes, paper bags, and the corporate website.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/branu/"
+    },
+    {
+      "title": "201˚ Brand Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-17.jpg",
+      "video": "/wp-content/uploads/2021/01/201.mp4",
+      "client": "DRAFT Inc.",
+      "theme": "#ffffff",
+      "date": "Jun 2017",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>インテリアデザインを手がけるDRAFT社が新たにオフィス家具ブランドを立ち上げるにあたり、ブランドネーム、ロゴ、Webサイトまでを担当しました。ブランドの思想はもちろん、プロダクトまでをわかりやすく、魅力的に感じてもらうためのデザイン・アニメーションを施しています。</p>\n",
+        "en": "<p>When interior design company DRAFT launched a new office furniture brand, we were in charge of the brand name, logo, and website. We designed and animated the brand name, logo, and website to make the brand&#8217;s philosophy and products easy to understand and appealing.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development, Technical Direction",
+      "pick_up": false,
+      "link": "/work/201d/"
+    },
+    {
+      "title": "MISATO TOWN SHIMANE",
+      "cover": "/wp-content/uploads/2020/12/TOP-S-2.png",
+      "video": "/wp-content/uploads/2020/12/top.mp4",
+      "client": "MIsato Town",
+      "theme": "#34645a",
+      "date": "Sep 2019",
+      "outputs": "Logo, Tagline, Namecard, Typeface, Web, Event, tabloid, pamphlet",
+      "overview": {
+        "ja": "<p>人口4600人ほどの小さな町、島根県美郷町。本件は、町外へのPRを目的としたリブランディングプロジェクトです。「関係人口を増やすために、世界一のホームページを。」というオーダーから始まり、ウェブサイトの制作はもちろん、役場職員の名刺リニューアル、タブロイドの町内全戸配布、写真展の開催など、様々な活動をサポートしています。</p>\n",
+        "en": "<p>Misato Town in Shimane Prefecture is a small town with a population of 4600. This is a rebranding project to promote the town to the outside world. The project started with a request to create the world&#8217;s best website in order to increase the number of people who are interested in the town, and in addition to the website, we supported various activities such as renewing the business cards of the town office staff, distributing tabloids throughout the town, and holding a photo exhibition.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/misatoto/"
+    },
+    {
+      "title": "LARGO Inc Branding",
+      "cover": "/wp-content/uploads/2021/01/largo_TOP-S.jpg",
+      "video": "/wp-content/uploads/2021/01/LARGO_top.mp4",
+      "client": "LARGO Inc.",
+      "theme": "#DDDDDD",
+      "date": "Apr 2019",
+      "outputs": "Logo, Tagline, Book, Namecard, Typeface, Web",
+      "overview": {
+        "ja": "<p>美容室や飲食店、オフィスの空間デザインを行うLARGO(ラルゴ)。コーポレートサイトのリニューアルを機に、ロゴや名刺、封筒、ファイル、領収書、会社パンフレットなどのツール類も一新し、サイト内で使われている動画も含め、トータルでディレクション・制作を行いました。</p>\n",
+        "en": "<p>LARGO designs spaces for beauty salons, restaurants, and offices. With the renewal of their corporate site, we took the opportunity to renew their logo, business cards, envelopes, files, receipts, company pamphlets, and other tools, as well as the video used on the site.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/largo/"
+    },
+    {
+      "title": "Tokyo Systems Development Inc. Branding",
+      "cover": "/wp-content/uploads/2022/11/TOP-S-1.jpg",
+      "video": "",
+      "client": "Tokyo Systems Development Inc.",
+      "theme": "#e7e889",
+      "date": "Oct 2019",
+      "outputs": "Logo, Tagline, Book, Web",
+      "overview": {
+        "ja": "<p>Tokyo Systems Development Inc.（以下略:TSD）のリブランディングを行いました。私たちはCI、ロゴ、コーポレートサイトをはじめとして、ワークショップ、MAGAZINEなどを担当しました。</p>\n",
+        "en": "<p>We rebranded Tokyo Systems Development Inc. We were in charge of the CI, logo, corporate website, workshops, and magazine.What will be the &#8220;reliance&#8221; of employees</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/tsd-branding/"
+    },
+    {
+      "title": "DENSO Brand Site, Digital Signage",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-18.jpg",
+      "video": "/wp-content/uploads/2021/01/main.mp4",
+      "client": "DENSO CORPORATION",
+      "theme": "#ffffff",
+      "date": "May 2017",
+      "outputs": "Web, Digital Signage",
+      "overview": {
+        "ja": "<p>株式会社デンソーのウェブサイト、デジタルサイネージ等の制作を2017年からサポート。同社のブランド・エレメントを最大限に活かしながら、さらにその世界観を拡張するようなクリエイティブを提供しています。</p>\n",
+        "en": "<p>Since 2017, we have supported Denso Corporation in the production of their website and digital signage. We provide creativity that maximizes the company&#8217;s brand elements while further expanding its worldview.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/denso/"
+    },
+    {
+      "title": "Panasonic Design",
+      "cover": "/wp-content/uploads/2022/11/TOP-S.jpg",
+      "video": "",
+      "client": "Panasonic Corporation",
+      "theme": "#000000",
+      "date": "Oct 2021",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>パナソニック株式会社のデザイン組織『Panasonic Design』Webサイトのトップページ、および一部下層ページをリニューアルしました。あわせて、同組織のデザインコンサルティング部門「未来創造研究所」のWebサイトリニューアルも担当しました。</p>\n",
+        "en": "<p>We renewed the top page and some of the lower pages on the website for Panasonic Design, a design organization of Panasonic Corporation. In addition, we were in charge of the renewal of the website of the organization&#8217;s design consulting division, &#8220;Future Creation Laboratory.</p>\n"
+      },
+      "roles": "ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/panasonicdesign/"
+    },
+    {
+      "title": "REALGATE Corporate Site",
+      "cover": "/wp-content/uploads/2021/12/TOP-S.jpg",
+      "video": "/wp-content/uploads/2021/12/REALGATE_Top_1.mp4",
+      "client": "REALGATE INC.",
+      "theme": "#06314d",
+      "date": "Sep 2021",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>築古不動産の再生事業を展開する株式会社リアルゲイトのコーポレートサイトリニューアルを担当しました。<br />\n老朽化により競争力が低下し、かつ無個性になりがちな古い中小規模の不動産に対して、リアルゲイトはビル一つ一つの個性を見出し、近年の働き方にフィットした様々な仕様のワークプレイスを提案することで収益性の高い不動産へと再生しています。そんなリアルゲイトの事業にふさわしい、「生まれ変わる」をテーマにしたブランディングとなりました。</p>\n",
+        "en": "<p>We were in charge of the renewal of the corporate site for REALGATE INC, which develops projects for restoring old real estate.<br />\nREALGATE turns old, small and medium-sized real estate that tends to lose its competitive edge and individuality due to deterioration from aging, back into real estate that is highly profitable, by finding the individuality of each building, and providing a workplace with various specifications that fits the working style of recent years. The theme of &#8220;being reborn&#8221; has become appropriate branding for such a business as REALGATE.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/realgate/"
+    },
+    {
+      "title": "Merpay Corporate, Recruitment",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-6.jpg",
+      "video": "/wp-content/uploads/2021/01/Merpay.mp4.mp4",
+      "client": "Merpay, Inc.",
+      "theme": "#ffffff",
+      "date": "Jan 2019",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>株式会社メルペイのコーポレートサイト/採用サイトをリニューアルいたしました。決済サービスをベースに、さまざまな金融サービスへとフィールドを広げていくメルペイの姿を「メルペイのお金が、未来を変える。」というコピーとCGアニメーションによって表現。<br />\nまた、採用サイトにおいてもビジュアルとコピーのトーンを統一し「日本のお金を、一緒に変えましょう。」というコピーとメルペイスタッフたちのビジュアルを表現することで、世の中を変えていこうと奮闘するメルペイのリアルな今を表現しました。</p>\n",
+        "en": "<p>We have renewed the corporate website and recruitment website of MERPAY Corporation. Based on the payment service, MERPAY is expanding its business field to various financial services, which is expressed by the slogan &#8220;MERPAY&#8217;s money will change the futur&#8221; and CG animation.<br />\nOn the recruitment website, the tone of the visuals and copy is unified, with the slogan &#8220;Let&#8217;s change Japan&#8217;s money together&#8221; and visuals of MERPAY staff members to show the real MERPAY today, struggling to change the world.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/merpay/"
+    },
+    {
+      "title": "StudySapuri Brand Site",
+      "cover": "/wp-content/uploads/2021/10/TOP-S.jpg",
+      "video": "/wp-content/uploads/2021/10/study-sapuri_cover.mp4",
+      "client": " ",
+      "theme": "#3cbaff",
+      "date": "Mar 2021",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>スタディサプリのブランドサイトを制作しました。ブランドが有する強みから思いまでを表現すべく、クライアントも含めたチーム一丸となって制作を進めていきました。</p>\n",
+        "en": "<p>We created Study Sapuri&#8217;s brand site. We wanted to express the strengths and thoughts of the brand, so the entire team, including the client, worked on its production together.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/studysapuri-brand-site/"
+    },
+    {
+      "title": "Welleg Branding",
+      "cover": "/wp-content/uploads/2021/10/TOP-S-4.jpg",
+      "video": "/wp-content/uploads/2021/10/welleg_cover.mp4",
+      "client": "Welleg Co.,Ltd.",
+      "theme": "#ffffff",
+      "date": "Apr 2021",
+      "outputs": "Logo, Tagline, Namecard, Web",
+      "overview": {
+        "ja": "<p>創業95年、香川のシューズメーカー「welleg（ウェレッグ）」のリブランディングを行いました。ロゴ、ステートメント、ECサイト内のブランドページ、名刺、梱包箱、チラシ、ポスター、クレド、コーポレートサイトをSHIFTBRAINにて制作しています。</p>\n",
+        "en": "<p>We conducted a rebranding for Welleg, a 95-year-old footwear manufacturer in Kagawa Prefecture. SHIFTBRAIN produced for Welleg its new logo, corporate statement, brand page for E-commerce sites, business cards, cartons, flyers, posters, credo, and corporate website.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design",
+      "pick_up": true,
+      "link": "/work/welleg-branding/"
+    },
+    {
+      "title": "PATHFINDER Branding",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-1.png",
+      "video": "/wp-content/uploads/2021/01/PATHFINDER_top.mp4",
+      "client": "AOI TYO Holdings Inc. Pathfinder Room",
+      "theme": "#131a23",
+      "date": "Jun 2018",
+      "outputs": "Logo, Namecard, Typeface, Web, Sticker, Stamp",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">AOI TYO Holdingsに存在するR&amp;Dチーム、PATHFINDERのブランドデザインを担当しました。「PATHFINDER」のネーミングにも表われているように、答えがわからないミッションを行う宇宙探査のような活動をイメージさせるブランドイメージを考案しました。<br />\n</span><span style=\"font-weight: 400;\">ロゴマークはミッションパッチをモチーフとし、ロゴタイプはカスタムフォントで制作しました。具体的なビジュアルは存在しませんが、ロゴマークとロゴタイプ、カラーリングでブランドの世界観を表現し、名刺・シールやレターヘッド、Webサイトなど、さまざまなツールに展開しています。</span></p>\n",
+        "en": "<p>We were in charge of brand design for PATHFINDER, an R&amp;D team that exists within AOI TYO Holdings. As expressed in the name &#8220;PATHFINDER,&#8221; we devised a brand image inspired by the image of activities like space exploration, where there is a mission with no known answers.<br />\nThe logomark took its motif from the mission patch, and the logotype was created using a custom font. Although no specific visuals exist, the logomark, logotype, and coloring express the brand&#8217;s worldview, and have expanded to be used on a variety of equipment, including business cards, stickers, letterheads, and websites.</p>\n"
+      },
+      "roles": "ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/pathfinder/"
+    },
+    {
+      "title": "FactFashion Brand Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-19.jpg",
+      "video": "/wp-content/uploads/2021/11/ff_top.mp4",
+      "client": "Janssen Pharmaceutical K.K.",
+      "theme": "#fef9f2",
+      "date": "Nov 2020",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>さまざまな理由でファッションを楽しめなかった人たちの真実（FACT）に基づき、新しい衣服をつくるプロジェクト「FACT FASHION」のブランドサイトを制作。非感染性の皮膚疾患である乾癬（かんせん）の患者さんのFACTから生まれたコレクションを発表しました。</p>\n",
+        "en": "<p>We have created the brand website for &#8220;FACT FASHION&#8221;, a project to create new clothes, based on the truth (FACT) that for various reasons there are people who have, until this point, been unable to enjoy fashion. On this brand website, we also presented a collection born out of the FACTs about a patient with psoriasis, a non-infectious skin disease.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/factfashion-brand-site/"
+    },
+    {
+      "title": "LIVESENSE Recruitment, Corporate Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-5.jpg",
+      "video": "/wp-content/uploads/2021/01/livesens-top.mp4",
+      "client": "Livesense Inc.",
+      "theme": "#00a0ea",
+      "date": "Jan 2017",
+      "outputs": "Web, Pamphlet",
+      "overview": {
+        "ja": "<p>株式会社リブセンスのブランディングの一貫として、コーポレートサイト、採用サイト、会社案内の制作を担当しました。コーポレートサイトと採用サイトでトーンに違いを持たせつつ、関連性のあるブランドイメージを醸成しています。</p>\n",
+        "en": "<p>As part of the branding process for Livesense Corporation, we were in charge of creating the corporate site, recruitment site, and company brochure. The corporate site and the recruitment site have different tones, while fostering a relevant brand image.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/livesense/"
+    },
+    {
+      "title": "Goodpatch Corporate Site",
+      "cover": "/wp-content/uploads/2021/01/gp_TOP-S.jpg",
+      "video": "/wp-content/uploads/2021/01/gp.mp4",
+      "client": "Goodpatch Inc.",
+      "theme": "#096fca",
+      "date": "May 2020",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>2020年6月に上場した株式会社グッドパッチのコーポレートサイト。世界でも類を見ないデザイン会社のIPOにふさわしい、ユニークなリニューアルを目指しました。</p>\n",
+        "en": "<p>The corporate website of Goodpatch Corporation went public in June 2020. We aimed for a unique renewal that was appropriate for the IPO of an unparalleled design company in the world.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Technical Direction",
+      "pick_up": true,
+      "link": "/work/goodpatch/"
+    },
+    {
+      "title": "BEYOND BY LEXUS Magazine",
+      "cover": "/wp-content/uploads/2022/07/TOP-S.jpg",
+      "video": "",
+      "client": "Toyota Motor Corporation",
+      "theme": "#1c1e27",
+      "date": "Oct 2013",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>「AMAZING IN MOTION」というスローガンのもと、LEXUSは「期待を超えた驚きと、その先にある感動」を、自動車領域にとどまらず様々な領域で表現し続けています。その活動の一環として発行された、旅・建築・アート等の幅広い情報を網羅したライフスタイル提案型マガジン「BEYOND BY LEXUS」のグローバルサイトのディレクション、デザイン、開発を担当しました。パララックスなどのスクロールに応じたトランジションや、3Dを積極的に取り入れた表現によって、誌面では成し得ないWebならではのリッチな体験を様々な演出を駆使して実現しました。</p>\n",
+        "en": "<p>Under the slogan &#8220;AMAZING IN MOTION,&#8221; LEXUS continues to express, &#8220;surprises beyond expectations and the excitement that lies ahead&#8221;, in a variety of areas beyond the automotive sector. We were in charge of the direction, design, and development of the global website for &#8220;BEYOND BY LEXUS,&#8221; a magazine for ideas on lifestyle bringing together a wide range of information on travel, architecture, and art, etc., published as part of these activities. Making use of all kinds of arrangements, like parallax and other scrolling transitions, and a presentation that actively incorporate 3D, we created a rich experience that can only be had from a website and cannot be achieved with pages in a magazine.</p>\n"
+      },
+      "roles": "Design, Development",
+      "pick_up": false,
+      "link": "/work/beyond/"
+    },
+    {
+      "title": "THE GINZA \"THE COTTON\"",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-6.png",
+      "video": "/wp-content/uploads/2021/01/TheGinza_01.mp4.mp4",
+      "client": "THE GINZA Co., Ltd.",
+      "theme": "#ebe6e0",
+      "date": "Nov 2019",
+      "outputs": "Space Design, Graphic Design, Sound Design, Movie",
+      "overview": {
+        "ja": "<p>上質で心地よい潤いを届ける、THE GINZAのコットン「THE COTTON」。 銀座三越8F、資生堂THE GINZA店舗内「THE COTTON」区画のUXデザイン・店舗演出を担当しました。 世界から厳選した原綿を集め熟練の技術でブレンドする、というこだわりの素材と製法でたどり着いた新感覚のコットン。その商品のブランドストーリーを空間全体で体感できるようデザインしました。</p>\n",
+        "en": "<p>THE GINZA &#8220;THE COTTON&#8221;, delivers high quality, comfortable moisture.<br />\nWe were in charge of UX design and arrangement of the store for &#8220;THE COTTON&#8221; section in Shiseido’s THE GINZA store on the 8th floor of Ginza Mitsukoshi.<br />\nThis is a new type of cotton that has been achieved through the use of carefully selected raw cotton from all over the world and blended using expert techniques, and through the use of carefully selected materials and manufacturing methods. We designed the entire space to experience the brand story of the product.</p>\n"
+      },
+      "roles": "ArtDirection, Design",
+      "pick_up": true,
+      "link": "/work/thecotton/"
+    },
+    {
+      "title": "GOOD LIFE Corporate Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S.svg",
+      "video": "/wp-content/uploads/2021/01/home.mp4",
+      "client": "GOOD LIFE INC.",
+      "theme": "#ffffff",
+      "date": "Nov 2016",
+      "outputs": "Logo, Tagline, Web",
+      "overview": {
+        "ja": "<p>移転やデザインなど、オフィスに関するあらゆる業務のプロジェクトマネジメントを行うGOODLIFE。「顧客とのパートナーシップ」の一点訴求に絞ることで、デザイン性の高さを謳う同業他社との明確な差別化を図りました。この方針をCIやサイトのコンテンツ、演出などすべてに落とし込んでいます。</p>\n",
+        "en": "<p>Good Life Co., Ltd. does all kinds of business project management related to offices such as relocation and design. By focusing appeal on the one point of &#8216;partnership with customers&#8217;, we aimed to clearly differentiate ourselves from other companies in the same industry that claim to have the best design. We have applied this policy to everything, such as CI, website content, and production.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/goodlife/"
+    },
+    {
+      "title": "PLAY/UP Brand Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-7.jpg",
+      "video": "",
+      "client": "Fauvisme co,.Ltd",
+      "theme": "#ffffff",
+      "date": "Apr 2019",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">BTS（防弾少年団）をイメージキャラクターに起用したカラーコンタクトレンズ「PLAY／UP」のブランドサイトの制作を担当しました。14種類あるレンズの個性を最大限表現すべく、サイト上ではそれぞれ異なる演出を取り入れました。また、それらの演出とBTSの曲のリズムとを連動させることで、「PLAY／UP」という言葉をそのまま表すようなサイトを目指しました。</span></p>\n",
+        "en": "<p>We were in charge of creating a brand website for &#8220;PLAY/UP,&#8221; a line of colored contact lenses featuring BTS (Bulletproof Youth Group) members as the image characters. In order to best express the individuality of each of the 14 lenses, we have incorporated a different arrangement for each on the site. We also aimed to create a site that directly expresses the words &#8220;PLAY/UP&#8221; by making those arrangements move to the rhythm of BTS&#8217;s songs.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Technical Direction",
+      "pick_up": false,
+      "link": "/work/playup/"
+    },
+    {
+      "title": "RICHKA Inc. Corporate Site",
+      "cover": "/wp-content/uploads/2022/12/TOP-S-1.jpg",
+      "video": "",
+      "client": "RICHKA Inc.",
+      "theme": "#f3f5f6",
+      "date": "May 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>デジタルに強みを持つクリエイティブエージェンシー事業と、大手事業会社や広告代理店を中心に2000社以上の支援実績を誇る「リチカ クラウドスタジオ」をはじめとしたクラウドサービスを展開する、株式会社リチカのコーポレートサイトリニューアルを担当しました。2021年の社名の変更を機に、改めて同社が「どのような組織で」「何を考え」「どう活動しているのか」を社内外に伝えられるようなWebサイトを目指しています。</p>\n",
+        "en": "<p>We were in charge of the corporate website renewal of RICHKA Inc., which runs a creative agency business that is digitally strong and cloud services such as &#8220;RICHKA Cloud Studio,&#8221; which boasts a track record of being implemented by more than 2000 companies that are mainly major operating companies and advertising agencies. We took their company name change in 2021 as an opportunity to aim to create a website that conveys once again &#8220;what sort of organization&#8221; this company is, &#8220;what it is thinking,&#8221; and &#8220;what sort of activities it carries out&#8221; both within and outside the company.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/richka/"
+    },
+    {
+      "title": "Soup Stock Tokyo",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-7.png",
+      "video": "/wp-content/uploads/2021/01/Soup-HD-1080p.mp4.mp4",
+      "client": "Soup Stock Tokyo co., Ltd",
+      "theme": "#ffffff",
+      "date": "Feb 2019",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>『食べるスープ』をコンセプトにしたスープ専門店「Soup Stock Tokyo」のWEBサイトの制作を担当しました。「サイト解析からみえてきたユーザー動向に基づくサイト設計」、「コンポーネント指向のデザインと開発」などを行いました。</p>\n",
+        "en": "<p>We were in charge of creating a website for &#8216;Soup Stock Tokyo&#8217;, a store that specializes in soup with the concept of &#8216;eating soup&#8217;.  We did &#8216;website design based on user trends seen from the website analysis&#8217;, and &#8216;Component-oriented design and development&#8221;, etc.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/soupstocktokyo/"
+    },
+    {
+      "title": "BitStar Branding",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-3.svg",
+      "video": "/wp-content/uploads/2021/01/bs_short.mp4.mp4",
+      "client": "BitStar, Inc.",
+      "theme": "#7739f8",
+      "date": "Apr 2020",
+      "outputs": "Logo, Tagline, Web",
+      "overview": {
+        "ja": "<p>クリエイター（インフルエンサー）のプロダクションや広告、コンテンツ事業を展開するBitStarのリブランディング。これまでバラバラのトーン&#038;マナーで展開されてきた事業を整理し、世間からの見られ方に統一感を持たせていくことを第一の目的としています。そのために、まずはロゴとタグラインを策定。あらゆるクリエイターに光を当て、その輝きを加速させていく企業としての姿勢を軸にデザインやコンテンツ、アニメーションへと落とし込んでいます。</p>\n",
+        "en": "<p>This is a rebranding project for BitStar, a company engaged in creative (influential) production, advertising, and content business. The primary objective is to organize the businesses that have been developed in different tones and manners, and to bring a sense of unity to the way they are perceived by the public. To achieve this, we first formulated a logo and tagline. The logo and tagline are based on the company&#8217;s stance of shining a light on all kinds of creators and accelerating their brilliance, and are incorporated into the design, content, and animation.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/bitstar/"
+    },
+    {
+      "title": "FOURDIGIT Inc. 20th Anniversary",
+      "cover": "/wp-content/uploads/2021/12/Mask-Group.jpg",
+      "video": "/wp-content/uploads/2021/12/4d_20th_hover.mp4",
+      "client": "FOURDIGIT Inc.",
+      "theme": "#e2dbd4",
+      "date": "Jan 2021",
+      "outputs": "Book, Web",
+      "overview": {
+        "ja": "<p>FOURDIGITの創業20周年を記念する特設Webサイトと、それに関連した社内向け記念冊子の制作を担当しました。ここで作られたコピーやイメージは、この後オフィスサイネージの設置やイベントの実施、オリジナルグッズ制作など、様々な施策に広がっていきました。</p>\n",
+        "en": "<p>We were in charge of producing a special website commemorating the 20th anniversary since the foundation of FOURDIGIT, and an in-house commemorative booklet connected to it. After that, the transcripts and images made here branched out into other various measures such as in setting up electronic billboards for offices, holding events, and producing original goods, etc.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/fourdigit-20th/"
+    },
+    {
+      "title": "Technics 50th Anniversary Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-15.jpg",
+      "video": "/wp-content/uploads/2021/01/Technics50th.mp4",
+      "client": "Nippon SP Center Co.,Ltd",
+      "theme": "#1d1d1d",
+      "date": "Dec 2015",
+      "outputs": "Web, Movie",
+      "overview": {
+        "ja": "<p>1965年にPanasonicの姉妹ブランドとして立ち上がった家庭用高級オーディオ機器ブランド「Technics」は、今までに数多くのファンを生み出し、音楽界の歴史を変える製品を創り続けてきました。2015年、ドイツで行われた世界最大の家電見本市「IFA」にて、Technicsは生誕50周年記念と銘打ち、過去の50年間の歴史とこれからの未来に向けたメッセージを発信し、同時に新製品を発表しました。本イベントが開催されるにあたり、Technicsの50年間にわたる輝かしい歴史をWebと映像のリッチな体験を通して発信するお手伝いをしました。</p>\n",
+        "en": "<p>Launched in 1965 as a sister brand of Panasonic, the Technics brand of high-end home audio equipment has to this day, garnered numerous fans, and continues to create products that have changed the history of the music industry. In 2015, at IFA, the world&#8217;s largest consumer electronics trade show in Germany, Technics marked its 50th anniversary, by delivering a message about the past 50 years of its history and the future to come, whilst at the same time announcing new products. For this event, we helped Technics present its illustrious history spanning 50 years, through a rich web and video experience.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/technics_50th/"
+    },
+    {
+      "title": "showdot Group Branding",
+      "cover": "/wp-content/uploads/2021/12/TOP-S-1.jpg",
+      "video": "/wp-content/uploads/2021/12/cover-showdot-L-1.mp4",
+      "client": "showdot Group Branding",
+      "theme": "#ffffff",
+      "date": "Jun 2021",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>日本最大級のイベントを成功させ、新たな門出を迎えたshowdot Groupのロゴと名刺、そしてコーポレートサイトを制作しました。</p>\n",
+        "en": "<p>We have created the logo, business cards, and corporate website for showdot, which has welcomed a new start, making a success of Japan&#8217;s biggest events.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management",
+      "pick_up": true,
+      "link": "/work/showdot-group/"
+    },
+    {
+      "title": "KUUM Brand Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-9.jpg",
+      "video": "",
+      "client": "FELISSIMO CORPORATION",
+      "theme": "#ffffff",
+      "date": "Mar 2016",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">アメリカ・ポートランドにあるデザインファームmonogotoのクリエイティブディレクションのもと、あたらしい「組む」つみきKUUMの海外展開用LPを制作しました。海外ユーザー向けにプロダクトを中心にしたビジュアルで構成し、スクロールとスライドのみのインターフェースでサイト内でシンプルにプロダクトをプレゼンテーションしていく構成となっています。プロダクトをベースとしたカラーリングやシェイプ、細部へのアニメーションで、デザインとしても完成度の高いプロダクト自体の世界観も表現しました。</span></p>\n",
+        "en": "<p>Under the creative direction of monogoto, a design firm based in Portland, OR,USA, we created an LP for the international launch of the new &#8220;Kumu&#8221; KUUM building blocks. The site is designed to present the product in a simple way, with a scroll-and-slide interface, and visuals that focus on the product, for overseas users.The coloring, shapes, and detailed animations based on the products also express the worldview of the products themselves, which have a high degree of design perfection.</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/kuum/"
+    },
+    {
+      "title": "cucumu Branding",
+      "cover": "/wp-content/uploads/2023/05/TOP-S-15.28.47.jpg",
+      "video": "/wp-content/uploads/2023/06/cucumu_top_pc_1200.mp4",
+      "client": "TERADA KNIT Co.ltd",
+      "theme": "#bc9343",
+      "date": "Oct 2022",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>山梨にあるニットファクトリーの株式会社寺田ニットとタッグを組み、オリジナルのニットブランド『cucumu』を立ち上げました。このプロジェクトでは、ネーミング、コンセプトコピー、ビジュアル制作、商品のフォルムや編地選定のアドバイジングを行うなど商品開発にも携わっています。天然素材を使い、なるべく廃棄の出ない製法で、肌にも環境にも優しい商品づくりを。また高品質で長く愛用できるニットをつくり、手に取りやすい価格で届けることを目指しています。</p>\n",
+        "en": "<p><span style=\"font-weight: 400;\">We have partnered with Terada Knit Co., Ltd., a textile factory in Yamanashi, to launch our original knitwear brand, &#8220;cucumu&#8221;. We will be involved in the project&#8217;s product development, which encompasses naming, concept copywriting, visual media production, and consultation on the form and fabric selection. We use natural materials and manufacturing methods that minimize waste to make products that are gentle both on the skin and the environment. We also aim to create high-quality, durable, and affordable knitwear.</span></p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design",
+      "pick_up": true,
+      "link": "/work/cucumu/"
+    },
+    {
+      "title": "EggForward Branding",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-4.svg",
+      "video": "/wp-content/uploads/2021/01/Egg.mp4",
+      "client": "Egg Forward Inc.",
+      "theme": "#ffffff",
+      "date": "Jun 2019",
+      "outputs": "Logo, Tagline, Web",
+      "overview": {
+        "ja": "<p>経営・事業・組織・人材戦略コンサルティングから人材育成までを行う、世界唯一の人材開発カンパニーであるエッグフォワード社。今回、コーポレートサイトのリニューアルにあたり、ロゴやタグラインの再設計からお手伝いさせていただきました。「人と組織と社会の可能性を最大化させる起点をつくり、波及させる」という根幹の思想を視覚化・言語化し、コーポレートサイトの情報設計やデザイン、アニメーションに至るまで一貫して落とし込んでいます。</p>\n",
+        "en": "<p>EggForward is the world&#8217;s only human resource development company that provides management, business, organizational, and human resource strategy consulting as well as human resource development. For the renewal of their corporate website, we helped them redesign their logo and tagline. We visualized and verbalized the core idea of &#8220;creating a starting point for maximizing the potential of people, organizations, and society, and making it ripple outward,&#8221; and integrated it into the information design, design, and animation of the corporate site.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Copywriting",
+      "pick_up": false,
+      "link": "/work/eggforward/"
+    },
+    {
+      "title": "TERADA KNIT Corporate Site",
+      "cover": "/wp-content/uploads/2023/03/TOP-S.jpg",
+      "video": "",
+      "client": "TERADA KNIT Co.ltd",
+      "theme": "#f7f4ed",
+      "date": "Oct 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>ニットブランド『cucumu』を共に開発した株式会社寺田ニットのコーポレートサイトを制作しました。cucumuにも反映されている、彼らのものづくりに対する『想い』。そしてそれをしっかりと支える確かな『技術』と『実績』。それらをひとつながりで体感できるサイトを目指しました。</p>\n",
+        "en": "<p><span style=\"font-weight: 400;\">We created a corporate website for Terada Knitwear, Inc. with whom we developed the &#8220;cucumu&#8221; knitwear brand. Their passion for creation is reflected in cucumu. And also their solid technology and performance that support this. We strived to create a website where you can experience all of these in one place.</span></p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/teradaknit/"
+    },
+    {
+      "title": "TOPPAN Signage of The Exhibition",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-8.png",
+      "video": "/wp-content/uploads/2021/01/TOPPAN_top2.mp4",
+      "client": " TOPPAN INC.",
+      "theme": "#000103",
+      "date": "May 2017",
+      "outputs": "Digital Signage",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">凸版印刷が新しく開設した展示会場に設置するサイネージを制作しました。さまざまな社会課題（Market）と技術（Technology）とを組み合わせ、考えられるソリューションの方向性を共有するプログラムです。</span></p>\n",
+        "en": "<p>Signage to be installed in Toppan Printing&#8217;s newly opened exhibition hall was created. This program combines various social issues (Market) and technology (Technology), and shares the direction of solutions that have been considered.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/toppan_signage/"
+    },
+    {
+      "title": "PIXEING in Milano 2015",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-11.jpg",
+      "video": "/wp-content/uploads/2021/01/Pix_short2.mp4.mp4",
+      "client": "SHIFTBRAIN × UNIBA",
+      "theme": "#1a1a1a",
+      "date": "Apr 2015",
+      "outputs": "Web, Product Design",
+      "overview": {
+        "ja": "<p>PIXEINGは、私たちのまわりに隠れていて、日頃目ではみえない小さな生き物を捕まえるツールです。<br />\nPIXEINGを手に取り、あなたのまわりをスキャンすると、その小さな生き物を捕まえることができます。<br />\niOSと連携させて、捕まえた生き物を収集することもできます。<br />\n小さい頃に夢中で虫たちを追いかけたあの感覚を、デジタルでも味わえる、そんな不思議なデバイスです。</p>\n",
+        "en": "<p><span style=\"font-weight: 400;\">PIXEING is a tool that allows you to catch the little creatures that hide around us and are usually invisible to the naked eye. You can even collect the creatures you catch by connecting them to your iOS device. We planned and designed a device that allows you to experience the feeling of chasing insects when you were a child, even digitally.</span></p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Technical Direction, Programming",
+      "pick_up": false,
+      "link": "/work/pixeing_milano/"
+    },
+    {
+      "title": "HASSYADAI RESORT Branding",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-6.svg",
+      "video": "/wp-content/uploads/2021/01/Hassyadai.mp4",
+      "client": "HASSYADAIFACTORY inc.",
+      "theme": "#fac52f",
+      "date": "Aug 2018",
+      "outputs": "Logo, Tagline, Typeface, Web",
+      "overview": {
+        "ja": "<p>DMMグループの株式会社ハッシャダイファクトリーが提供するサービス「ハッシャダイリゾート」の立ち上げに際して、ブランディング及び各種コミュニケーションを担当。コミュニケーション戦略の策定から、各種VI、写真や映像素材の撮影、コピーライティング、WEBサイトの制作まで、一貫したブランド構築を行いました。</p>\n",
+        "en": "<p>We were in charge of branding and various communications for the launch of &#8220;Hassyadai Resort&#8221;, a service provided by HASSYADAI FACTORY, a DMM Group company. We provided consistent brand building services from the formulation of the communication strategy, various VIs, photography and video materials, copywriting, and website production.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/hassyadai/"
+    },
+    {
+      "title": "Rissho University",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-16.jpg",
+      "video": "/wp-content/uploads/2021/01/rissho_top.mp4",
+      "client": "Rissho University",
+      "theme": "#273333",
+      "date": "Aug 2020",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>立正大学の地球環境科学部はとりわけニッチな学問で、「よくわからない」「面白くさなそう」と思われていることが最大の課題。しかし「世の中の事象すべてが研究対象です」と、教授は笑顔で言いました。日常のささいな出来事には、自然環境や社会構造、国際関係、歴史、文化、都市構造、経済状況など、さまざまな事情が重なりあっています。サイトデザインには学ぶときに必ず浮かぶ「?」を5パーツに分割し、学科を連想させる色を採用。パーツの組み合わせ次第で違う学問になる、そんな学問の面白さを、学生にもわかりやすく伝えていくコミュニケーションを目指しました。</p>\n",
+        "en": "<p>The School of Earth and Environmental Sciences at Rissho University has a particularly niche field of study, and its biggest challenge is that people think it is &#8220;unfamiliar&#8221; or &#8220;uninteresting&#8221;. However, &#8220;everything in the world is a subject of research,&#8221; the professor said with a smile. The trivial events of our daily lives are overlaid with various circumstances, such as the natural environment, social structure, international relations, history, culture, urban structure, and economic conditions. The site design is divided into five parts of the &#8220;?&#8221; symbol, which always comes to mind when studying, and colors are used to associate the departments. Our goal was to create a website that communicates to students in an easy-to-understand manner the fun of learning, which can be transformed into a different discipline depending on the combination of different parts.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/rissho/"
+    },
+    {
+      "title": "NIKKEN HOUSING SYSTEM<br>Corporate Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-9.png",
+      "video": "/wp-content/uploads/2021/01/NIKKEN.mp4",
+      "client": "Nikken Housing System Ltd.",
+      "theme": "#4370a8",
+      "date": "Oct 2020",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>2020年で設立50周年を迎えた、株式会社 日建ハウジングシステムのコーポレートサイトをリニューアルしました。COVID-19によって「住まい」の在り方について改めて関心が高まる中、長い歴史と高い専門性をもつ設計会社として、いま何を変え、何を変えないのか。約8ヶ月に及んだ本プロジェクトでは、企業としてのDNAをしっかりと見つめ直し、新しい日建ハウジングシステムの姿を表現することを目指しました。</p>\n<p>また、会社が大切にしている「『建物を作る』だけではなく、その先の『人の暮らしを豊かにする』」ことを表現するため、抽象的な建物が集まって 「Living」の言葉が現れるビジュアルを作成。有機的なオブジェクトや影を組み合わせることで空気感や温かみを取り入れ、ウェブサイト全体が1つの空間になるようにデザインしました。</p>\n",
+        "en": "<p>We have renewed the corporate website of Nikken Housing System Corporation, which celebrated its 50th anniversary in 2020, to embody the principle of fluidity and immutability, as in Haiku poetry. Due to COVID-19, there is a renewed interest in the way &#8220;housing&#8221; ought to be, and as a design company with a long history and high level of expertise, we are looking at what we should and should not change. This project, which lasted about eight months, aimed to express the new Nikken Housing System by taking a hard look at its corporate DNA.</p>\n<p>In order to express the company&#8217;s commitment to &#8220;not only creating buildings but also enriching people&#8217;s lives,&#8221; we created a visual in which the word &#8220;Living&#8221; appears as a collection of abstract buildings. By combining organic objects and shadows, we created a sense of air and warmth, and designed the entire website to be a single space.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/nikken/"
+    },
+    {
+      "title": "MasterVisions Branding",
+      "cover": "/wp-content/uploads/2020/12/TOP-S-1.png",
+      "video": "/wp-content/uploads/2020/12/MasterVisions_1.mp4",
+      "client": "Master Visions Inc.",
+      "theme": "#ffffff",
+      "date": "Jan 2020",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>360°自由視点映像技術を提供する株式会社MasterVisions。新社名に変更するタイミングで、コーポレートサイトの制作及びロゴデザインを担当しました。</p>\n",
+        "en": "<p>MasterVisions Inc. provides technology for 360° free-viewpoint video. We were in charge of creating the corporate website and designing the logo, when the company changed to their new name.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/master-visions-inc/"
+    },
+    {
+      "title": "delico Branding",
+      "cover": "/wp-content/uploads/2022/10/TOP-S.jpg",
+      "video": "",
+      "client": "FoodTech Capital Inc.",
+      "theme": "#faf6f4",
+      "date": "Oct 2021",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>株式会社フードテックキャピタルが提供するデリバリーサービス一元管理ツール『delico（デリコ）』のロゴ、ブランドガイドライン、サービスサイトを制作しました。</p>\n",
+        "en": "<p>We built the logo, brand guidelines, and service website for &#8220;delico,&#8221; a centralized management tool for delivery services by FoodTech Capital, Inc.</p>\n"
+      },
+      "roles": "ArtDirection, Design",
+      "pick_up": false,
+      "link": "/work/delico-branding/"
+    },
+    {
+      "title": "LAMDASH DNA",
+      "cover": "/wp-content/uploads/2023/06/TOP-Sのコピー.jpg",
+      "video": "/wp-content/uploads/2023/07/LAMDASH_3DCG_MOVIE.mp4",
+      "client": "Panasonic Corporation",
+      "theme": "#ffffff",
+      "date": "Jul 2012",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>パナソニックのメンズシェーバー 「ラムダッシュ」のブランドコンセプトや歴史、開発者のインタビューを紹介するサイトを2012年、2016年に制作しました。どちらのサイトも“点と線をモチーフにDNAを表現する“をコンセプトにしています。three.jsを採用し製品を3Dで表現しサイト上に3D空間を作り、Canvasで作りあげたDNA螺旋とともに浮遊するような、スマートフォン端末でも最適に閲覧できるサイトを目指​​しました。</p>\n",
+        "en": "<p>In 2012 and 2016, we created websites to introduce the brand concept and history of Panasonic&#8217;s Ramdash men&#8217;s shaver, as well as interviews with its developers. Both sites were based on the concept of &#8220;expressing DNA using points and lines as a motif. three.js was used to represent the product in 3D, creating a 3D space on the site that floats along with the DNA spirals created in Canvas, We aimed to create a site that can be optimally viewed on smartphones.</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Development",
+      "pick_up": true,
+      "link": "/work/lamdash_dna/"
+    },
+    {
+      "title": "asoblock inc Corporate Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-5.svg",
+      "video": "",
+      "client": "asoblock Inc.",
+      "theme": "#f5f4e7",
+      "date": "Jun 2017",
+      "outputs": "Logo, Book, Web",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">「変化と刺激のあるモノづくり」であらゆる分野の課題解決に取り組み、人の成長に向き合うクリエイティブ集団、アソブロック株式会社のコーポレートサイトリニューアルを担当しました。</span></p>\n<p><span style=\"font-weight: 400;\">会社のようで会社でなく、家族のようで家族でないアソブロックの「定義づけできない関係性」を「ドラマの関係性」と定義。スタッフのみなさんを役者に見立てたビジュアル制作を行い、アソブロック特有の「アソビ」の部分と、それだけではない「真摯さ」を明快に表現できるWebサイトを制作しました。</span></p>\n",
+        "en": "<p>We renewed the corporate website of Asobrock, a creative group that addresses issues in all fields through &#8220;manufacturing with change and stimulation,&#8221; and faces the growth of people.<br />\nFor asoblock, which is like a company but is not a company, and is like a family but is not a family, we defined &#8220;relationships that cannot be defined&#8221; as &#8220;relationships of drama&#8221;. We created a website that clearly expresses the &#8220;playing&#8221; part that is unique to asoblock, as well as its &#8220;sincerity&#8221;, by creating visuals of all staff members that made them seem like actors.</p>\n"
+      },
+      "roles": "Planning, Copy, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/asoblock/"
+    },
+    {
+      "title": "Hair Make One",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-10.jpg",
+      "video": "/wp-content/uploads/2021/01/画面収録-2021-05-10-9.19.19.mp4.mp4",
+      "client": "K Co., Ltd",
+      "theme": "#424242",
+      "date": "Jun 2019",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>神奈川を中心に多店舗展開するヘアサロン「hair make ONE」のブランドサイトを制作。<br />\n今回新たに開発したブランドコンセプト「ONE ON ONE STYLING」にも表れている、お客さんに寄り添うサロンというアイデンティティに加え、ブランドが目指すエレガンスや大胆さを感じさせるデザインを実現しました。<br />\nまた、リクルートページを新設。充実した福利厚生についてや実際に働くスタイリストの雰囲気を伝え、求職者たちの背中を押すようなコンテンツ提供を心がけました。</p>\n",
+        "en": "<p>Create a site for our brand &#8216;hair make ONE&#8217; which is a hair salon that has expanded to have many stores, mainly around Kanagawa.<br />\nIn addition to having the identity of a salon that is close with its customers, which is also expressed in the newly developed concept of our brand &#8216;ONE ON ONE STYLING&#8217;, we have realized a design that makes you feel the elegance and boldness that the brand is aiming for.<br />\nIn addition, a new recruitment page has been set up. We have tried to provide content that would encourage job seekers, by communicating about the substantial benefits and welfare for employees, and the actual atmosphere for the stylists that work here.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/hairmakeone/"
+    },
+    {
+      "title": "MAGIC idea×digital",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-7.svg",
+      "video": "",
+      "client": "Obora Printing Co.,Ltd",
+      "theme": "#ffffff",
+      "date": "Dec 2018",
+      "outputs": "Logo, Book, Web",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">大洞印刷株式会社に新設されたクリエイティブチーム「MAGIC」のブランディングに関わらせていただきました。全体のブランド設計を行ったF-incが提示する“ココロ動かす感動体験を共に創造する”というコンセプトを出発点として、VI、WEB、ブランドブックの領域を担当しました。あわせて、より具体的に『感動体験』をユーザーに届けるべく、媒体にとらわれないアウトプットアイデアの企画と、実物に近いモックアップの制作を行いました。</span></p>\n",
+        "en": "<p>We were involved in the branding of the newly established creative team &#8220;MAGIC&#8221;, at OBORA Printing Co., Ltd. We were in charge of the VI, the website, and the brand book, starting from the concept of &#8220;creating an emotional experience together, that moves the heart&#8221;, presented by F-inc, who designed the overall brand. In addition, in order to deliver a more tangible &#8220;emotional experience&#8221; to users, we planned output ideas that were not restricted by any medium, and created mock-ups that were close to the actual product.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/magic-ideaxdigital/"
+    }
+  ],
+  "message": "ok"
+}

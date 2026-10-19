@@ -1,0 +1,16 @@
+{
+  "commit": "ce34f36",
+  "label": "Prompt Engineering",
+  "display_width": 143,
+  "display_height": 24,
+  "remote_checks": [
+    {
+      "path": "README.md",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/prompt.svg",
+      "matches": true
+    }
+  ]
+}

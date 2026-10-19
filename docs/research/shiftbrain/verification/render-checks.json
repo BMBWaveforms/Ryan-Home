@@ -1,0 +1,191 @@
+{
+  "desktop-text": {
+    "name": "desktop-text",
+    "viewport": [
+      1440,
+      900
+    ],
+    "state": {
+      "mode": "text",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": true
+    },
+    "columns": 3,
+    "overflow": false,
+    "visibleImages": 0,
+    "visibleImagesLoaded": 0,
+    "regularFont": true,
+    "extraLightFont": true,
+    "humanTab": false,
+    "tabs": 2,
+    "activePanelInert": false,
+    "errors": [],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "titleFont": "49.999966px",
+    "firstCoverHeight": 530
+  },
+  "mobile-text": {
+    "name": "mobile-text",
+    "viewport": [
+      390,
+      844
+    ],
+    "state": {
+      "mode": "text",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": false
+    },
+    "columns": 2,
+    "overflow": false,
+    "visibleImages": 0,
+    "visibleImagesLoaded": 0,
+    "regularFont": true,
+    "extraLightFont": false,
+    "humanTab": false,
+    "tabs": 2,
+    "activePanelInert": false,
+    "errors": [],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "titleFont": "30px",
+    "firstCoverHeight": 210
+  },
+  "narrow-text": {
+    "name": "narrow-text",
+    "viewport": [
+      320,
+      740
+    ],
+    "state": {
+      "mode": "text",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": false
+    },
+    "columns": 2,
+    "overflow": false,
+    "visibleImages": 0,
+    "visibleImagesLoaded": 0,
+    "regularFont": true,
+    "extraLightFont": false,
+    "humanTab": false,
+    "tabs": 2,
+    "activePanelInert": false,
+    "errors": [],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "titleFont": "30px",
+    "firstCoverHeight": 172
+  },
+  "mobile-visual": {
+    "name": "mobile-visual",
+    "viewport": [
+      390,
+      844
+    ],
+    "state": {
+      "mode": "visual",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": false
+    },
+    "columns": 2,
+    "overflow": false,
+    "visibleImages": 3,
+    "visibleImagesLoaded": 3,
+    "regularFont": true,
+    "extraLightFont": false,
+    "humanTab": false,
+    "tabs": 2,
+    "activePanelInert": false,
+    "errors": [],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "titleFont": "30px",
+    "firstCoverHeight": 210
+  },
+  "desktop-visual": {
+    "name": "desktop-visual",
+    "viewport": [
+      1440,
+      900
+    ],
+    "state": {
+      "mode": "visual",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": true
+    },
+    "columns": 3,
+    "overflow": false,
+    "visibleImages": 3,
+    "visibleImagesLoaded": 3,
+    "regularFont": true,
+    "extraLightFont": true,
+    "humanTab": false,
+    "tabs": 2,
+    "activePanelInert": false,
+    "errors": [],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "titleFont": "49.999966px",
+    "firstCoverHeight": 530
+  },
+  "narrow-visual": {
+    "name": "narrow-visual",
+    "viewport": [
+      320,
+      740
+    ],
+    "state": {
+      "mode": "visual",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": false
+    },
+    "columns": 2,
+    "overflow": false,
+    "visibleImages": 3,
+    "visibleImagesLoaded": 3,
+    "regularFont": true,
+    "extraLightFont": false,
+    "humanTab": false,
+    "tabs": 2,
+    "activePanelInert": false,
+    "errors": [],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "titleFont": "30px",
+    "firstCoverHeight": 172
+  },
+  "wide-visual": {
+    "name": "wide-visual",
+    "viewport": [
+      1920,
+      1000
+    ],
+    "state": {
+      "mode": "visual",
+      "filter": "all",
+      "language": "ja",
+      "count": 99,
+      "smoothScroll": true
+    },
+    "columns": 3,
+    "overflow": false,
+    "visibleImages": 3,
+    "visibleImagesLoaded": 3,
+    "regularFont": true,
+    "extraLightFont": true,
+    "humanTab": false,
+    "tabs": 2,
+    "activePanelInert": false,
+    "errors": [],
+    "logo": "public/sites/shiftbrain/icons/ryan-symbol.svg#symbol",
+    "titleFont": "62.5px",
+    "firstCoverHeight": 707
+  }
+}

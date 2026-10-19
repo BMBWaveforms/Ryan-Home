@@ -1,0 +1,23 @@
+--- a/README.md
++++ b/README.md
+@@ -71,9 +71,9 @@
+ 
+ ## 与竞品拆解 Skill 的关系
+ 
+-本 Skill 可以独立使用。另一个计划发布的 `single-competitor-analysis` Skill 会先完成产品层分析，并在需要深挖某个 Agent 时调用本 Skill，把六组产物嵌入竞品报告的技术层。
++本 Skill 可以独立使用，也可配合已公开的 [single-competitor-analysis](https://github.com/BMBWaveforms/single-competitor-analysis)。后者先完成产品层研究，在需要深挖某个 Agent 时调用本 Skill，将六组产物纳入技术层分析。
+ 
+-`single-competitor-analysis` 尚未随本仓库发布，因此这里不提供不存在的仓库链接，也不承诺具体发布日期。后续发布时会补充准确链接与兼容说明。
++两个 Skill 分别维护。当前链接已核对，组合调用的端到端效果与跨客户端兼容性仍需验证。
+ 
+ ## 限制
+ 
+@@ -94,7 +94,7 @@
+ 
+ - 使用匿名或虚构案例完成一次端到端试跑。
+ - 根据试跑结果补充兼容性和验证记录。
+-- 在 `single-competitor-analysis` 单独发布后补充双方的准确链接。
++- 通过实际案例验证与 `single-competitor-analysis` 的组合研究流程。
+ 
+ ## 许可证
+ 

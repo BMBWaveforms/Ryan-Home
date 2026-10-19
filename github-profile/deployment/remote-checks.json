@@ -1,0 +1,93 @@
+{
+  "url": "https://github.com/BMBWaveforms",
+  "repository": "https://github.com/BMBWaveforms/BMBWaveforms",
+  "public": true,
+  "default_branch": "main",
+  "commit": "61fde2f377704b66601b3f204cf8d9393134c550",
+  "name": "Ryan",
+  "bio": "Exploring AI products. Learning through vibe coding.",
+  "blog": "https://bmbwaveforms.github.io/Ryan-Home/",
+  "avatar_unchanged": true,
+  "files": [
+    {
+      "path": "README.md",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/codex.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/css.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/email.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/github.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/html.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/javascript.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/prompt.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/skills.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/website.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/badges/xiaohongshu-link.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/ryan-cover.png",
+      "matches": true
+    },
+    {
+      "path": "assets/ryan-slogan-static.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/ryan-slogan.svg",
+      "matches": true
+    },
+    {
+      "path": "assets/social-card-mobile.png",
+      "matches": true
+    },
+    {
+      "path": "assets/social-card.png",
+      "matches": true
+    },
+    {
+      "path": "assets/wechat-qr.jpg",
+      "matches": true
+    },
+    {
+      "path": "assets/xiaohongshu-qr.png",
+      "matches": true
+    }
+  ],
+  "browser_check": {
+    "surface": "Chrome Bowen profile, public signed-out page",
+    "hero_visible": true,
+    "slogan_visible": true,
+    "social_card_visible": true,
+    "writing_sharing_heading_visible": true,
+    "pinned_repositories": "unchanged"
+  }
+}

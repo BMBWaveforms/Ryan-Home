@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Work — rendered verification</title><style>body{margin:20px;background:#202124;color:#f3f3f3;font:13px/1.5 system-ui}main{display:flex;gap:22px;flex-wrap:wrap;align-items:flex-start}.case{width:720px}h2{font-size:16px;margin:0 0 8px}pre{white-space:pre-wrap;background:#111;padding:10px;margin:0 0 10px;min-height:80px}iframe{border:0;background:white;transform-origin:top left}.viewport{overflow:hidden;border:1px solid #555}a{color:#9cc2ff}</style></head><body><h1>Work · rendered checks</h1><p>Read-only measurements of the actual app at each viewport. <a href="/">Open Work</a></p><main id="cases"></main><script>
+const cases=[['desktop-visual',1440,900,'/'],['desktop-text',1440,900,'/?view=text'],['mobile-visual',390,844,'/'],['mobile-text',390,844,'/?view=text'],['narrow-visual',320,740,'/'],['narrow-text',320,740,'/?view=text'],['wide-visual',1920,1000,'/']];
+for(const [name,width,height,url]of cases){
+ const box=document.createElement('section');box.className='case';box.style.width=width<720?width+'px':'720px';
+ const title=document.createElement('h2');title.textContent=name+' · '+width+'×'+height;
+ const report=document.createElement('pre');report.textContent='Loading…';
+ const viewport=document.createElement('div');viewport.className='viewport';const scale=Math.min(1,720/width);viewport.style.width=width*scale+'px';viewport.style.height=height*scale+'px';
+ const frame=document.createElement('iframe');frame.title=name;frame.width=width;frame.height=height;frame.style.transform=`scale(${scale})`;frame.src=url;
+ const errors=[];frame.addEventListener('load',()=>{const win=frame.contentWindow;win.addEventListener('error',e=>errors.push(e.message));win.addEventListener('unhandledrejection',e=>errors.push(String(e.reason)));});
+ viewport.append(frame);box.append(title,report,viewport);document.getElementById('cases').append(box);
+ const timer=setInterval(async()=>{
+  const win=frame.contentWindow,doc=frame.contentDocument;if(!win.workPreview||!doc.body.classList.contains('is-ready')||doc.querySelector('.site-loader'))return;
+  clearInterval(timer);await doc.fonts.ready;
+  const state=win.workPreview.state;const cards=[...doc.querySelectorAll('.visual-card')];const rects=cards.map(n=>n.getBoundingClientRect());const firstY=rects[0].top;const cols=rects.filter(r=>Math.abs(r.top-firstY)<2).length;
+  const images=[...doc.querySelectorAll('.project-cover img')].filter(n=>{const r=n.getBoundingClientRect();return r.top<height&&r.bottom>0&&state.mode==='visual'});
+  await Promise.all(images.map(n=>n.decode().catch(()=>{})));
+  const activePanel=doc.getElementById(state.mode+'-panel');
+  const data={name,viewport:[win.innerWidth,win.innerHeight],state,columns:cols,overflow:doc.documentElement.scrollWidth>win.innerWidth,visibleImages:images.length,visibleImagesLoaded:images.filter(n=>n.complete&&n.naturalWidth).length,regularFont:doc.fonts.check('16px "TT Norms Regular"'),extraLightFont:doc.fonts.check('50px "TT Norms ExtraLight"'),humanTab:!!doc.querySelector('[data-view="human"]'),tabs:doc.querySelectorAll('[data-view]').length,activePanelInert:activePanel.inert,errors,logo:doc.querySelector('.brand-symbol use').getAttribute('href'),titleFont:win.getComputedStyle(doc.querySelector('.work-intro h1')).fontSize,firstCoverHeight:Math.round(doc.querySelector('.project-cover').getBoundingClientRect().height)};
+  report.textContent=`${name} · ${width}×${height}\n${state.mode} · ${state.count} projects · ${cols} visual columns · smooth ${state.smoothScroll}\nOverflow ${data.overflow} · visible media ${data.visibleImagesLoaded}/${data.visibleImages} · errors ${errors.length}\nTabs ${data.tabs} · R monogram`; fetch('http://127.0.0.1:5174/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).catch(()=>{});
+ },250);
+}
+</script></body></html>

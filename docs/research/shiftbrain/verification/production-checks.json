@@ -1,0 +1,39 @@
+{
+  "/": {
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  "/src/app.js": {
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  "/src/data/shiftbrain-projects.json": {
+    "status": 200,
+    "type": "application/json; charset=utf-8"
+  },
+  "/src/components/sites/shiftbrain/work.css": {
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  "/public/vendor/locomotive-scroll.min.js": {
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  "/public/sites/shiftbrain/icons/ryan-symbol.svg": {
+    "status": 200,
+    "type": "image/svg+xml"
+  },
+  "video_range": {
+    "status": 206,
+    "bytes": 128
+  },
+  "native_browser_acceptance": {
+    "url": "http://127.0.0.1:4173/",
+    "text_view_observed": true,
+    "visual_view_observed": true,
+    "both_mode_buttons_work": true,
+    "final_view": "visual",
+    "original_symbol_replaced_with_r": true,
+    "full_build_passed": true
+  }
+}

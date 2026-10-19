@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "title": "Benesse's action on sustainability from Benesse (well-being)",
+      "cover": "/wp-content/uploads/2022/11/TOP-S-4.jpg",
+      "video": "",
+      "client": "Benesse Holdings, Inc.",
+      "theme": "#f9f7f5",
+      "date": "Mar 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>『サステナブルな社会へ from Benesse』 は、持続可能な社会を目指すため、ベネッセグループが現在進行形で取り組んでいる活動を発信するサイトです。今回私たちはそのサイトのリニューアルを担当しました。</p>\n<p>具体的活動をわかりやすく伝えることはもちろんのこと、活動全体に込められた『想い』を直感的に感じ取れるサイトを目指し、コンセプト設計、コピーライティング、アートディレクション、デザインを担当しました。</p>\n",
+        "en": "<p>&#8220;Towards a Sustainable Society from Benesse&#8221; is a website that provides information on the ongoing endeavors of the Benesse Group towards the development of a sustainable society.</p>\n<p>We carried out a complete overhaul of the site. We were in charge of concept design, copywriting, art direction, and design, with the aim of creating a site that not only communicates all their endeavors in an easy-to-understand manner, but also allows the visitor to intuitively sense the overall passion in their activities.</p>\n"
+      },
+      "roles": "Planning, Copy, Project Management",
+      "pick_up": false,
+      "link": "/work/benesse_brand/"
+    },
+    {
+      "title": "BRUTUS Web Renewal",
+      "cover": "/wp-content/uploads/2021/12/TOP-S-3.jpg",
+      "video": "/wp-content/uploads/2021/12/cover-blutus-L-1.mp4",
+      "client": "Magazine house, ltd.",
+      "theme": "#e2dbd4",
+      "date": "Sep 2021",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>創刊から40年間に渡り、ポップカルチャーの教科書になるべく、時代をパッチワークするように編集してきた雑誌『BRUTUS』。<br />\nこれまで誌面で築き上げてきた編集力を、紙では実現できなかった表現方法を駆使し、新しい体験ができるメディアとするべく、ウェブ版「BRUTUS.jp」のリニューアルを手掛けました。</p>\n",
+        "en": "<p>For 40 years since its launch, the magazine &#8220;BRUTUS&#8221; has been a patchwork compilation of the times, so as to become a textbook for pop culture.<br />\nWe have worked at renewing the web version of &#8220;BRUTUS.jp&#8221;, in order to turn the editing power that has been built up in the pages of the magazine so far, into a medium that allows us to experience new things, by making full use of methods of expression that could not be achieved using paper.</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/brutus/"
+    },
+    {
+      "title": "NEWh Branding",
+      "cover": "/wp-content/uploads/2023/06/TOP-S-1.jpg",
+      "video": "",
+      "client": "NEWh Inc.\t\t\t",
+      "theme": "#ffffff",
+      "date": "Jan 2021",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>大企業の新規事業やサービス開発に伴走するイノベーションデザインコンサルティング＆スタジオ 株式会社NEWh（ニュー）のブランディングを担当しました。<br />\nロゴ、コーポレートサイトのデザイン、資料用のビジュアルアセットやデザインガイド、そして同社が運営するデザイン×経営マガジン「Question &amp; Design」のサイトを制作し、全体のアートディレクションを行いました。</p>\n",
+        "en": "<p>We undertook the branding for NEWh Co., Ltd., an innovation design consulting &amp; studio that accompanies the development of new businesses and services of large companies.<br />\nWe provided the overall art direction by creating the logo, corporate website design, visual assets and design guides for documents, and the website for the company&#8217;s design x management magazine &#8220;Question &amp; Design.&#8221;</p>\n"
+      },
+      "roles": "ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/newh-branding/"
+    },
+    {
+      "title": "goodLOOPS Magazine",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-11.png",
+      "video": "",
+      "client": "gloops, Inc.",
+      "theme": "#ffffff",
+      "date": "Aug 2016",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p><span style=\"font-weight: 400;\">「新しいアソビと働き方を考える」をコンセプトに、goodLOOPS編集チームを編成し、「未来の遊び」や「これからの働き方」がどのように変化していくのかを、gloopsが読者とともに考えていくマガジンを制作しました。中長期的な採用ブランディングを目標とし、月刊マガジンとして継続的なコンテンツ展開をサイトで行いました。</span></p>\n",
+        "en": "<p>Based on the concept of &#8220;Thinking about new ways of working and new ways of playing,&#8221; the goodLOOPS editorial team was organized to produce a magazine in which gloops would think together with its readers about how &#8220;future fun&#8221; and &#8220;future ways of working&#8221; would change. With the goal of mid- to long-term employment branding, the site was used to continuously develop content as a monthly magazine.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/goodloops/"
+    }
+  ],
+  "message": "ok"
+}

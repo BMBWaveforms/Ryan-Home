@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "title": "TIER IV, Inc. Corporate Site, Service Site",
+      "cover": "/wp-content/uploads/2022/11/TOP-S-5.jpg",
+      "video": "/wp-content/uploads/2022/11/tier4_thumbmovie_905_530-1.mp4",
+      "client": "TIER IV, Inc.",
+      "theme": "#304a63",
+      "date": "Mar 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>近年世界各国で開発が進められている自動運転。その中でも高い技術力や革新的なプラットフォームで注目を浴びる株式会社ティアフォーのコーポレートサイトのリニューアルと、「Web.Auto」「Pilot.Auto」という二つのプロダクトサイトの制作を担当しました。</p>\n",
+        "en": "<p>Automatic driving has been developed in various countries all over the world in recent years. Among them is TIER IV, Inc., which is garnering attention for its advanced technology and innovative platform. We were in charge of renewing its corporate site and creating two product sites called &#8220;Web.Auto&#8221; and &#8220;Pilot.Auto.&#8221;</p>\n"
+      },
+      "roles": "Project Management, Design, Development",
+      "pick_up": true,
+      "link": "/work/tier4/"
+    },
+    {
+      "title": "DENSO Brand Site, Digital Signage",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-18.jpg",
+      "video": "/wp-content/uploads/2021/01/main.mp4",
+      "client": "DENSO CORPORATION",
+      "theme": "#ffffff",
+      "date": "May 2017",
+      "outputs": "Web, Digital Signage",
+      "overview": {
+        "ja": "<p>株式会社デンソーのウェブサイト、デジタルサイネージ等の制作を2017年からサポート。同社のブランド・エレメントを最大限に活かしながら、さらにその世界観を拡張するようなクリエイティブを提供しています。</p>\n",
+        "en": "<p>Since 2017, we have supported Denso Corporation in the production of their website and digital signage. We provide creativity that maximizes the company&#8217;s brand elements while further expanding its worldview.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/denso/"
+    }
+  ],
+  "message": "ok"
+}

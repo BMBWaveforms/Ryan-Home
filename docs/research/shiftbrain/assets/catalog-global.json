@@ -1,0 +1,117 @@
+{
+  "posts": [
+    {
+      "title": "LIONES GOOD NEWS 2023",
+      "cover": "/wp-content/uploads/2023/09/TOP-S-1.jpg",
+      "video": "/wp-content/uploads/2023/10/cannes2023.mp4",
+      "client": "Nikkei Inc.",
+      "theme": "#ffffff",
+      "date": "Apr 2023",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>日本経済新聞社が日本事務局を務める、世界最大級の広告賞「カンヌライオンズ 国際クリエイティビティ・フェスティバル」。その「LIONS GOOD NEWS 2023」のWebサイトを制作協力いたしました。数年の間に起こった、デジタル化の急進から生じたコミュニケーションの課題を抽出し、解決のヒントを提示しています。</p>\n",
+        "en": "<p><span style=\"font-weight: 400;\">The Cannes Lions International Festival of Creativity is one of the world&#8217;s most significant advertising awards, for which Nikkei, Inc. serves as the Japan office. We helped create their LIONS GOOD NEWS 2023 website. We identify communication issues arising from the rapid advancement of digitalization over the past few years and provide hints for solving them.</span></p>\n"
+      },
+      "roles": "Design, Development, ArtDirection",
+      "pick_up": true,
+      "link": "/work/canneslions-goodnews-2023/"
+    },
+    {
+      "title": "LIONS GOOD NEWS 2020",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-2.png",
+      "video": "/wp-content/uploads/2020/12/cannes_top.mp4",
+      "client": "CANNES LIONS JAPAN",
+      "theme": "#ffffff",
+      "date": "Nov 2020",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>日本経済新聞社が日本事務局を務め、毎年6月に開催される「カンヌライオンズ 国際クリエイティビティ・フェスティバル」。新型コロナウィルスの影響により2020年のフェスティバルは中止となりましたが、コロナ禍で生まれたクリエイティブな事例を、Cannes PR Lions （カンヌライオンズのPR部門）10年間の受賞作品と関連付けながら紹介するサイト「LIONS GOOD NEWS 2020」が公開され、制作協力いたしました。</p>\n",
+        "en": "<p>The Nihon Keizai Shimbun (Nikkei) serves as the Japan representative office of the Cannes Lions International Festival of Creativity, which is held every June.<br />\nDue to the impact of the COVID-19, 2020&#8217;s festival was canceled.<br />\nWe collaborated in the creation of the &#8220;LIONS GOOD NEWS 2020&#8221; website, which introduces creative examples from the COVID-19 pandemic in relation to the 10 years of Cannes PR Lions awards.</p>\n"
+      },
+      "roles": "Project Management, ArtDirection, Design, Development, Produce",
+      "pick_up": false,
+      "link": "/work/canneslions-goodnews-2020/"
+    },
+    {
+      "title": "SAPPORO NISHIYAMA EUROPE GmbH Corporate Site",
+      "cover": "/wp-content/uploads/2022/11/TOP-S-3.jpg",
+      "video": "/wp-content/uploads/2022/11/西山製麺_thumbmovie_905_530.mp4",
+      "client": "SAPPORO NISHIYAMA EUROPE GmbH",
+      "theme": "#111110",
+      "date": "Jul 2022",
+      "outputs": "Web",
+      "overview": {
+        "ja": "<p>昭和25年創業。札幌ラーメンの礎を築き、日本のラーメン店3,000軒との取引実績を誇る西山製麺。今回、ヨーロッパに本物のラーメンを普及すべく2014年に設立された、同社ドイツ法人のコーポレートサイトを制作しました。</p>\n",
+        "en": "<p>Established in 1950, Nishiyama Seimen lay the foundation for Sapporo ramen and boasts a track record of doing business with 3,000 ramen restaurants in Japan. We create the corporate website of the German corporation that was established by this company in 2014 to bring genuine ramen to Europe.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": true,
+      "link": "/work/nishiyama-ramen/"
+    },
+    {
+      "title": "DENSO Brand Site, Digital Signage",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-18.jpg",
+      "video": "/wp-content/uploads/2021/01/main.mp4",
+      "client": "DENSO CORPORATION",
+      "theme": "#ffffff",
+      "date": "May 2017",
+      "outputs": "Web, Digital Signage",
+      "overview": {
+        "ja": "<p>株式会社デンソーのウェブサイト、デジタルサイネージ等の制作を2017年からサポート。同社のブランド・エレメントを最大限に活かしながら、さらにその世界観を拡張するようなクリエイティブを提供しています。</p>\n",
+        "en": "<p>Since 2017, we have supported Denso Corporation in the production of their website and digital signage. We provide creativity that maximizes the company&#8217;s brand elements while further expanding its worldview.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/denso/"
+    },
+    {
+      "title": "Technics 50th Anniversary Site",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-15.jpg",
+      "video": "/wp-content/uploads/2021/01/Technics50th.mp4",
+      "client": "Nippon SP Center Co.,Ltd",
+      "theme": "#1d1d1d",
+      "date": "Dec 2015",
+      "outputs": "Web, Movie",
+      "overview": {
+        "ja": "<p>1965年にPanasonicの姉妹ブランドとして立ち上がった家庭用高級オーディオ機器ブランド「Technics」は、今までに数多くのファンを生み出し、音楽界の歴史を変える製品を創り続けてきました。2015年、ドイツで行われた世界最大の家電見本市「IFA」にて、Technicsは生誕50周年記念と銘打ち、過去の50年間の歴史とこれからの未来に向けたメッセージを発信し、同時に新製品を発表しました。本イベントが開催されるにあたり、Technicsの50年間にわたる輝かしい歴史をWebと映像のリッチな体験を通して発信するお手伝いをしました。</p>\n",
+        "en": "<p>Launched in 1965 as a sister brand of Panasonic, the Technics brand of high-end home audio equipment has to this day, garnered numerous fans, and continues to create products that have changed the history of the music industry. In 2015, at IFA, the world&#8217;s largest consumer electronics trade show in Germany, Technics marked its 50th anniversary, by delivering a message about the past 50 years of its history and the future to come, whilst at the same time announcing new products. For this event, we helped Technics present its illustrious history spanning 50 years, through a rich web and video experience.</p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/technics_50th/"
+    },
+    {
+      "title": "PIXEING in Milano 2015",
+      "cover": "/wp-content/uploads/2021/01/TOP-S-11.jpg",
+      "video": "/wp-content/uploads/2021/01/Pix_short2.mp4.mp4",
+      "client": "SHIFTBRAIN × UNIBA",
+      "theme": "#1a1a1a",
+      "date": "Apr 2015",
+      "outputs": "Web, Product Design",
+      "overview": {
+        "ja": "<p>PIXEINGは、私たちのまわりに隠れていて、日頃目ではみえない小さな生き物を捕まえるツールです。<br />\nPIXEINGを手に取り、あなたのまわりをスキャンすると、その小さな生き物を捕まえることができます。<br />\niOSと連携させて、捕まえた生き物を収集することもできます。<br />\n小さい頃に夢中で虫たちを追いかけたあの感覚を、デジタルでも味わえる、そんな不思議なデバイスです。</p>\n",
+        "en": "<p><span style=\"font-weight: 400;\">PIXEING is a tool that allows you to catch the little creatures that hide around us and are usually invisible to the naked eye. You can even collect the creatures you catch by connecting them to your iOS device. We planned and designed a device that allows you to experience the feeling of chasing insects when you were a child, even digitally.</span></p>\n"
+      },
+      "roles": "Planning, Project Management, ArtDirection, Design, Development, Technical Direction, Programming",
+      "pick_up": false,
+      "link": "/work/pixeing_milano/"
+    },
+    {
+      "title": "MasterVisions Branding",
+      "cover": "/wp-content/uploads/2020/12/TOP-S-1.png",
+      "video": "/wp-content/uploads/2020/12/MasterVisions_1.mp4",
+      "client": "Master Visions Inc.",
+      "theme": "#ffffff",
+      "date": "Jan 2020",
+      "outputs": "Logo, Web",
+      "overview": {
+        "ja": "<p>360°自由視点映像技術を提供する株式会社MasterVisions。新社名に変更するタイミングで、コーポレートサイトの制作及びロゴデザインを担当しました。</p>\n",
+        "en": "<p>MasterVisions Inc. provides technology for 360° free-viewpoint video. We were in charge of creating the corporate website and designing the logo, when the company changed to their new name.</p>\n"
+      },
+      "roles": "Planning, Copy, Writing, Project Management, ArtDirection, Design, Development",
+      "pick_up": false,
+      "link": "/work/master-visions-inc/"
+    }
+  ],
+  "message": "ok"
+}

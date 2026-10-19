@@ -1,0 +1,154 @@
+[
+  {
+    "name": "html",
+    "label": "HTML5",
+    "url": "https://img.shields.io/badge/HTML5-D94A27?style=flat-square&logo=html5&logoColor=white",
+    "width": 78,
+    "height": 24,
+    "bytes": 997
+  },
+  {
+    "name": "css",
+    "label": "CSS",
+    "url": "https://img.shields.io/badge/CSS-2454D8?style=flat-square&logo=css&logoColor=white",
+    "width": 61,
+    "height": 24,
+    "bytes": 2527
+  },
+  {
+    "name": "javascript",
+    "label": "JavaScript",
+    "url": "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111",
+    "width": 102,
+    "height": 24,
+    "bytes": 1888
+  },
+  {
+    "name": "github",
+    "label": "GitHub",
+    "url": "https://img.shields.io/badge/GitHub-24292F?style=flat-square&logo=github&logoColor=white",
+    "width": 78,
+    "height": 24,
+    "bytes": 1660
+  },
+  {
+    "name": "macos",
+    "label": "macOS",
+    "url": "https://img.shields.io/badge/macOS-111111?style=flat-square&logo=apple&logoColor=white",
+    "width": 80,
+    "height": 24,
+    "bytes": 1425
+  },
+  {
+    "name": "codex",
+    "label": "Codex",
+    "url": "https://img.shields.io/badge/Codex-171717?style=flat-square",
+    "width": 54,
+    "height": 24,
+    "bytes": 467
+  },
+  {
+    "name": "skills",
+    "label": "Agent Skills",
+    "url": "https://img.shields.io/badge/Agent%20Skills-7450BF?style=flat-square",
+    "width": 90,
+    "height": 24,
+    "bytes": 488
+  },
+  {
+    "name": "prompt",
+    "label": "Prompt Engineering",
+    "url": "https://img.shields.io/badge/Prompt%20Engineering-087F68?style=flat-square",
+    "width": 143,
+    "height": 24,
+    "bytes": 509
+  },
+  {
+    "name": "aigc",
+    "label": "AIGC Experiments",
+    "url": "https://img.shields.io/badge/AIGC%20Experiments-B94532?style=flat-square",
+    "width": 133,
+    "height": 24,
+    "bytes": 503
+  },
+  {
+    "name": "product",
+    "label": "Product Research",
+    "url": "https://img.shields.io/badge/Product%20Research-2463AC?style=flat-square",
+    "width": 128,
+    "height": 24,
+    "bytes": 502
+  },
+  {
+    "name": "agent",
+    "label": "Agent Research",
+    "url": "https://img.shields.io/badge/Agent%20Research-6851AA?style=flat-square",
+    "width": 116,
+    "height": 24,
+    "bytes": 494
+  },
+  {
+    "name": "opensource",
+    "label": "Open Source",
+    "url": "https://img.shields.io/badge/Open%20Source-344D40?style=flat-square&logo=github&logoColor=white",
+    "width": 119,
+    "height": 24,
+    "bytes": 1675
+  },
+  {
+    "name": "writing",
+    "label": "Writing",
+    "url": "https://img.shields.io/badge/Writing-916310?style=flat-square",
+    "width": 59,
+    "height": 24,
+    "bytes": 473
+  },
+  {
+    "name": "website",
+    "label": "Website",
+    "url": "https://img.shields.io/badge/Website-2450EA?style=flat-square",
+    "width": 64,
+    "height": 24,
+    "bytes": 473
+  },
+  {
+    "name": "contact",
+    "label": "Email",
+    "url": "https://img.shields.io/badge/Email-7450BF?style=flat-square",
+    "width": 49,
+    "height": 24,
+    "bytes": 467
+  },
+  {
+    "name": "xiaohongshu-link",
+    "label": "小红书",
+    "url": "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-E32646?style=flat-square&logo=xiaohongshu&logoColor=white",
+    "width": 73,
+    "height": 24,
+    "bytes": 5349
+  },
+  {
+    "name": "email",
+    "label": "Email: Say Hello",
+    "url": "https://img.shields.io/badge/Email-Say%20Hello-7450BF?style=flat-square",
+    "width": 125,
+    "height": 24,
+    "bytes": 566
+  },
+  {
+    "name": "xiaohongshu",
+    "label": "小红书: 我的主页",
+    "url": "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E6%88%91%E7%9A%84%E4%B8%BB%E9%A1%B5-E32646?style=flat-square&logo=xiaohongshu&logoColor=white",
+    "width": 138,
+    "height": 24,
+    "bytes": 5460
+  },
+  {
+    "name": "wechat",
+    "label": "公众号: 碳基推理中",
+    "url": "https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E7%A2%B3%E5%9F%BA%E6%8E%A8%E7%90%86%E4%B8%AD-078443?style=flat-square&logo=wechat&logoColor=white",
+    "width": 150,
+    "height": 24,
+    "bytes": 2465
+  }
+]

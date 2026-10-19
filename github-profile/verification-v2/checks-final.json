@@ -1,0 +1,82 @@
+[
+  {
+    "label": "desktop-dark",
+    "width": 1440,
+    "theme": "dark",
+    "name": "Ryan",
+    "oldDisplayName": false,
+    "overflow": false,
+    "tables": [
+      {
+        "width": 796,
+        "overflow": false
+      }
+    ],
+    "loadedImages": true,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": true,
+    "consoleErrors": [],
+    "headline": "研究 AI，把想法做出来。",
+    "headlineLines": 1
+  },
+  {
+    "label": "desktop-light",
+    "width": 1440,
+    "theme": "light",
+    "name": "Ryan",
+    "oldDisplayName": false,
+    "overflow": false,
+    "tables": [
+      {
+        "width": 796,
+        "overflow": false
+      }
+    ],
+    "loadedImages": true,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": true,
+    "consoleErrors": [],
+    "headline": "研究 AI，把想法做出来。",
+    "headlineLines": 1
+  },
+  {
+    "label": "mobile",
+    "width": 390,
+    "theme": "dark",
+    "name": "Ryan",
+    "oldDisplayName": false,
+    "overflow": false,
+    "tables": [
+      {
+        "width": 312,
+        "overflow": false
+      }
+    ],
+    "loadedImages": true,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": true,
+    "consoleErrors": [],
+    "headline": "研究 AI，把想法做出来。",
+    "headlineLines": 1
+  },
+  {
+    "label": "narrow",
+    "width": 320,
+    "theme": "light",
+    "name": "Ryan",
+    "oldDisplayName": false,
+    "overflow": false,
+    "tables": [
+      {
+        "width": 242,
+        "overflow": false
+      }
+    ],
+    "loadedImages": true,
+    "missingFiles": [],
+    "detailsOpensWithKeyboard": true,
+    "consoleErrors": [],
+    "headline": "研究 AI，把想法做出来。",
+    "headlineLines": 1
+  }
+]

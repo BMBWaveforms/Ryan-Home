@@ -1,0 +1,81 @@
+[
+  {
+    "file": "profile/assets/xiaohongshu-qr.png",
+    "size": [
+      296,
+      296
+    ],
+    "decoded": [
+      "https://xhslink.cn/o/13OQAkBmW7Q"
+    ],
+    "matches": true
+  },
+  {
+    "file": "profile/assets/social-card.png",
+    "size": [
+      1200,
+      798
+    ],
+    "decoded": [
+      "https://xhslink.cn/o/13OQAkBmW7Q"
+    ],
+    "matches": true,
+    "corner_alpha": 0
+  },
+  {
+    "file": "profile/assets/social-card-mobile.png",
+    "size": [
+      660,
+      1115
+    ],
+    "decoded": [
+      "https://xhslink.cn/o/13OQAkBmW7Q"
+    ],
+    "matches": true,
+    "corner_alpha": 0
+  },
+  {
+    "file": "verification-v6/desktop-dark-card.png",
+    "size": [
+      796,
+      529
+    ],
+    "decoded": [
+      "https://xhslink.cn/o/13OQAkBmW7Q"
+    ],
+    "matches": true
+  },
+  {
+    "file": "verification-v6/desktop-light-card.png",
+    "size": [
+      796,
+      529
+    ],
+    "decoded": [
+      "https://xhslink.cn/o/13OQAkBmW7Q"
+    ],
+    "matches": true
+  },
+  {
+    "file": "verification-v6/mobile-card.png",
+    "size": [
+      312,
+      527
+    ],
+    "decoded": [
+      "https://xhslink.cn/o/13OQAkBmW7Q"
+    ],
+    "matches": true
+  },
+  {
+    "file": "verification-v6/narrow-card.png",
+    "size": [
+      242,
+      408
+    ],
+    "decoded": [
+      "https://xhslink.cn/o/13OQAkBmW7Q"
+    ],
+    "matches": true
+  }
+]

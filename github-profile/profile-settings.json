@@ -1,0 +1,21 @@
+{
+  "login": "BMBWaveforms",
+  "name": "Ryan",
+  "bio": "Exploring AI products. Learning through vibe coding.",
+  "avatar": "profile/assets/ryan-avatar.png",
+  "blog": "https://bmbwaveforms.github.io/Ryan-Home/",
+  "contact_email": "Ctaisobserving@gmail.com",
+  "social": {
+    "wechat": {
+      "name": "碳基推理中",
+      "url": null,
+      "qr_image": "profile/assets/wechat-qr.jpg",
+      "qr_payload": "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR"
+    },
+    "xiaohongshu": {
+      "name": null,
+      "url": "https://xhslink.cn/o/13OQAkBmW7Q"
+    }
+  },
+  "pins": []
+}

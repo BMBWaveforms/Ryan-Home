@@ -1,0 +1,11 @@
+{
+  "commit": "c94a3935787664d1f2cc6fe1f1b356bbbc51cac7",
+  "image_size": [
+    1200,
+    280
+  ],
+  "previous_height": 400,
+  "height_reduction_percent": 30,
+  "remote_matches_source": true,
+  "public_browser_visual_check": "Compact banner, name and decoration visible without clipping; Working stack appears earlier in the viewport."
+}

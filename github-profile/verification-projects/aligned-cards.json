@@ -1,0 +1,29 @@
+{
+  "format": "350x148 theme-aware SVG cards, natural inline wrap",
+  "viewports": [
+    {
+      "width": 840,
+      "columns": 2,
+      "overflow": false,
+      "cards_loaded": 6,
+      "aligned": true
+    },
+    {
+      "width": 390,
+      "columns": 1,
+      "overflow": false,
+      "cards_loaded": 6,
+      "aligned": true
+    },
+    {
+      "width": 320,
+      "columns": 1,
+      "overflow": false,
+      "cards_loaded": 6,
+      "aligned": true
+    }
+  ],
+  "browser": "Safari local preview, GitHub Markdown API-rendered README",
+  "scope": "Desktop and simulated narrow browser widths; no physical device testing",
+  "hero_link_preserved": true
+}

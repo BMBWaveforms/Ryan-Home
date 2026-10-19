@@ -1,0 +1,21 @@
+{
+  "source_url": "https://xhslink.cn/o/13OQAkBmW7Q",
+  "qr_image": "xiaohongshu-qr.png",
+  "size": [
+    296,
+    296
+  ],
+  "decoded_url": "https://xhslink.cn/o/13OQAkBmW7Q",
+  "wechat_mode": "official_qr",
+  "wechat_name": "碳基推理中",
+  "wechat_qr": {
+    "image": "wechat-qr.jpg",
+    "size": [
+      430,
+      430
+    ],
+    "decoded_url": "http://weixin.qq.com/r/mp/QyfC2jbE3WuirXK593JR",
+    "source": "User-provided official QR image",
+    "sha256": "15eff56be7f871bd871168f4a2bf32f06a57732eba3f60befc8dbac2313cc1ba"
+  }
+}

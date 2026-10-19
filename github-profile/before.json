@@ -1,0 +1,71 @@
+{
+  "captured_at": "2026-10-19",
+  "user": {
+    "login": "BMBWaveforms",
+    "name": "焦博文",
+    "bio": null,
+    "blog": "bmbwaveforms.github.io/Ryan-Home/"
+  },
+  "repositories": [
+    {
+      "name": "ableton-landing",
+      "description": null,
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "ableton-live-scroll-story",
+      "description": "中文主叙事的 Ableton Live 互动长滚动产品故事",
+      "homepage": "https://bmbwaveforms.github.io/ableton-live-scroll-story/",
+      "topics": []
+    },
+    {
+      "name": "ableton-push3-landing",
+      "description": null,
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "guoman-character-designer",
+      "description": "3D 半写实国漫角色四视图中文提示词生成 Skill，支持跨年龄、性别与时代的人物设计",
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "LifeOS",
+      "description": null,
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "office-document-writing",
+      "description": "按读者与用途撰写 PRD、需求分析、立项和产品研究报告，默认 Markdown 的 Codex Skill",
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "PUSH3LandingPage",
+      "description": null,
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "Ryan-Home",
+      "description": null,
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "single-agent-analysis",
+      "description": "从真实行为拆解单个 Agent 的运行逻辑、上下文、状态、工具调用与提示词设计",
+      "homepage": null,
+      "topics": []
+    },
+    {
+      "name": "single-competitor-analysis",
+      "description": "按五层方法研究单个竞品，在层间与用户讨论发现和下一步的 Codex Skill",
+      "homepage": null,
+      "topics": []
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "site": "https://bmbwaveforms.github.io/Ryan-Home/",
+  "about": "https://bmbwaveforms.github.io/Ryan-Home/about/",
+  "siteCommit": "1a6348716f458e5410303e887d51aa47fedac3bc",
+  "profileCommit": "4b12468",
+  "previousSiteCommit": "63430056cc41c0b16d68b5ce317ce9d691913955",
+  "previewedPrefix": "http://127.0.0.1:4175/Ryan-Home/",
+  "entries": [
+    "GitHub profile website field",
+    "profile README cover",
+    "profile README Website badge",
+    "profile Ryan Home project card",
+    "Ryan-Home repository homepage",
+    "BMBWaveforms repository homepage",
+    "legacy 个人主页.html redirect"
+  ],
+  "deploymentRun": "https://github.com/BMBWaveforms/Ryan-Home/actions/runs/39287769585",
+  "status": "live",
+  "runtimeBytes": 332158,
+  "checks": [
+    "Isolated checkout syntax and build passed",
+    "git diff --check passed",
+    "Native Safari prefix Work/About navigation, fonts, neutral placeholders and portrait observed",
+    "GitHub metadata and live profile README read back",
+    "20 live routes/assets match the published commit byte-for-byte",
+    "Native Safari GitHub profile exposes all four personal website entrances with the canonical URL",
+    "Native Safari live Work/About rendering verified",
+    "Legacy 个人主页.html opened in Safari and redirected to the canonical homepage",
+    "Local main synchronized to published site commit without removing workspace-only research or backups"
+  ],
+  "httpContentChecks": [
+    {
+      "path": "index.html",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/",
+      "bytes": 5648,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "about/index.html",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/about/",
+      "bytes": 6755,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "src/app.js",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/src/app.js",
+      "bytes": 10136,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "src/work.js",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/src/work.js",
+      "bytes": 15805,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "src/components/sites/ryan/personal.css",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/src/components/sites/ryan/personal.css",
+      "bytes": 12945,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "src/components/sites/shiftbrain/work.css",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/src/components/sites/shiftbrain/work.css",
+      "bytes": 20010,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "src/data/ryan-content.json",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/src/data/ryan-content.json",
+      "bytes": 3470,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "src/data/work-placeholders.json",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/src/data/work-placeholders.json",
+      "bytes": 3082,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/ryan/portrait-placeholder.svg",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/ryan/portrait-placeholder.svg",
+      "bytes": 498,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/ryan/wechat-qr.jpg",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/ryan/wechat-qr.jpg",
+      "bytes": 40124,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/sites/shiftbrain/icons/ryan-symbol.svg",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/sites/shiftbrain/icons/ryan-symbol.svg",
+      "bytes": 451,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/sites/shiftbrain/fonts/TTNorms-Regular.woff",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/sites/shiftbrain/fonts/TTNorms-Regular.woff",
+      "bytes": 65256,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/sites/shiftbrain/fonts/TTNorms-ExtraLight.woff2",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/sites/shiftbrain/fonts/TTNorms-ExtraLight.woff2",
+      "bytes": 45920,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/vendor/locomotive-scroll.min.js",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/vendor/locomotive-scroll.min.js",
+      "bytes": 47456,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/vendor/locomotive-scroll.css",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/vendor/locomotive-scroll.css",
+      "bytes": 1664,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "个人主页.html",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5.html",
+      "bytes": 448,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/ryan/project-placeholders/project-01.svg",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/ryan/project-placeholders/project-01.svg",
+      "bytes": 511,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/ryan/project-placeholders/project-02.svg",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/ryan/project-placeholders/project-02.svg",
+      "bytes": 511,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/ryan/project-placeholders/project-03.svg",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/ryan/project-placeholders/project-03.svg",
+      "bytes": 511,
+      "matchesPublishedCommit": true
+    },
+    {
+      "path": "public/ryan/project-placeholders/project-04.svg",
+      "url": "https://bmbwaveforms.github.io/Ryan-Home/public/ryan/project-placeholders/project-04.svg",
+      "bytes": 518,
+      "matchesPublishedCommit": true
+    }
+  ],
+  "workflowStatus": "completed",
+  "workflowConclusion": "success"
+}

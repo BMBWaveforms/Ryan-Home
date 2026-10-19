@@ -1,0 +1,30 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>character-prompt</title><style>
+:root{color-scheme:light dark;--bg:#fff;--panel:#f6f8fa;--fg:#1f2328;--muted:#59636e;--border:#d1d9e0;--blue:#0969da}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--panel:#151b23;--fg:#f0f6fc;--muted:#9198a1;--border:#3d444d;--blue:#4493f8}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif}
+a{color:var(--blue);text-decoration:none;overflow-wrap:anywhere}a:hover{text-decoration:underline}a:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
+.notice{padding:12px 24px;background:var(--panel);border-bottom:1px solid var(--border);font-size:13px;color:var(--muted)}
+.layout{max-width:1200px;margin:36px auto 60px;padding:0 28px;display:grid;grid-template-columns:250px minmax(0,1fr);gap:32px}
+aside img{width:210px;height:210px;border-radius:50%;border:1px solid var(--border)}aside h2{font-size:23px;line-height:1.3;margin:20px 0 2px}aside .username{font-size:19px;color:var(--muted)}aside p{margin:16px 0}aside small{color:var(--muted)}
+.tabs{border-bottom:1px solid var(--border);margin-bottom:22px;padding:0 0 10px;font-size:14px}.tabs span{border-bottom:2px solid #fd8c73;padding:0 6px 12px;font-weight:600}
+.readme{border:1px solid var(--border);border-radius:6px;padding:24px 32px}.filename{font:12px/1.5 ui-monospace,SFMono-Regular,monospace;color:var(--muted);margin-bottom:20px}
+.markdown-body{overflow-wrap:anywhere}.markdown-body h1{font-size:30px;line-height:1.3;margin:0 0 16px;padding-bottom:12px;border-bottom:1px solid var(--border)}.markdown-body h2{font-size:22px;line-height:1.4;border-bottom:1px solid var(--border);padding-bottom:8px;margin:28px 0 16px}.markdown-body h3{font-size:17px;margin:24px 0 12px}.markdown-body p{margin:0 0 16px}.markdown-body ul{padding-left:24px}.markdown-body li{margin:8px 0}.markdown-body img{max-width:100%;height:auto;border-radius:4px}.markdown-body hr{height:1px;border:0;background:var(--border);margin:24px 0}.markdown-body .anchor{display:none}.markdown-body code{font-size:85%;background:var(--panel);padding:2px 5px;border-radius:4px}
+.pin-heading{font-size:15px;font-weight:500;margin:24px 0 12px}.pins{display:grid;grid-template-columns:1fr 1fr;gap:16px}.pin{border:1px solid var(--border);border-radius:6px;padding:16px;min-width:0}.pin a{font-weight:600;font-size:14px}.pin p{font-size:12px;color:var(--muted);margin-bottom:0}.note-layout{max-width:860px;margin:28px auto;padding:0 22px}.note-layout .readme{margin-top:24px}
+.pending-social p{color:var(--muted);font-size:13px}
+@media(max-width:760px){.layout{grid-template-columns:1fr;margin:24px auto;padding:0 18px;gap:24px}aside{display:grid;grid-template-columns:76px 1fr;column-gap:16px}aside img{width:76px;height:76px;grid-row:1/3}aside h2{margin:6px 0 0;font-size:22px}aside .username{font-size:16px}aside p,aside small{grid-column:1/-1;margin-bottom:0}.readme{padding:20px}.markdown-body h1{font-size:26px}.pins{grid-template-columns:1fr}.notice{padding:10px 18px}.note-layout .readme{padding:20px}}
+</style></head><body><div class="note-layout"><a href="../../preview.html">← 返回主页预览</a><section class="readme"><article class="markdown-body"><h1>从人物设定到四视图提示词</h1>
+<p><a href="https://github.com/BMBWaveforms/guoman-character-designer">查看 Skill</a> · <a href="https://github.com/BMBWaveforms/guoman-character-designer/blob/main/references/full-example.md">完整文字示例</a></p>
+<p>这份记录说明 <code class="notranslate">guoman-character-designer</code> 的提示词组织方法。引用的是仓库已有文字示例，尚未附上对应生成图或模型对比结果。</p>
+<h2>输入与输出</h2>
+<p>示例输入是“一位62岁的古代女将军，花白头发，威严，穿深青色战甲”。</p>
+<p>输出是一整段中文生图提示词，将这句话展开为角色气质、面部年龄特征、发型和服装层次，再规定四个视图的排列与一致性要求。完整输出可通过上方链接查看。</p>
+<h2>规则怎样组织</h2>
+<p>固定部分规定画面形式，采用 3D 半写实国漫与 BJD 式 CG 质感，纯白背景，左侧面部特写，右侧正面、侧面和背面全身。</p>
+<p>可变部分跟随人物设定。示例保留花白头发、面部细纹与成熟体态，并把深青色战甲写到胸甲、肩甲和护裙之间的连接。角色年龄与身份需要同时体现在脸部、身体和衣着中。</p>
+<p>跨视图约束把同一人物的发色、服装和配饰保持一致。示例中的长剑固定在左腰，鞋履需要完整入镜。这些是写入提示词的要求，实际生图是否遵守仍需逐张检查。</p>
+<h2>检查方法</h2>
+<p>仓库提供了六组 <a href="https://github.com/BMBWaveforms/guoman-character-designer/blob/main/tests/smoke-tests.md">手动验收输入</a>，覆盖年龄、性别和世界观变化。</p>
+<p>检查先看文字是否保留人物信息，是否写明视图、服装与约束，再检查负面提示是否误伤角色特征。例如老年角色需要保留皱纹，带疤角色不能同时要求避免疤痕。</p>
+<p>这些文件定义了检查方法，不代表六组用例已经全部执行通过。</p>
+<h2>下一步验证</h2>
+<p>选定生成模型与参数，用同一组人物输入完成小样本生图，保留输入、提示词、图片和失败记录。重点观察年龄表达、跨视图人物一致性，以及配饰位置是否符合要求。</p></article></section></div></body></html>

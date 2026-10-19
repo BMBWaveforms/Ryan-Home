@@ -1,4 +1,14 @@
 /* Personal layer: original Work layout and fonts remain in work.css. */
+/* Bridge the light Work and dark About documents without moving the smooth-scroll container. */
+html::after{content:'';position:fixed;inset:0;z-index:90;background:#121212;opacity:0;pointer-events:none}
+html.page-leaving::after{opacity:1;pointer-events:auto;transition:opacity 340ms cubic-bezier(.4,0,.2,1)}
+html.page-arriving::after{opacity:1;pointer-events:auto}
+html.page-entering::after{transition:opacity 540ms cubic-bezier(.22,1,.36,1)}
+.page-leaving #main,.page-leaving #footer{opacity:0;transform:translateY(-14px);transition:opacity 240ms ease,transform 340ms cubic-bezier(.4,0,.2,1)}
+.page-arriving #main,.page-arriving #footer{opacity:0;transform:translateY(22px)}
+.page-entering #main,.page-entering #footer{transition:opacity 600ms cubic-bezier(.22,1,.36,1),transform 600ms cubic-bezier(.22,1,.36,1)}
+.page-arriving .site-loader{display:none}
+@media(prefers-reduced-motion:reduce){html::after{display:none}.page-leaving #main,.page-leaving #footer,.page-arriving #main,.page-arriving #footer{opacity:1;transform:none}}
 html[data-page=about]{font-family:'TT Norms Regular','PingFang SC','Microsoft YaHei',sans-serif}
 .header-caption{margin-left:auto;font-size:12px;letter-spacing:.02em}.menu-caption{margin-top:80px;color:#999;line-height:2;font-size:14px}.main-nav{margin-left:calc(26.31% - 10px)}.nav-underline{left:0}.eyebrow,.section-index{font-size:11px;line-height:1.5;letter-spacing:.06em}.eyebrow{margin-bottom:26px}.personal-footer{padding-top:160px!important;padding-bottom:32px!important}.footer-signoff{display:flex;align-items:flex-end;justify-content:space-between;padding-bottom:110px}.footer-signoff p{font-family:'TT Norms ExtraLight',sans-serif;font-size:clamp(40px,5vw,90px);line-height:1.05;letter-spacing:-.04em}.footer-signoff>a{font-size:16px;display:flex;gap:35px;align-items:center}.footer-signoff>a span{font-size:32px}.personal-footer .footer-bottom{border-top:1px solid currentColor;padding-top:25px;font-size:12px}.personal-footer .footer-bottom>span{opacity:.45}.personal-footer .footer-bottom nav{margin:0;gap:35px}.back-to-top{border-bottom:1px solid transparent}.back-to-top:hover{border-color:currentColor}
 .personal-wordmark{width:auto;height:40px;white-space:nowrap;font-size:27px;letter-spacing:.08em;display:flex;align-items:center;font-family:'TT Norms Regular',sans-serif;animation:wordmark-recede 1s 1.5s var(--slide) both}.personal-wordmark span{display:inline-block;animation:personal-letter-enter 1s var(--sweep) both;animation-delay:calc(var(--i)*40ms + 40ms)}

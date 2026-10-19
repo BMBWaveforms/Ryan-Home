@@ -301,7 +301,7 @@ async function start() {
   let revisit = false;
   try { revisit = sessionStorage.getItem('ryan-entered') === 'yes'; } catch {}
   if (new URLSearchParams(location.search).get('intro') === '1') revisit = false;
-  if (reduceMotion.matches || revisit) { loader.remove(); document.body.classList.add('is-ready'); }
+  if (reduceMotion.matches || revisit || window.RyanNavigation?.arriving) { loader.remove(); document.body.classList.add('is-ready'); }
   else {
     setTimeout(() => loader.classList.add('is-out'),3500);
     setTimeout(() => { loader.classList.add('is-done'); document.body.classList.add('is-ready'); },4000);
@@ -323,6 +323,7 @@ async function start() {
   scroller = new window.LocomotiveScroll({el:$('#scroll-content'), smooth:!reduceMotion.matches, lerp:.1, smartphone:{smooth:false}, tablet:{smooth:false,breakpoint:1024}});
   updateHeight();
   installInteractions();
+  window.RyanNavigation?.ready();
   // Read-only diagnostics for rendered acceptance, not UI controls.
   window.workPreview = {get state(){ return {mode:state.mode,filter:state.filter,language:state.language,count:visual.children.length,smoothScroll:root.classList.contains('has-scroll-smooth')}; }};
   window.sitePreview = {get state(){return {page:'work', ...window.workPreview.state, articles:4, projects:visual.children.length, errors:[...runtimeErrors]};}};
@@ -332,4 +333,5 @@ start().catch(error => {
   $('.site-loader')?.remove();
   document.body.classList.add('is-ready');
   $('.load-message').textContent = 'Work could not be loaded. Please reload the page.';
+  window.RyanNavigation?.ready();
 });

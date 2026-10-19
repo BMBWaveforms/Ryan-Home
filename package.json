@@ -7,7 +7,7 @@
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve.mjs --dir dist --port 4173",
-    "check": "node --check src/app.js && node --check src/work.js && node --check scripts/serve.mjs && node --check scripts/build.mjs"
+    "check": "node --check src/app.js && node --check src/work.js && node --check src/page-transitions.js && node --check scripts/serve.mjs && node --check scripts/build.mjs"
   },
   "dependencies": {
     "locomotive-scroll": "4.1.4"

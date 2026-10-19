@@ -159,7 +159,7 @@ async function start() {
   try { revisit = sessionStorage.getItem('ryan-entered') === 'yes'; } catch { /* Private storage may be unavailable. */ }
   if (new URLSearchParams(location.search).get('intro') === '1') revisit = false;
   const ready = () => { document.body.classList.add('is-ready'); loader.classList.add('is-done'); };
-  if (reduced.matches || revisit) { ready(); loader.remove(); }
+  if (reduced.matches || revisit || window.RyanNavigation?.arriving) { ready(); loader.remove(); }
   else {
     setTimeout(() => loader.classList.add('is-out'),3500);
     setTimeout(ready,4000);
@@ -178,6 +178,7 @@ async function start() {
   }
   await document.fonts.ready;
   update(); createScroller(); installInteractions(); moveLine(); installReveals();
+  window.RyanNavigation?.ready();
   if (location.hash) { const target = document.getElementById(location.hash.slice(1)); if (target) setTimeout(() => goTo(target,true),100); }
   window.sitePreview = {get state(){return {page:root.dataset.page,mode,articles:content.articles.length,projects:content.projects.length,scroll:lastScroll,smoothScroll:root.classList.contains('has-scroll-smooth'),errors:[...errors]};}};
 }
@@ -185,4 +186,5 @@ start().catch(error => {
   console.error(error); errors.push(error.message);
   $('.site-loader')?.remove(); document.body.classList.add('is-ready'); document.body.classList.remove('motion-enabled');
   const notice = node('p','noscript','Content could not be loaded. Please reload the page.'); $('#main').append(notice);
+  window.RyanNavigation?.ready();
 });

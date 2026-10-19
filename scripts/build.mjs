@@ -2,7 +2,7 @@ import { cp, mkdir, readFile, access, rm } from 'node:fs/promises';
 import { resolve, relative, sep } from 'node:path';
 import { execFileSync } from 'node:child_process';
 const root = resolve('.');
-for (const file of ['src/app.js','src/work.js','scripts/serve.mjs','scripts/build.mjs']) execFileSync(process.execPath, ['--check',file], {stdio:'inherit'});
+for (const file of ['src/app.js','src/work.js','src/page-transitions.js','scripts/serve.mjs','scripts/build.mjs']) execFileSync(process.execPath, ['--check',file], {stdio:'inherit'});
 const catalog = JSON.parse(await readFile('src/data/work-placeholders.json','utf8'));
 const media = new Set(catalog.projects.flatMap(project => [project.image,project.video]).filter(Boolean));
 for (const path of media) await access(resolve(root,'public' + path));

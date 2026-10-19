@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# 设计过程工作文件（skill 内部产物，不入库）
+.taste-skill/
+
+# 依赖
+node_modules/
+
+# 日志
+*.log

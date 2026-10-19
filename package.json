@@ -7,9 +7,13 @@
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve.mjs --dir dist --port 4173",
-    "check": "node --check src/app.js && node --check src/work.js && node --check src/page-transitions.js && node --check scripts/serve.mjs && node --check scripts/build.mjs"
+    "check": "node --check src/app.js && node --check src/work.js && node --check src/page-transitions.js && node --check src/page-lifecycle.js && node --check src/site.js && node --check scripts/serve.mjs && node --check scripts/build.mjs",
+    "test": "node --experimental-vm-modules --test tests/*.test.mjs"
   },
   "dependencies": {
     "locomotive-scroll": "4.1.4"
+  },
+  "devDependencies": {
+    "happy-dom": "^21.0.3"
   }
 }

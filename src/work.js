@@ -1,13 +1,18 @@
 import '../public/vendor/locomotive-scroll.min.js';
+import {createPageScope} from './page-lifecycle.js?v=20261020-pjax';
+
+export async function mountWork() {
+const {listen, observe, onDispose, dispose, setTimeout, clearTimeout, requestAnimationFrame, cancelAnimationFrame} = createPageScope();
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
 const root = document.documentElement;
+const pagePath = location.pathname;
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
-const assetUrl = path => new URL('public' + path, document.baseURI).href;
+const assetUrl = path => new URL('../public' + path, import.meta.url).href;
 const runtimeErrors = [];
-window.addEventListener('error',e => runtimeErrors.push(e.message));
-window.addEventListener('unhandledrejection',e => runtimeErrors.push(String(e.reason)));
+listen(window,'error',e => runtimeErrors.push(e.message));
+listen(window,'unhandledrejection',e => runtimeErrors.push(String(e.reason)));
 const state = { mode: root.dataset.mode, filter: 'all', language: 'zh-CN', busy: false, projects: [] };
 const visual = $('#visual-grid');
 const text = $('#text-list');
@@ -99,10 +104,10 @@ function attachVideo(link, project, cover) {
     } catch { /* Keep the original still visible if autoplay is unavailable. */ }
   };
   const stop = () => { ++hoverToken; stopVideo(video); };
-  link.addEventListener('mouseenter',play);
-  link.addEventListener('mouseleave',stop);
-  link.addEventListener('focus',play);
-  link.addEventListener('blur',stop);
+  listen(link,'mouseenter',play);
+  listen(link,'mouseleave',stop);
+  listen(link,'focus',play);
+  listen(link,'blur',stop);
 }
 function makeVisual(project, index) {
   const card = el('article', 'visual-card' + (project.pickup ? ' is-pickup':'') + (project.fullWidth ? ' is-fullwidth':''));
@@ -117,7 +122,7 @@ function makeVisual(project, index) {
   image.decoding = 'async';
   image.width = project.imageWidth || 886;
   image.height = project.imageHeight || 1060;
-  image.addEventListener('load',() => image.classList.add('is-loaded'));
+  listen(image,'load',() => image.classList.add('is-loaded'));
   if (image.complete && image.naturalWidth) image.classList.add('is-loaded');
   cover.append(image);
   const caption = el('div','project-caption');
@@ -232,8 +237,8 @@ function setMenu(open) {
   else { scroller?.start(); document.body.style.overflow = ''; }
 }
 function installInteractions() {
-  $$('[data-view]').forEach(button => button.addEventListener('click',() => changeMode(button.dataset.view)));
-  switcher.addEventListener('keydown',event => {
+  $$('[data-view]').forEach(button => listen(button,'click',() => changeMode(button.dataset.view)));
+  listen(switcher,'keydown',event => {
     if (['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) {
       event.preventDefault();
       const next = event.key === 'ArrowLeft' || event.key === 'Home' ? 'text':'visual';
@@ -241,27 +246,27 @@ function installInteractions() {
       $(`[data-view="${next}"]`).focus();
     }
   });
-  $$('[data-filter]').forEach(button => button.addEventListener('click',() => changeFilter(button.dataset.filter)));
-  $('.filter-toggle').addEventListener('click',() => toggleFilters());
-  $('.language-current')?.addEventListener('click',() => {
+  $$('[data-filter]').forEach(button => listen(button,'click',() => changeFilter(button.dataset.filter)));
+  listen($('.filter-toggle'),'click',() => toggleFilters());
+  listen($('.language-current'),'click',() => {
     const container = $('.language-switch');
     const open = container.classList.toggle('is-open');
     $('.language-current').setAttribute('aria-expanded',String(open));
   });
-  $('.language-switch')?.addEventListener('mouseenter',() => {
+  listen($('.language-switch'),'mouseenter',() => {
     $('.language-switch').classList.add('is-open');
     $('.language-current').setAttribute('aria-expanded','true');
   });
-  $('.language-switch')?.addEventListener('mouseleave',closeLanguage);
-  $$('[data-language]').forEach(button => button.addEventListener('click',() => { setLanguage(button.dataset.language); setMenu(false); }));
-  $('.menu-button').addEventListener('click',() => setMenu(!menuIsOpen));
-  $$('.mobile-menu nav a').forEach((link,index) => { link.style.setProperty('--i',index); link.addEventListener('click',() => setMenu(false)); });
-  document.addEventListener('keydown',event => { if (event.key === 'Escape') { toggleFilters(false); closeLanguage(); if (menuIsOpen) { setMenu(false); $('.menu-button').focus(); } } });
+  listen($('.language-switch'),'mouseleave',closeLanguage);
+  $$('[data-language]').forEach(button => listen(button,'click',() => { setLanguage(button.dataset.language); setMenu(false); }));
+  listen($('.menu-button'),'click',() => setMenu(!menuIsOpen));
+  $$('.mobile-menu nav a').forEach((link,index) => { link.style.setProperty('--i',index); listen(link,'click',() => setMenu(false)); });
+  listen(document,'keydown',event => { if (event.key === 'Escape') { toggleFilters(false); closeLanguage(); if (menuIsOpen) { setMenu(false); $('.menu-button').focus(); } } });
   const links = $$('.nav-link');
   const line = $('.nav-underline');
   const moveLine = link => line.style.transform = `translateX(${link.offsetLeft + 10}px)`;
-  links.forEach(link => { link.addEventListener('mouseenter',() => moveLine(link)); link.addEventListener('focus',() => moveLine(link)); });
-  $('.main-nav').addEventListener('mouseleave',() => moveLine(links[0]));
+  links.forEach(link => { listen(link,'mouseenter',() => moveLine(link)); listen(link,'focus',() => moveLine(link)); });
+  listen($('.main-nav'),'mouseleave',() => moveLine(links[0]));
   moveLine(links[0]);
   const footer = $('#footer');
   const onScroll = args => {
@@ -271,8 +276,8 @@ function installInteractions() {
   };
   onScrollChange = onScroll;
   if (scroller) scroller.on('scroll',onScroll);
-  else window.addEventListener('scroll',() => onScroll(),{passive:true});
-  window.addEventListener('resize',() => {
+  else listen(window,'scroll',() => onScroll(),{passive:true});
+  listen(window,'resize',() => {
     if (innerWidth >= 769 && menuIsOpen) setMenu(false);
     const desktop = innerWidth >= 1024;
     if (desktop !== desktopScrollContext) {
@@ -284,10 +289,11 @@ function installInteractions() {
     updateHeight();
     onScroll();
   });
-  new ResizeObserver(updateHeight).observe($('.work-intro'));
-  new ResizeObserver(updateHeight).observe(panels.visual);
-  new ResizeObserver(updateHeight).observe(panels.text);
-  window.addEventListener('popstate',() => {
+  observe($('.work-intro'),updateHeight);
+  observe(panels.visual,updateHeight);
+  observe(panels.text,updateHeight);
+  listen(window,'popstate',() => {
+    if (location.pathname !== pagePath) return;
     const query = new URLSearchParams(location.search);
     state.filter = query.get('work_category') || 'all';
     state.mode = query.get('view') === 'text' ? 'text':'visual';
@@ -296,18 +302,6 @@ function installInteractions() {
   });
 }
 async function start() {
-  $$('.loader-wordmark path').forEach((path,index) => path.style.setProperty('--i',index));
-  const loader = $('.site-loader');
-  let revisit = false;
-  try { revisit = sessionStorage.getItem('ryan-entered') === 'yes'; } catch {}
-  if (new URLSearchParams(location.search).get('intro') === '1') revisit = false;
-  if (reduceMotion.matches || revisit || window.RyanNavigation?.arriving) { loader.remove(); document.body.classList.add('is-ready'); }
-  else {
-    setTimeout(() => loader.classList.add('is-out'),3500);
-    setTimeout(() => { loader.classList.add('is-done'); document.body.classList.add('is-ready'); },4000);
-    setTimeout(() => loader.remove(),4800);
-    try { sessionStorage.setItem('ryan-entered','yes'); } catch {}
-  }
   const response = await fetch(new URL('./data/work-placeholders.json',import.meta.url));
   if (!response.ok) throw new Error('Project catalog could not be loaded');
   const catalog = await response.json();
@@ -323,15 +317,20 @@ async function start() {
   scroller = new window.LocomotiveScroll({el:$('#scroll-content'), smooth:!reduceMotion.matches, lerp:.1, smartphone:{smooth:false}, tablet:{smooth:false,breakpoint:1024}});
   updateHeight();
   installInteractions();
-  window.RyanNavigation?.ready();
   // Read-only diagnostics for rendered acceptance, not UI controls.
   window.workPreview = {get state(){ return {mode:state.mode,filter:state.filter,language:state.language,count:visual.children.length,smoothScroll:root.classList.contains('has-scroll-smooth')}; }};
   window.sitePreview = {get state(){return {page:'work', ...window.workPreview.state, articles:4, projects:visual.children.length, errors:[...runtimeErrors]};}};
 }
-start().catch(error => {
-  console.error(error);
-  $('.site-loader')?.remove();
-  document.body.classList.add('is-ready');
-  $('.load-message').textContent = 'Work could not be loaded. Please reload the page.';
-  window.RyanNavigation?.ready();
+onDispose(() => {
+  activeVideos.forEach(video => video.pause());
+  scroller?.destroy();
+  document.body.style.overflow = '';
 });
+try {
+  await start();
+  return {dispose, stop:() => scroller?.stop(), start:() => scroller?.start()};
+} catch (error) {
+  dispose();
+  throw error;
+}
+}

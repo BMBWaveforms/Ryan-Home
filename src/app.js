@@ -1,4 +1,8 @@
 import '../public/vendor/locomotive-scroll.min.js';
+import {createPageScope} from './page-lifecycle.js?v=20261020-pjax';
+
+export async function mountAbout() {
+const {listen, observe, onDispose, dispose, setTimeout, clearTimeout, requestAnimationFrame, cancelAnimationFrame} = createPageScope();
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
@@ -14,8 +18,8 @@ let lastScroll = 0;
 const switcher = $('.mode-switch');
 const panels = {visual:$('#visual-panel'),text:$('#text-panel')};
 const errors = [];
-window.addEventListener('error',event => errors.push(event.message));
-window.addEventListener('unhandledrejection',event => errors.push(String(event.reason)));
+listen(window,'error',event => errors.push(event.message));
+listen(window,'unhandledrejection',event => errors.push(String(event.reason)));
 function node(tag, className, text) {
   const result = document.createElement(tag);
   if (className) result.className = className;
@@ -82,6 +86,7 @@ function changeMode(next,history = true) {
   setTimeout(() => { modeBusy = false; switcher.classList.remove('slide-left','slide-right'); },reduced.matches ? 0 : 750);
 }
 function renderAbout(content) {
+  for (const selector of ['#articles','#timeline','#hackathon-list']) $(selector).replaceChildren();
   $('#perspective').replaceChildren(...content.perspective.map(text => node('p','',text)));
   content.articles.forEach((article,index) => {
     const row = node('a','article-row');
@@ -112,60 +117,49 @@ function installReveals() {
   const observer = new IntersectionObserver(entries => entries.forEach(entry => {
     if (entry.isIntersecting) { entry.target.classList.add('is-revealed'); observer.unobserve(entry.target); }
   }),{threshold:.08,rootMargin:'0px 0px -30px 0px'});
+  onDispose(() => observer.disconnect());
   $$('[data-reveal]').forEach(element => observer.observe(element));
   document.body.classList.add('motion-enabled');
 }
 function installInteractions() {
-  $('.menu-button').addEventListener('click',() => setMenu(!menuOpen));
-  $$('.mobile-menu nav a').forEach((link,index) => { link.style.setProperty('--i',index); link.addEventListener('click',() => setMenu(false)); });
-  document.addEventListener('keydown',event => { if (event.key === 'Escape' && menuOpen) { setMenu(false); $('.menu-button').focus(); } });
+  listen($('.menu-button'),'click',() => setMenu(!menuOpen));
+  $$('.mobile-menu nav a').forEach((link,index) => { link.style.setProperty('--i',index); listen(link,'click',() => setMenu(false)); });
+  listen(document,'keydown',event => { if (event.key === 'Escape' && menuOpen) { setMenu(false); $('.menu-button').focus(); } });
   $$('.main-nav .nav-link').forEach(link => {
-    link.addEventListener('mouseenter',() => moveLine(link));
-    link.addEventListener('focus',() => moveLine(link));
+    listen(link,'mouseenter',() => moveLine(link));
+    listen(link,'focus',() => moveLine(link));
   });
-  $('.main-nav').addEventListener('mouseleave',() => moveLine());
-  $('.main-nav').addEventListener('focusout',() => moveLine());
-  $('.back-to-top').addEventListener('click',() => goTo(0));
-  $$('[data-jump]').forEach(link => link.addEventListener('click',event => {
+  listen($('.main-nav'),'mouseleave',() => moveLine());
+  listen($('.main-nav'),'focusout',() => moveLine());
+  listen($('.back-to-top'),'click',() => goTo(0));
+  $$('[data-jump]').forEach(link => listen(link,'click',event => {
     const target = document.getElementById(link.dataset.jump);
     if (target) { event.preventDefault(); goTo(target); history.replaceState({},'','#'+target.id); }
   }));
-  $$('.qr-toggle').forEach(button => button.addEventListener('click',() => {
+  $$('.qr-toggle').forEach(button => listen(button,'click',() => {
     const target = document.getElementById(button.getAttribute('aria-controls'));
     const open = button.getAttribute('aria-expanded') !== 'true';
     button.setAttribute('aria-expanded',String(open)); target.hidden = !open;
     $('span',button).textContent = open ? '−':'＋'; update();
   }));
   if (switcher) {
-    $$('[data-view]').forEach(button => button.addEventListener('click',() => changeMode(button.dataset.view)));
-    switcher.addEventListener('keydown',event => {
+    $$('[data-view]').forEach(button => listen(button,'click',() => changeMode(button.dataset.view)));
+    listen(switcher,'keydown',event => {
       if (!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
       event.preventDefault(); const next = ['ArrowLeft','Home'].includes(event.key) ? 'text':'visual';
       changeMode(next); $(`[data-view="${next}"]`).focus();
     });
-    addEventListener('popstate',() => { mode = new URLSearchParams(location.search).get('view') === 'text' ? 'text':'visual'; applyMode(); goTo(0); });
+    listen(window,'popstate',() => { mode = new URLSearchParams(location.search).get('view') === 'text' ? 'text':'visual'; applyMode(); goTo(0); });
   }
-  addEventListener('resize',() => {
+  listen(window,'resize',() => {
     if (innerWidth >= 769 && menuOpen) setMenu(false);
     if ((innerWidth >= 1024) !== desktop) { desktop = innerWidth >= 1024; createScroller(); }
     update(); moveLine(); onScroll();
   });
-  new ResizeObserver(update).observe($('#main'));
-  document.querySelectorAll('img').forEach(image => image.addEventListener('load',update));
+  observe($('#main'),update);
+  document.querySelectorAll('img').forEach(image => listen(image,'load',update));
 }
 async function start() {
-  const loader = $('.site-loader');
-  let revisit = false;
-  try { revisit = sessionStorage.getItem('ryan-entered') === 'yes'; } catch { /* Private storage may be unavailable. */ }
-  if (new URLSearchParams(location.search).get('intro') === '1') revisit = false;
-  const ready = () => { document.body.classList.add('is-ready'); loader.classList.add('is-done'); };
-  if (reduced.matches || revisit || window.RyanNavigation?.arriving) { ready(); loader.remove(); }
-  else {
-    setTimeout(() => loader.classList.add('is-out'),3500);
-    setTimeout(ready,4000);
-    setTimeout(() => loader.remove(),4800);
-    try { sessionStorage.setItem('ryan-entered','yes'); } catch { /* The page still works without storage. */ }
-  }
   const response = await fetch(new URL('./data/ryan-content.json',import.meta.url));
   if (!response.ok) throw new Error('Personal content could not be loaded');
   const content = await response.json();
@@ -178,13 +172,18 @@ async function start() {
   }
   await document.fonts.ready;
   update(); createScroller(); installInteractions(); moveLine(); installReveals();
-  window.RyanNavigation?.ready();
   if (location.hash) { const target = document.getElementById(location.hash.slice(1)); if (target) setTimeout(() => goTo(target,true),100); }
   window.sitePreview = {get state(){return {page:root.dataset.page,mode,articles:content.articles.length,projects:content.projects.length,scroll:lastScroll,smoothScroll:root.classList.contains('has-scroll-smooth'),errors:[...errors]};}};
 }
-start().catch(error => {
-  console.error(error); errors.push(error.message);
-  $('.site-loader')?.remove(); document.body.classList.add('is-ready'); document.body.classList.remove('motion-enabled');
-  const notice = node('p','noscript','Content could not be loaded. Please reload the page.'); $('#main').append(notice);
-  window.RyanNavigation?.ready();
+onDispose(() => {
+  scroller?.destroy();
+  document.body.style.overflow = '';
 });
+try {
+  await start();
+  return {dispose, stop:() => scroller?.stop(), start:() => scroller?.start()};
+} catch (error) {
+  dispose();
+  throw error;
+}
+}

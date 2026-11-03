@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import vm from 'node:vm';
 import {Window} from 'happy-dom';
+import {renderProjectPage} from '../scripts/project-pages.mjs';
 
 const origin = 'https://example.com';
 const prefix = '/Ryan-Home/';
@@ -11,10 +12,13 @@ async function until(check) {
   for (let i = 0; i < 300; i++) { if (check()) return; await sleep(2); }
   throw new Error('Timed out waiting for the route to settle');
 }
-async function setup(t, {about = false, reduced = false, initialFailures = []} = {}) {
-  const window = new Window({url:origin + prefix + (about ? 'about/' : ''), settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:false}});
+async function setup(t, {about = false, project = false, reduced = false, initialFailures = [], pages = {}} = {}) {
+  const projectSlug = project === true ? 'galaxy-roaming' : project;
+  const entry = project ? `projects/${projectSlug}/index.html` : about ? 'about/index.html' : 'index.html';
+  const readPage = path => pages[path] ?? readFile(path, 'utf8');
+  const window = new Window({url:origin + prefix + (project ? `projects/${projectSlug}/` : about ? 'about/' : ''), settings:{disableCSSFileLoading:true,disableJavaScriptFileLoading:true,enableJavaScriptEvaluation:false}});
   const document = window.document;
-  document.write(await readFile(about ? 'about/index.html' : 'index.html', 'utf8'));
+  document.write(await readPage(entry));
   document.querySelectorAll('script').forEach(node => node.remove());
   document.body.classList.add('is-ready');
   const style = document.createElement('style');
@@ -49,7 +53,7 @@ async function setup(t, {about = false, reduced = false, initialFailures = []} =
     const path = url.pathname.slice(prefix.length) || 'index.html';
     const file = path.endsWith('/') ? path + 'index.html' : path;
     if (fail.has(file)) return {ok:false,status:503};
-    const body = await readFile(file, 'utf8');
+    const body = await readPage(file);
     return {ok:true,status:200,text:async()=>body,json:async()=>JSON.parse(body)};
   },DOMParser:window.DOMParser});
   const modules = new Map();
@@ -67,8 +71,9 @@ async function setup(t, {about = false, reduced = false, initialFailures = []} =
   }
   const work = await load(origin+prefix+'src/work.js'); await work.evaluate();
   const app = await load(origin+prefix+'src/app.js'); await app.evaluate();
+  const detail = await load(origin+prefix+'src/project.js'); await detail.evaluate();
   const router = await load(origin+prefix+'src/page-transitions.js'); await router.evaluate();
-  await router.namespace.createNavigation({work:work.namespace.mountWork,about:app.namespace.mountAbout});
+  await router.namespace.createNavigation({work:work.namespace.mountWork,about:app.namespace.mountAbout,project:detail.namespace.mountProject});
   const click = (selector, init = {}) => {
     const event = new window.MouseEvent('click',{bubbles:true,cancelable:true,button:0,...init});
     document.querySelector(selector).dispatchEvent(event);
@@ -170,4 +175,76 @@ test('failed route fetch leaves the prior page interactive and retryable', async
   s.fail.clear();
   s.click('.main-nav a:nth-child(2)'); await s.settle();
   assert.equal(s.document.documentElement.dataset.page,'about');
+});
+
+test('Work, project and About share the shell and one scroll controller across repeated visits', async t => {
+  const s = await setup(t);
+  const token = s.window.navigationPreview.state.documentId;
+  const header = s.document.querySelector('.site-header');
+  for (let i=0; i<2; i++) {
+    s.click('.visual-card[data-project="galaxy-roaming"] a'); await s.settle();
+    assert.equal(s.document.documentElement.dataset.page,'project');
+    assert.equal(s.document.documentElement.dataset.mode,'text');
+    assert.equal(s.window.navigationPreview.state.documentId,token);
+    assert.equal(s.scrolls,1);
+    assert.equal(s.document.querySelectorAll('.project-index').length,1);
+    assert.equal(s.document.querySelector('.project-index').parentElement,s.document.body);
+    assert.ok(s.document.querySelector('#scroll-content .project-lightbox'));
+    s.click('.main-nav a:nth-child(2)'); await s.settle();
+    assert.equal(s.document.documentElement.dataset.page,'about');
+    assert.equal(s.document.querySelector('.project-index'),null);
+    assert.equal(s.document.querySelector('.project-lightbox'),null);
+    assert.equal(s.scrolls,1);
+    s.click('.hackathon-card'); await s.settle();
+    assert.equal(s.document.documentElement.dataset.page,'project');
+    assert.equal(s.document.querySelectorAll('.project-index').length,1);
+    s.click('.project-return'); await s.settle();
+    assert.equal(s.document.documentElement.dataset.page,'work');
+    assert.equal(s.document.querySelector('.project-index'),null);
+    assert.equal(s.scrolls,1);
+  }
+  assert.equal(s.document.querySelector('.site-header'),header);
+  assert.equal(s.errors.length,0);
+});
+
+test('direct project entry supports reduced motion and Back without leaking fixed chapter navigation', async t => {
+  const s = await setup(t,{project:true,reduced:true});
+  const token = s.window.navigationPreview.state.documentId;
+  assert.equal(s.document.querySelectorAll('.project-index').length,1);
+  s.click('.project-return'); await s.settle();
+  assert.equal(s.document.documentElement.dataset.page,'work');
+  assert.equal(s.document.querySelector('.project-index'),null);
+  s.pop('projects/galaxy-roaming/'); await s.settle();
+  assert.equal(s.document.documentElement.dataset.page,'project');
+  assert.equal(s.document.querySelectorAll('.project-index').length,1);
+  assert.equal(s.window.navigationPreview.state.documentId,token);
+  assert.equal(s.scrolls,1);
+  assert.equal(s.errors.length,0);
+});
+
+test('a second template project with different chapters shares navigation without changing the router', async t => {
+  const template = await readFile('templates/project-page.html','utf8');
+  const html = renderProjectPage({
+    template,
+    project:{title:'另一个项目',description:'独立的项目内容',chapters:[{id:'context',label:'项目起点'},{id:'outcome',label:'做出的成果'}]},
+    hero:'<p class="project-eyebrow">ANOTHER PROJECT</p><h1>另一个项目</h1>',
+    story:'<section class="project-section" id="context"><h2>项目起点</h2><div class="project-copy"><p>项目自己的背景。</p></div></section><section class="project-section" id="outcome"><h2>做出的成果</h2><a href="../galaxy-roaming/">查看银河漫游</a></section>'
+  });
+  const s = await setup(t,{project:'template-fixture',pages:{'projects/template-fixture/index.html':html}});
+  const token = s.window.navigationPreview.state.documentId;
+  assert.equal(s.document.title,'另一个项目 — Ryan');
+  assert.equal(s.document.querySelectorAll('.project-index a').length,2);
+  assert.equal(s.document.querySelector('.brand-symbol use').getAttribute('href'),origin+prefix+'public/sites/shiftbrain/icons/ryan-symbol.svg#symbol');
+  s.click('#outcome a'); await s.settle();
+  assert.equal(s.document.title,'银河漫游 — Ryan');
+  assert.equal(s.document.querySelectorAll('.project-index a').length,5);
+  s.click('.project-return'); await s.settle();
+  assert.equal(s.document.documentElement.dataset.page,'work');
+  s.pop('projects/template-fixture/'); await s.settle();
+  assert.equal(s.document.title,'另一个项目 — Ryan');
+  assert.equal(s.document.querySelectorAll('.project-index').length,1);
+  assert.equal(s.document.querySelectorAll('.project-index a').length,2);
+  assert.equal(s.window.navigationPreview.state.documentId,token);
+  assert.equal(s.scrolls,1);
+  assert.equal(s.errors.length,0);
 });

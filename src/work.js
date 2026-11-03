@@ -10,6 +10,7 @@ const root = document.documentElement;
 const pagePath = location.pathname;
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const assetUrl = path => new URL('../public' + path, import.meta.url).href;
+const projectUrl = path => new URL(path, new URL('../', import.meta.url)).href;
 const runtimeErrors = [];
 listen(window,'error',e => runtimeErrors.push(e.message));
 listen(window,'unhandledrejection',e => runtimeErrors.push(String(e.reason)));
@@ -113,11 +114,17 @@ function makeVisual(project, index) {
   const card = el('article', 'visual-card' + (project.pickup ? ' is-pickup':'') + (project.fullWidth ? ' is-fullwidth':''));
   card.dataset.project = project.slug;
   const link = el(project.url ? 'a':'div', 'project-link');
-  if (project.url) link.href = project.url;
-  const cover = el('div','project-cover');
+  if (project.url) link.href = projectUrl(project.url);
+  const cover = el('div','project-cover' + (project.cover ? ' project-cover--poster' : ''));
+  if (project.cover) {
+    const heading = el('div','cover-heading');
+    heading.setAttribute('aria-hidden','true');
+    heading.append(el('p','cover-title',project.cover.title),el('p','cover-name',project.cover.name));
+    cover.append(heading);
+  }
   const image = el('img');
   image.src = assetUrl(project.image);
-  image.alt = project.title;
+  image.alt = project.imageAlt || project.title;
   image.loading = index < 6 ? 'eager':'lazy';
   image.decoding = 'async';
   image.width = project.imageWidth || 886;
@@ -125,6 +132,11 @@ function makeVisual(project, index) {
   listen(image,'load',() => image.classList.add('is-loaded'));
   if (image.complete && image.naturalWidth) image.classList.add('is-loaded');
   cover.append(image);
+  if (project.cover?.caption) {
+    const note = el('p','cover-note',project.cover.caption);
+    note.setAttribute('aria-hidden','true');
+    cover.append(note);
+  }
   const caption = el('div','project-caption');
   caption.append(el('h2','project-title',project.title),el('p','project-client',project.client));
   link.append(cover,caption);
@@ -134,7 +146,7 @@ function makeVisual(project, index) {
 }
 function makeText(project) {
   const row = el(project.url ? 'a':'article','text-row');
-  if (project.url) row.href = project.url;
+  if (project.url) row.href = projectUrl(project.url);
   row.dataset.project = project.slug;
   const title = el('div','text-project');
   title.append(el('h2','',project.title),el('p','',project.client));

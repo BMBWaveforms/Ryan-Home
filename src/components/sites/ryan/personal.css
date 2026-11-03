@@ -34,8 +34,25 @@ html[data-page=about]{font-family:'TT Norms Regular','PingFang SC','Microsoft Ya
 /* All: three standard covers followed by one full-width cover. Filtered views retain the original grid rules. */
 @media(min-width:769px){[data-page=work] .visual-grid.is-all .visual-card.is-fullwidth{width:calc(100% - 1.38vw)}}
 
+/* Editorial covers keep the complete project artwork inside the existing grid. */
+.project-cover--poster{container-type:inline-size;background:#eeebf5;color:#382d48}
+.cover-heading{position:absolute;top:9%;left:9%;right:9%;z-index:1}
+.cover-title{font-family:'TT Norms Light','PingFang SC','Microsoft YaHei',sans-serif;font-size:14.5cqw;font-weight:400;line-height:1.2;letter-spacing:.025em;white-space:nowrap}
+.cover-name{font-size:3.7cqw;line-height:1.5;letter-spacing:.16em;margin-top:3cqw}
+.project-cover--poster img{inset:34% 0 auto;width:100%;height:52%;object-fit:contain}
+.cover-note{position:absolute;left:9%;right:9%;bottom:7%;font-size:4.7cqw;line-height:1.5;letter-spacing:.08em}
+
 /* Reserved portrait area, independent of the Work page. */
 .about-portrait{position:absolute;top:clamp(260px,22vw,410px);left:var(--gutter);width:20%;max-width:340px;margin:0;aspect-ratio:3/4}
 .about-portrait img{width:100%;height:100%;object-fit:cover}
 @media(min-width:769px) and (max-width:1279px){.about-title-wrap{padding-left:26.31%}}
 @media(max-width:768px){.about-portrait{position:relative;top:auto;left:auto;width:52%;max-width:300px;margin:40px 0 0}.about-prose{margin-top:45px}}
+
+.timeline-description + .timeline-description{margin-top:14px}
+
+/* The whole hackathon story opens its project page. */
+a.hackathon-card{transition:background .45s var(--out)}
+a.hackathon-card:hover{background:#e1e0d7}
+.hackathon-open{position:absolute;right:38px;top:24px;font-size:30px;transition:transform .5s var(--sweep)}
+a.hackathon-card:hover .hackathon-open{transform:translate(3px,-3px)}
+@media(max-width:768px){.hackathon-open{right:25px;top:16px;font-size:26px}}

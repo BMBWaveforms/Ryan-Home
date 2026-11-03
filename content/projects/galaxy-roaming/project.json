@@ -1,0 +1,26 @@
+{
+  "title": "银河漫游",
+  "description": "银河漫游 — AI 漫剧游戏化项目。72 小时，从想法到现场演示；北纬社区 AI 黑客松冠军与最佳人气奖。Ryan · 焦博文的项目记录。",
+  "chapters": [
+    {
+      "id": "overview",
+      "label": "关于银河漫游"
+    },
+    {
+      "id": "experience",
+      "label": "走进故事，再改写它"
+    },
+    {
+      "id": "making",
+      "label": "我的工作"
+    },
+    {
+      "id": "implementation",
+      "label": "产品与取舍"
+    },
+    {
+      "id": "moments",
+      "label": "72 小时现场"
+    }
+  ]
+}

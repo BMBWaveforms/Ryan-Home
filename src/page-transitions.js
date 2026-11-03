@@ -2,6 +2,13 @@
 const base = new URL('../', import.meta.url);
 const route = url => url.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
 const routes = new Map([[route(base), 'work'], [route(new URL('about/', base)), 'about']]);
+const projectPrefix = route(new URL('projects/', base)) + '/';
+const pageType = url => {
+  if (url.origin !== base.origin) return;
+  const path = route(url);
+  if (routes.has(path)) return routes.get(path);
+  if (path.startsWith(projectPrefix) && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(path.slice(projectPrefix.length))) return 'project';
+};
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 export async function createNavigation(mounts) {
@@ -39,7 +46,7 @@ export async function createNavigation(mounts) {
         .then(async response => {
           if (!response.ok) throw new Error(`Page request failed: ${response.status}`);
           const page = new DOMParser().parseFromString(await response.text(), 'text/html');
-          if (!page.querySelector('#scroll-content') || page.documentElement.dataset.page !== routes.get(key)) throw new Error('Unexpected page response');
+          if (!page.querySelector('#scroll-content') || page.documentElement.dataset.page !== pageType(url)) throw new Error('Unexpected page response');
           absolutize(page, url.href);
           return page;
         }).catch(error => { cache.delete(key); throw error; });
@@ -47,7 +54,7 @@ export async function createNavigation(mounts) {
     }
     return cache.get(key);
   };
-  const prefetch = url => { if (routes.has(route(url))) load(url).catch(() => {}); };
+  const prefetch = url => { if (pageType(url)) load(url).catch(() => {}); };
   const syncShell = page => {
     for (const selector of ['.main-nav', '.mobile-menu nav']) {
       const oldLinks = [...document.querySelectorAll(`${selector} .nav-link`)];
@@ -89,7 +96,7 @@ export async function createNavigation(mounts) {
       document.body.style.overflow = '';
       document.body.style.height = '';
       root.dataset.page = page.documentElement.dataset.page;
-      root.dataset.mode = root.dataset.page === 'about' || target.searchParams.get('view') === 'text' ? 'text' : 'visual';
+      root.dataset.mode = root.dataset.page !== 'work' || target.searchParams.get('view') === 'text' ? 'text' : 'visual';
       document.title = page.title;
       document.querySelector('meta[name="description"]').content = page.querySelector('meta[name="description"]').content;
       document.querySelector('meta[name="theme-color"]').content = root.dataset.mode === 'text' ? '#121212' : '#ffffff';
@@ -145,16 +152,16 @@ export async function createNavigation(mounts) {
     const link = event.target.closest?.('a[href]');
     if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
     const target = new URL(link.href);
-    if (target.origin !== location.origin || !routes.has(route(target)) || route(target) === currentPath) return;
+    if (target.origin !== location.origin || !pageType(target) || route(target) === currentPath) return;
     event.preventDefault();
     if (!busy) navigate(target);
   });
   for (const type of ['pointerover', 'focusin']) document.addEventListener(type, event => {
-    const link = event.target.closest?.('.nav-link[href]');
+    const link = event.target.closest?.('.nav-link[href],.project-link[href],.text-row[href],.hackathon-card[href]');
     if (link) { const target = new URL(link.href); if (target.origin === location.origin) prefetch(target); }
   });
   addEventListener('popstate', () => {
-    if (!routes.has(route(location))) return;
+    if (!pageType(location)) return;
     if (busy) queuedPop = new URL(location.href);
     else if (route(location) !== currentPath) navigate(new URL(location.href), {pop:true});
   });

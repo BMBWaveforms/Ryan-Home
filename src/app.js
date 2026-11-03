@@ -100,16 +100,21 @@ function renderAbout(content) {
   content.experience.forEach(entry => {
     const row = node('article','timeline-row'); row.dataset.reveal = '';
     const body = node('div');
-    body.append(node('p','timeline-kind',entry.kind),node('h3','',entry.title),node('p','timeline-organization',entry.organization),node('p','timeline-description',entry.description));
+    body.append(node('p','timeline-kind',entry.kind),node('h3','',entry.title),node('p','timeline-organization',entry.organization));
+    const descriptions = Array.isArray(entry.description) ? entry.description : [entry.description];
+    descriptions.forEach(text => body.append(node('p','timeline-description',text)));
     row.append(node('p','timeline-date',entry.period),body); $('#timeline').append(row);
   });
   content.hackathons.forEach(entry => {
-    const card = node('article','hackathon-card'); card.dataset.reveal = '';
-    const mark = node('p','hackathon-mark','48'); mark.append(node('small','','HOURS / AN IDEA IN MOTION'));
+    const card = node(entry.url ? 'a' : 'article','hackathon-card'); card.dataset.reveal = '';
+    if (entry.url) card.href = new URL('../' + entry.url, import.meta.url).href;
+    const mark = node('p','hackathon-mark',entry.hours || '48'); mark.append(node('small','','HOURS / AN IDEA IN MOTION'));
     const copy = node('div','hackathon-copy');
     const meta = node('div','hackathon-meta'); meta.append(node('span','',entry.role),node('span','',entry.subtitle));
     copy.append(node('h3','',entry.title),node('p','',entry.description),meta);
-    card.append(node('span','section-index',entry.period+' · 示例内容'),mark,copy); $('#hackathon-list').append(card);
+    card.append(node('span','section-index',entry.period + (entry.sample ? ' · 示例内容' : '')),mark,copy);
+    if (entry.url) { const arrow = node('span','hackathon-open','↗'); arrow.ariaHidden = 'true'; card.append(arrow); }
+    $('#hackathon-list').append(card);
   });
 }
 function installReveals() {

@@ -1,5 +1,5 @@
 {
-  "source": "Four editable personal project placeholders. No reference studio project media are loaded.",
+  "source": "Personal project catalog: Galaxy Roaming and three editable placeholders. No reference studio project media are loaded.",
   "filters": [
     {
       "id": "personal-agent",
@@ -76,25 +76,37 @@
     },
     {
       "id": 3,
-      "slug": "project-03",
-      "title": "Project 03",
-      "client": "Game",
-      "date": "—",
+      "slug": "galaxy-roaming",
+      "title": "银河漫游",
+      "client": "AI 漫剧游戏 · 北纬社区 AI 黑客松",
+      "date": "2026.10.23 — 10.25",
       "outputs": [
-        "To be added"
+        "冠军（一等奖）",
+        "最佳人气奖"
       ],
       "roles": [
-        "To be added"
+        "产品定义",
+        "上下文与 Harness",
+        "前端交互",
+        "视觉设计",
+        "HUD"
       ],
-      "overview": "在这里补充项目背景、你的角色，以及做出来的成果。",
-      "overviewEn": "Add the project context, your role, and what you built.",
+      "overview": "把 AI 漫剧与游戏交互结合，让玩家走进故事、作出选择，再从某一幕开始改写。三人团队在 72 小时黑客松完成原型与现场演示，获得冠军及最佳人气奖。",
+      "overviewEn": "An interactive comic-drama game where players enter a story, make choices and rewrite a scene. Built and demonstrated by a three-person team at a 72-hour hackathon, winning Champion and the Audience Choice Award.",
       "categories": [
-        "game"
+        "game",
+        "video"
       ],
-      "url": null,
-      "image": "/ryan/project-placeholders/project-03.svg",
-      "imageWidth": 886,
-      "imageHeight": 1060,
+      "url": "projects/galaxy-roaming/",
+      "image": "/ryan/galaxy-roaming/cover-world.jpg",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "imageAlt": "银河漫游主视觉：两位伙伴穿梭在书本、胶片与浮岛构成的故事世界中",
+      "cover": {
+        "title": "银河漫游",
+        "name": "GALAXY ROAMING",
+        "caption": "AI 漫剧游戏"
+      },
       "video": null,
       "pickup": false,
       "fullWidth": false

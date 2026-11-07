@@ -98,7 +98,7 @@ test('repeated Work/About navigation retains the document and shell with one scr
     await s.settle();
     assert.equal(s.document.documentElement.dataset.page,'about');
     assert.equal(s.document.querySelectorAll('.article-row').length,4);
-    assert.equal(s.document.querySelector('.about-portrait img').src,origin+prefix+'public/ryan/portrait-placeholder.svg');
+    assert.equal(s.document.querySelector('.about-portrait img').src,origin+prefix+'public/ryan/ryan-portrait.jpg');
     assert.equal(s.scrolls,1);
     s.click('.main-nav a:first-child');
     assert.equal(s.window.getComputedStyle(s.document.querySelector('main')).opacity,'0');

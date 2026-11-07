@@ -12,7 +12,7 @@ npm run preview  # http://127.0.0.1:4173/
 ```
 
 - `/`: approved Work layout preserved, including Text / Visual transitions, responsive grid, filters and hover transitions. Galaxy Roaming replaces Project 03, with actual gameplay media and a shared detail destination for Visual and Text views. Three placeholders remain; composition is still three across and one full-width below. Filters: Personal Agent, Work, Game, Video, Skill; Galaxy Roaming belongs to Game and Video.
-- `/about/`: personal AI-product perspective, four real article links, resume-based experience and the Galaxy Roaming hackathon card, WeChat QR, Xiaohongshu and GitHub. No spotlight effect.
+- `/about/`: personal AI-product perspective, four real article links, v1.2 resume-based strengths and experience, a supplied black-and-white portrait, and the Galaxy Roaming hackathon card, WeChat QR, Xiaohongshu and GitHub. No spotlight effect.
 - `/?intro=1`: replay the AI PRODUCT. opening. Normal navigation plays it once per browser-tab session. Both pages use the same R SVG.
 
 ## Editable content

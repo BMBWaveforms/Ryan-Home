@@ -115,7 +115,7 @@ function makeVisual(project, index) {
   card.dataset.project = project.slug;
   const link = el(project.url ? 'a':'div', 'project-link');
   if (project.url) link.href = projectUrl(project.url);
-  const cover = el('div','project-cover' + (project.cover ? ' project-cover--poster' : ''));
+  const cover = el('div','project-cover' + (project.cover ? (project.cover.style === 'product' ? ' project-cover--product' : ' project-cover--poster') : ''));
   if (project.cover) {
     const heading = el('div','cover-heading');
     heading.setAttribute('aria-hidden','true');

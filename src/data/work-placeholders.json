@@ -98,14 +98,14 @@
         "video"
       ],
       "url": "projects/galaxy-roaming/",
-      "image": "/ryan/galaxy-roaming/cover-world.jpg",
-      "imageWidth": 1672,
-      "imageHeight": 941,
-      "imageAlt": "银河漫游主视觉：两位伙伴穿梭在书本、胶片与浮岛构成的故事世界中",
+      "image": "/ryan/galaxy-roaming/editor-canvas@2x.png",
+      "imageWidth": 2880,
+      "imageHeight": 1800,
+      "imageAlt": "银河漫游的黑色节点画布：故事节点、分支连线与小光 Agent 创作面板",
       "cover": {
+        "style": "product",
         "title": "银河漫游",
-        "name": "GALAXY ROAMING",
-        "caption": "AI 漫剧游戏"
+        "name": "GALAXY ROAMING"
       },
       "video": null,
       "pickup": false,

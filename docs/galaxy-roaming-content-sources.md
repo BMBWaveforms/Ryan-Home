@@ -67,3 +67,17 @@ Work 列表原先将横向试玩截图铺满竖卡，手机上会裁掉人物和
 ## 本轮验证
 
 11 项既有自动化检查、语法检查、构建及差异空白检查通过。生成页核对五个产品讨论项、现场回忆及全部七张展示图片的路径。浏览器检查 1440px 桌面与 390px 手机，正文无页面横向溢出；现场照片可依次浏览至 04 / 04 再返回，产品图片组的计数保持独立。手机大图打开、Esc 关闭与焦点归还通过，照片保持 3:2 画幅。产品内容默认收起，Harness 一项展开/收起正常。未发布。
+
+## 2026-11-05 — Work cover refinement
+
+The Work entry now uses the existing `hud-records.jpg` (1440 × 900) as its complete product screenshot, replacing the story-world illustration in the previous poster. HTML/CSS supplies the gray-green background, restrained title and soft shadow; no image was generated or retouched. The desktop caption overlay and shared project destination are retained; its cover title fades on hover to prevent duplication. Small cards omit the English subtitle. The story-world illustration remains in the project-detail content.
+
+Validation: syntax checks, all 11 navigation/template tests and the production build passed. Desktop and mobile cover renders were inspected, including the complete screen ratio and mobile title placement. The existing About portrait expectation in navigation tests was updated to match the user-supplied portrait added in the preceding change.
+
+### User-directed cover correction
+
+The user requested the node canvas instead of the records HUD, and a completely black cover matching the product. The active cover now uses the existing BP-derived `editor.jpg` (1620 × 1004), showing connected story nodes and the Xiaoguang Agent panel, with its full original aspect ratio. The CSS canvas is #101010, with off-white title and gray English name; the previous gray-green mat and shadow were removed. This supersedes the cover direction immediately above.
+
+### Final static cover
+
+The user chose a static cover after reviewing the loop. The Work card uses the sharp `editor-canvas@2x.png` capture (2880 × 1800), keeping the black mat and HTML title. The loop video reference, autoplay observers and loop-only CSS have been removed. The whole card retains its project-detail link, with no added controls. The animation experiment remains an inactive local source; it is not used by the page.
